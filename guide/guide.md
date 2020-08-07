@@ -4,7 +4,17 @@ This page provides guidelines and expectations for uploads to the ESS-DIVE repos
 
 - We may want to include details here about the SESAR_element_name portion, since that is a component that is unique to this standard.
 
----
+---  
+
+Table of Contents:
+
+- [Header](#header)  
+- [Description](#description)  
+- [Location](#location)  
+
+---  
+
+## Header  
 
 |SESAR_element_name|Object Type|
 |:---|:---|
@@ -21,6 +31,10 @@ This page provides guidelines and expectations for uploads to the ESS-DIVE repos
 |Example|IEMEG|
 |Definition|User code to be used as prefix for IGSNs to be assigned or assigned by user in the submitted batch template.|
 |Additional_instructions|If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+
+---  
+
+## Description  
 
 |SESAR_element_name|Sample Name|
 |:---|:---|
@@ -117,6 +131,10 @@ This page provides guidelines and expectations for uploads to the ESS-DIVE repos
 |Example|square centimeter; kilogram|
 |Definition|Unit for the numerical value provided for ‘size’.|
 |Additional_instructions|Choose unit terms from the controlled list.  |
+
+---  
+
+## Location  
 
 |SESAR_element_name|Latitude (Coordinate system: WGS 84)|
 |:---|:---|
