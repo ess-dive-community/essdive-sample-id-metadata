@@ -1,8 +1,10 @@
-# SampleID Metadata Guide
+# ESS-DIVE Sample ID and Metadata Guide
 
-This page provides guidelines and expectations for uploads to the ESS-DIVE repository the involve samples.
+Here you will find proposed guidelines for standardizing sample metadata to describe interdisciplinary samples within DOE's Environmental Systems Science community.
 
-- We may want to include details here about the SESAR_element_name portion, since that is a component that is unique to this standard.
+ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for samples from the System for Earth Sample Registration (SESAR). Most of this proposed sample standard follows SESAR's metadata guidelines. However, we have proposed changes to metadata elements, specific requirements, and vocabularies based on ESS community needs. 
+
+We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---  
 
@@ -34,10 +36,9 @@ Table of Contents:
 
 ## Sample Description  
 
-|SESAR_element_name|Sample Name|
+|Sample Name (SESAR)|<code> Mandatory </code>|
 |:---|:---|
 |Proposed_element_name|sampleName|
-|Optionality|Mandatory (SESAR)|
 |Example|001-ER18-FO|
 |Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting. Mandatory.|
 |Additional_instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
