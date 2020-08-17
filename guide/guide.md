@@ -8,33 +8,31 @@ This page provides guidelines and expectations for uploads to the ESS-DIVE repos
 
 Table of Contents:
 
-- [Header](#header)  
-- [Description](#description)  
+- [Header Rows](#header)  
+- [Sample Description](#description)  
 - [Location](#location)  
 
 ---  
 
-## Header  
+## Header Rows
 
-|SESAR_element_name|Object Type|
+|Object Type (SESAR)| <code> Mandatory </code>|
 |:---|:---|
-|Proposed_element_name|objectType|
-|Optionality|Mandatory (SESAR)|
-|Example|Core; Individual Sample|
-|Definition|Object type of sample or specimen. |
-|Additional_instructions|Use controlled list. **Requesting additional terms be added to list: filtrate, material captured in filter, organism. See: https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234|
+|Proposed Element Name|objectType|
+|Examples|Core; Individual Sample|
+|Definition|Broad characterization of the nature of a sample or specimen.|
+|Additional_instructions|[Use controlled list.](https://www.geosamples.org/help/vocabularies#object) See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 
-|SESAR_element_name|User Code|
+|User Code (SESAR)|<code> Mandatory </code>|
 |:---|:---|
-|Proposed_element_name|userCode|
-|Optionality|Mandatory (SESAR)|
+|Proposed Element Name|userCode|
 |Example|IEMEG|
-|Definition|User code to be used as prefix for IGSNs to be assigned or assigned by user in the submitted batch template.|
-|Additional_instructions|If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+|Definition|Three-letter code that will be used as a prefix for IGSNs in the submitted batch template.|
+|Additional_instructions|User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
 
 ---  
 
-## Description  
+## Sample Description  
 
 |SESAR_element_name|Sample Name|
 |:---|:---|
