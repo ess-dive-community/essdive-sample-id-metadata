@@ -10,7 +10,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 Table of Contents:
 
-- [Header Rows](#header)  
+- [Header Rows](#header rows)  
 - [Sample Description](#description)  
 - [Location](#location)  
 
