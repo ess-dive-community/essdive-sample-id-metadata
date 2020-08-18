@@ -39,28 +39,28 @@ Table of Contents:
 
 |Sample Name (SESAR)|<code> Mandatory </code>|
 |:---|:---|
-|Proposed_element_name|sampleName|
+|Proposed Element Name|sampleName|
 |Example|001-ER18-FO|
 |Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
 |Additional Instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
 
 |Other name(s) (SESAR)|<code> Optional </code>
 |:---|:---|
-|Proposed_element_name|otherName|
+|Proposed Element Name|otherName|
 |Example|001ER18FO; 001ER18-FO|
 |Definition|Other sample name(s) that have been used in the past. |
 |Additional Instructions|Use a semi-colon to delimit multiple names where needed.|
 
 |IGSN|<code> Recommended </code>|
 |:---|:---|
-|Proposed_element_name|IGSN|
+|Proposed Element Name|IGSN|
 |Example|IEMEG0001|
 |Definition|Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to assign the IGSN, which is recommended. |
 |Additional Instructions|For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters. |
 
-|Parent IGSN|<code>Required, if relevant</code>|
+|Parent IGSN|<code>Required</code>, if relevant|
 |:---|:---|
-|Proposed_element_name|parentIGSN|
+|Proposed Element Name|parentIGSN|
 |Example|IEMEG0002|
 |Definition|The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
 |Additional Instructions|Leave blank if a parent IGSN does not exist. |
