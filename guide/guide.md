@@ -11,6 +11,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 Table of Contents:
 
 - [Header Rows](#header-rows)
+- [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
 - [Sample Description](#sample-description)
 - [Location](#location)
 
@@ -23,49 +24,48 @@ Table of Contents:
 |Proposed Element Name|objectType|
 |Examples|Core; Individual Sample|
 |Definition|Broad characterization of the nature of a sample or specimen.|
-|Additional_instructions|[Use controlled list.](https://www.geosamples.org/help/vocabularies#object) See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|Additional Instructions|[Use controlled list.](https://www.geosamples.org/help/vocabularies#object) See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 
 |User Code (SESAR)|<code> Mandatory </code>|
 |:---|:---|
 |Proposed Element Name|userCode|
 |Example|IEMEG|
 |Definition|Three-letter code that will be used as a prefix for IGSNs in the submitted batch template.|
-|Additional_instructions|User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+|Additional Instructions|User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
 
 ---  
 
-## Sample Description  
+## Sample IDs and Related Identifiers
 
 |Sample Name (SESAR)|<code> Mandatory </code>|
 |:---|:---|
 |Proposed_element_name|sampleName|
 |Example|001-ER18-FO|
-|Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting. Mandatory.|
-|Additional_instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
+|Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
+|Additional Instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
 
-|SESAR_element_name|Other name(s)|
+|Other name(s) (SESAR)|<code> Optional </code>
 |:---|:---|
 |Proposed_element_name|otherName|
-|Optionality|Optional|
 |Example|001ER18FO; 001ER18-FO|
 |Definition|Other sample name(s) that have been used in the past. |
-|Additional_instructions|Use a semi-colon to delimit multiple names where needed.|
+|Additional Instructions|Use a semi-colon to delimit multiple names where needed.|
 
-|SESAR_element_name|IGSN|
+|IGSN|<code> Recommended </code>|
 |:---|:---|
 |Proposed_element_name|IGSN|
-|Optionality|Recommended|
 |Example|IEMEG0001|
-|Definition|Leave blank if you want SESAR to assign the IGSN, which is recommended. |
-|Additional_instructions|For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters. |
+|Definition|Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to assign the IGSN, which is recommended. |
+|Additional Instructions|For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters. |
 
-|SESAR_element_name|Parent IGSN|
+|Parent IGSN|<code>Required, if relevant</code>|
 |:---|:---|
 |Proposed_element_name|parentIGSN|
-|Optionality|Required, if relevant|
 |Example|IEMEG0002|
 |Definition|The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
-|Additional_instructions|Leave blank if a parent IGSN does not exist. |
+|Additional Instructions|Leave blank if a parent IGSN does not exist. |
+
+## Sample Description  
 
 |SESAR_element_name|Release Date|
 |:---|:---|
