@@ -10,9 +10,9 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 Table of Contents:
 
-- [Header Rows](##Header-Rows)  
-- [Sample Description](##Sample-Description)  
-- [Location](##Location)  
+- [Header Rows](#header-rows)
+- [Sample Description](#sample-description)
+- [Location](#location)
 
 ---  
 
