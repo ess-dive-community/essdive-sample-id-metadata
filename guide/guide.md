@@ -7,8 +7,7 @@ ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for s
 We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---  
-
-Table of Contents:
+**Categories of Sample Metadata:**
 
 - [Header Rows](#header-rows)
 - [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
