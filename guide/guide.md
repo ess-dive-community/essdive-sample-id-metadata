@@ -90,27 +90,24 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample Description
 
-|Material|
+|Material|<code>Required</code>|
 |:---|:---|
 |Proposed_element_name|material|
-|Optionality|Mandatory (SESAR)|
-|Example|soil; sediment; surface water [ENVO:00002042]; groundwater [ENVO:01001004] |
-|Definition|Material that the sample consists of. Mandatory.|
-|Additional_instructions|Please use controlled list . ESS-DIVE requesting additional terms for organisms, organic material, and water samples, see: https://docs.google.com/spreadsheets/d/1fdI1x_nRUcGgcgWhwJZVNkNhVhTUPbHmB0inUEXcDUE/edit?ts=5eeb9683#gid=405062981 . |
+|Example|soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
+|Definition|Material that the sample consists of.|
+|Additional_instructions|[Please use controlled list](https://app.geosamples.org/reference/materials.php). ESS-DIVE is requesting additional terms for organisms, organic material, and water samples, [see material terms crosswalk (NEED TO UPDATE LINK)](https://docs.google.com/spreadsheets/d/1fdI1x_nRUcGgcgWhwJZVNkNhVhTUPbHmB0inUEXcDUE/edit?ts=5eeb9683#gid=405062981) |
 
-|SESAR_element_name|Field name (informal classification)|
+|Field name (informal classification)| <code>Optional</code>|
 |:---|:---|
 |Proposed_element_name|classification|
-|Optionality|Optional|
 |Example|leaf, root|
 |Definition|Informal classification of sample. |
 |Additional_instructions|free-text. Here you can add additional material classifications in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
 
-|SESAR_element_name|Sample Description|
+|Sample Description| <code>Recommended</code>|
 |:---|:---|
 |Proposed_element_name|sampleDescription|
-|Optionality|Recommended|
-|Example|Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Filter used for filtered surface water samples|
+|Examples|Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Filter used for filtered surface water samples|
 |Definition|Free text to describe features of a sample such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
 |Additional_instructions|free-text|
 
