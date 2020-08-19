@@ -13,19 +13,20 @@ We seek any additional feedback, with the goal of making ESS sample information 
 - [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
 - [Sample Description](#sample-description)
 - [Location](#location)
+- [Sample Access](#sample-access)
 
 ---  
 
 ## Header Rows
 
-|Object Type (SESAR)| <code> Mandatory </code>|
+|Object Type| <code> Mandatory </code>|
 |:---|:---|
 |Proposed Element Name|objectType|
 |Examples|Core; Individual Sample|
 |Definition|Broad characterization of the nature of a sample or specimen.|
 |Additional Instructions|[Use controlled list.](https://www.geosamples.org/help/vocabularies#object) See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 
-|User Code (SESAR)|<code> Mandatory </code>|
+|User Code|<code> Mandatory </code>|
 |:---|:---|
 |Proposed Element Name|userCode|
 |Example|IEMEG|
@@ -36,14 +37,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample IDs and Related Identifiers
 
-|Sample Name (SESAR)|<code> Mandatory </code>|
+|Sample Name|<code> Mandatory </code>|
 |:---|:---|
 |Proposed Element Name|sampleName|
 |Example|001-ER18-FO|
 |Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
 |Additional Instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
 
-|Other name(s) (SESAR)|<code> Optional </code>
+|Other name(s)|<code> Optional </code>
 |:---|:---|
 |Proposed Element Name|otherName|
 |Example|001ER18FO; 001ER18-FO|
@@ -64,17 +65,32 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
 |Additional Instructions|Leave blank if a parent IGSN does not exist. |
 
-## Sample Description  
-
-|SESAR_element_name|Release Date|
+|Collection ID|<code>Optional</code>, Not in SESAR|
 |:---|:---|
-|Proposed_element_name|releaseDate|
-|Optionality|Required - defaults to current date if not specified|
-|Example|3/15/18|
-|Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
-|Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
+|Proposed Element Name|collectionID|
+|Example|WSFA_June2019|
+|Definition|A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection." |
+|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
 
-|SESAR_element_name|Material|
+|Event ID|<code>Optional</code>, Not in SESAR|
+|:---|:---|
+|Proposed Element Name|eventID|
+|Example|WSFA_20191023|
+|Definition|A unique identifier for the set of information associated with an Event (something that occurs at a place and time). An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
+|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+
+|Site ID|<code>Optional</code>, Not in SESAR|
+|:---|:---|
+|Proposed_element_name|siteID|
+|Example|CoyoteRiver_D22|
+|Definition|A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set. For ESS-DIVE, a site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples.|
+|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+
+---  
+
+## Sample Description
+
+|Material|
 |:---|:---|
 |Proposed_element_name|material|
 |Optionality|Mandatory (SESAR)|
@@ -286,29 +302,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Report which major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?). |
 |Additional_instructions|We recommend using subclasses of ENVO’s biome class: http://purl.obolibrary.org/obo/ENVO_00000428. Format (one term): termLabel [termID]. Multiple terms can be separated by a semi-colon. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html|
 
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|collectionID|
-|Optionality|Optional|
-|Example|WSFA_June2019|
-|Definition|A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection." |
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|eventID|
-|Optionality|Optional|
-|Example|WSFA_20191023|
-|Definition|A unique identifier for the set of information associated with an Event (something that occurs at a place and time). An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|siteID|
-|Optionality|Optional|
-|Example|CoyoteRiver_D22|
-|Definition|A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set. For ESS-DIVE, a site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
 
 |SESAR_element_name|Not represented|
 |:---|:---|
@@ -365,3 +358,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Example||
 |Definition|Comments or notes about the sample. |
 |Additional_instructions|Free text. You can include weather descriptions here, if relevant |
+
+---  
+
+## Sample Access
+
+|Release Date|<code>Required</code>|
+|:---|:---|
+|Proposed_element_name|releaseDate|
+|Example|2018-03-15|
+|Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
+|Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
