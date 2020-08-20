@@ -12,8 +12,9 @@ We seek any additional feedback, with the goal of making ESS sample information 
 - [Header Rows](#header-rows)
 - [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
 - [Sample Description](#sample-description)
-- [Methods](#methods)
+- [Sample Collection Details](#sample-collection-details)
 - [Location](#location)
+- [Environmental Context](#environmental-context)
 - [Sample Access](#sample-access)
 
 ---  
@@ -135,7 +136,35 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ---
 
-## Methods
+## Sample Collection Details
+
+|Field program/Cruise|<code>Optional</code>, <code>Required</code> at package level, but want to associate with samples for data search and integration.|
+|:---|:---|
+|Proposed Element Name|projectName|
+|Example|Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
+|Definition|Enter the name of the DOE project to associate with this/these sample(s).|
+|Additional Instructions|If multiple projects were involved, enter the project that had the largest contribution first, and separate entries with a semi-colon. Project Name may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "Project Name", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+
+|Collector/Chief Scientist|<code>Required</code>|
+|:---|:---|
+|Proposed Element Name|collector|
+|Example|John Smith|
+|Definition|Name of the person(s) who collected the sample.|
+|Additional Instructions|You can enter multiple collectors/sampling team for large sampling efforts, separated with a semi-colon. If the collector(s) of the sample(s) is/are not known, enter name of the person responsible for the sample.|
+
+|Collection Date|<code>Required</code>|
+|:---|:---|
+|Proposed Element Name|collectionDate|
+|Example|2019-08-14|
+|Definition|Date when the sample was collected. YYYY-MM-DD|
+|Additional Instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
+
+|Collection Time|<code>Optional</code>|
+|:---|:---|
+|Proposed Element Name|collectionTime|
+|Example|12:05:03Z|
+|Definition|Time when the sample was collected. HH:MM:SSZ|
+|Additional Instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
 
 |Collection Method Description|<code>Required</code>
 |:---|:---|
@@ -197,13 +226,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Type of geolocation instrument used to obtain geographic coordinates.|
 |Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 
-|SESAR_element_name|Primary Physiographic feature|
-|:---|:---|
-|Proposed_element_name|localEnvironmentalContext|
-|Optionality|Recommended|
-|Example|river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449]; mountain [ENVO:00000081]|
-|Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
-|Additional_instructions|Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale. Use ENVO terms, using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo). Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html|
 
 |SESAR_element_name|Location description|
 |:---|:---|
@@ -245,37 +267,17 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Unit in which the depth is provided|
 |Additional_instructions||
 
-|SESAR_element_name|Field program/Cruise|
-|:---|:---|
-|Proposed_element_name|projectName|
-|Optionality|Required at package level, but want associated with samples when searched.|
-|Example|Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
-|Definition|Enter the name of the DOE project to associate with this/these sample(s).|
-|Additional_instructions|If multiple projects were involved, enter the project that had the largest contribution to this data package first, and separate entries with a semi-colon. Project Name may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "Project Name", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).  |
+---
 
-|SESAR_element_name|Collector/Chief Scientist|
-|:---|:---|
-|Proposed_element_name|collector|
-|Optionality|Required|
-|Example|John Smith|
-|Definition|Name of the person(s) who collected the sample. You can enter multiple collectors/sampling team for large sampling efforts. If the collector(s) of the sample(s) is/are not known, enter name of the person responsible for the sample. |
-|Additional_instructions|Separate multiple entries with a semi-colon|
+##Environmental Context
 
-|SESAR_element_name|Collection date|
+|SESAR_element_name|Primary Physiographic feature|
 |:---|:---|
-|Proposed_element_name|collectionDate|
-|Optionality|Required|
-|Example|3/31/15|
-|Definition|Date when the sample was collected. YYYY-MM-DD|
-|Additional_instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
-
-|SESAR_element_name|Collection time|
-|:---|:---|
-|Proposed_element_name|collectionTime|
-|Optionality|Optional|
-|Example|12:05:03Z|
-|Definition|Time when the sample was collected. HH:MM:SSZ|
-|Additional_instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
+|Proposed_element_name|localEnvironmentalContext|
+|Optionality|Recommended|
+|Example|river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449]; mountain [ENVO:00000081]|
+|Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
+|Additional_instructions|Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale. Use ENVO terms, using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo). Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html|
 
 |SESAR_element_name|Current Archive|
 |:---|:---|
