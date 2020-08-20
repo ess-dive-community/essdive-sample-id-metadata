@@ -32,7 +32,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:---|:---|
 |Proposed Element Name|userCode|
 |Example|IEMEG|
-|Definition|Three-letter code that will be used as a prefix for IGSNs in the submitted batch template.|
+|Definition|Five-letter code that will be used as a prefix for IGSNs in the submitted batch template.|
 |Additional Instructions|User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
 
 ---  
