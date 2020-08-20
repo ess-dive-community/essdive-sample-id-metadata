@@ -227,81 +227,58 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 
 
-|SESAR_element_name|Location description|
+|Location description|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|locationDescription|
-|Optionality|Recommended|
+|Proposed Element Name|locationDescription|
 |Example|300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
-|Definition|Free text description of the location. You can also include details here also about the location type, e.g. whether it is an absolute or reference location, plot ID and description.|
-|Additional_instructions||
+|Definition|Free text description of the location.|
+|Additional Instructions|You can also include details here about the location type, e.g. whether it is an absolute or reference location, plot ID and description.|
 
-|SESAR_element_name|Country|
+|Country|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|country|
-|Optionality|Required|
+|Proposed Element Name|country|
 |Example|United States|
-|Definition|Country where the sample was collected|
-|Additional_instructions|Please use controlled list. |
+|Definition|Country where the sample was collected.|
+|Additional Instructions|[Use controlled list](https://www.geosamples.org/help/vocabularies/country).|
 
-|SESAR_element_name|Depth in Core (min)|
+|Depth in Core (min)|<code>Required</code>, if relevant|
 |:---|:---|
-|Proposed_element_name|minimumDepthInMeters|
-|Optionality|Required, if relevant|
+|Proposed Element Name|minimumDepthInMeters|
 |Example|0.001|
-|Definition|Minimum depth at which a sample was collected, below ground or under water. |
-|Additional_instructions|Recommend using meters|
+|Definition|Minimum depth at which a sample was collected, below ground or under water.|
+|Additional Instructions|Recommend using meters.|
 
-|SESAR_element_name|Depth in Core (max)|
+|Depth in Core (max)|<code>Optional</code>|
 |:---|:---|
-|Proposed_element_name|maximumDepthInMeters|
-|Optionality|Required, if relevant|
+|Proposed Element Name|maximumDepthInMeters|
 |Example|0.003|
 |Definition|Maximum depth at which a sample was collected, below ground or under water. |
-|Additional_instructions|Recommend using meters|
+|Additional Instructions|Recommend using meters|
 
-|SESAR_element_name|Depth scale|
+|Depth scale|<code>Required</code>, if relevant|
 |:---|:---|
-|Proposed_element_name||
-|Optionality|Required, if relevant|
+|Proposed Element Name|NA, proposing that depth be required in meters|
 |Example|meters|
 |Definition|Unit in which the depth is provided|
-|Additional_instructions||
+|Additional Instructions|This field will be deleted when we change the depth field to be required in meters|
 
 ---
 
-##Environmental Context
+## Environmental Context
 
-|SESAR_element_name|Primary Physiographic feature|
+|Primary Physiographic feature|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|localEnvironmentalContext|
-|Optionality|Recommended|
+|Proposed Element Name|localEnvironmentalContext|
 |Example|river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449]; mountain [ENVO:00000081]|
 |Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
-|Additional_instructions|Please use terms that are present in ENVO and which are of smaller spatial grain than your entry for env_broad_scale. Use ENVO terms, using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo). Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html|
+|Additional Instructions|Use terms that are present in the Environment Ontology (ENVO) and which are of smaller spatial grain than your entry for biome. We recommend using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo) to locate appropriate terms. Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 
-|SESAR_element_name|Current Archive|
+|Biome|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|currentArchive|
-|Optionality|Optional|
-|Example|Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood, CO|
-|Definition|Only applies to physical samples that are archived in a collection for some period of time. Name of institution, museum, or repository where the sample is currently stored.|
-|Additional_instructions||
-
-|SESAR_element_name|Current Archive Contact|
-|:---|:---|
-|Proposed_element_name|currentArchiveContact|
-|Optionality|Optional|
-|Example|scientist@lbl.gov|
-|Definition|Address and/or email of the person who should be contacted for information about or access to the sample.|
-|Additional_instructions|Email is not mandatory, but helps for communication about samples.|
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|biome|
-|Optionality|Recommended|
+|Proposed Element Name|biome|
 |Example|shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome [ENVO:01000228]; estuarine biome [ENVO:01000020]|
-|Definition|Report which major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?). |
-|Additional_instructions|We recommend using subclasses of ENVO’s biome class: http://purl.obolibrary.org/obo/ENVO_00000428. Format (one term): termLabel [termID]. Multiple terms can be separated by a semi-colon. If needed, request new terms on the ENVO tracker, identified here: http://www.obofoundry.org/ontology/envo.html|
+|Definition|Major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?).|
+|Additional Instructions|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 
 
 |SESAR_element_name|Not represented|
@@ -363,3 +340,20 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Example|2018-03-15|
 |Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
 |Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
+
+|SESAR_element_name|Current Archive|
+|:---|:---|
+|Proposed_element_name|currentArchive|
+|Optionality|Optional|
+|Example|Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood, CO|
+|Definition|Only applies to physical samples that are archived in a collection for some period of time. Name of institution, museum, or repository where the sample is currently stored.|
+|Additional_instructions||
+
+|SESAR_element_name|Current Archive Contact|
+|:---|:---|
+|Proposed_element_name|currentArchiveContact|
+|Optionality|Optional|
+|Example|scientist@lbl.gov|
+|Definition|Address and/or email of the person who should be contacted for information about or access to the sample.|
+|Additional_instructions|Email is not mandatory, but helps for communication about samples.|
+
