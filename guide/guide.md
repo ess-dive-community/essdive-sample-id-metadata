@@ -134,6 +134,27 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Unit for the numerical value provided for ‘size’.|
 |Additional Instructions|Choose unit terms from the [controlled list](https://docs.google.com/spreadsheets/d/1FJ08qEM9ZTY_V6hPMcpbwYud0s8h6AV_RbuWGcuxtHU/edit#gid=0).|
 
+|Filter Size|<code>Required</code>, if object type is "fitrate" or "material captured in filter"|
+|:---|:---|
+|Proposed Element Name|filterSize|
+|Example|0-0.22 micrometer|
+|Definition|Filtering pore size used in sample preparation (filter size value range). Filter size value range (float-float unit).|
+|Additional Instructions||
+
+|Scientific Name|<code>Required</code>, if object type is "organism"|
+|:---|:---|
+|Proposed Element Name|scientificName|
+|Example|Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
+|Definition|The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined.|
+|Additional_instructions||
+
+|Sample Remarks|<code>Optional</code>
+|:---|:---|
+|Proposed Element Name|sampleRemarks|
+|Example||
+|Definition|Comments or notes about the sample. |
+|Additional Instructions|Free text. You can include weather descriptions here, if relevant |
+
 ---
 
 ## Sample Collection Details
@@ -198,6 +219,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Longitude of the location where the sample was collected, entered in decimal degrees. Negative values for ‘West’ longitudes.|
 |Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
 
+|Coordinate Uncertainty In Meters|code>Recommended</code>, Not in SESAR|
+|:---|:---|
+|Proposed Element Name|coordinateUncertaintyInMeters|
+|Example|30 (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time)|
+|Definition|The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. In most cases, a value reflecting the precision and accuracy of the GPS instrument used to obtain coordinates is appropriate here.  Many GPS instruments will provide a precision along with coordinates that can be applied here.  |
+|Additional Instructions||
+
 |Elevation start|<code>Optional</code>|
 |:---|:---|
 |Proposed Element Name|minimumElevationInMeters|
@@ -225,7 +253,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Example|GPS; RTK GPS|
 |Definition|Type of geolocation instrument used to obtain geographic coordinates.|
 |Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
-
 
 |Location description|<code>Recommended</code>|
 |:---|:---|
@@ -262,6 +289,21 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Unit in which the depth is provided|
 |Additional Instructions|This field will be deleted when we change the depth field to be required in meters|
 
+|Minimum Distance above Surface in Meters|<code>Optional</code>| 
+|:---|:---|
+|Proposed Element Name|minimumDistanceAboveSurfaceInMeters|
+|Example|4.2|
+|Definition|Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here|
+|Additional_instructions||
+
+|Maximum Distance above Surface in Meters|<code>Optional</code>| 
+|:---|:---|
+|Proposed_element_name|maximumDistanceAboveSurfaceInMeters|
+|Example|7.2|
+|Definition|Maximum height above the ground surface, in meters.|
+|Additional_instructions||
+
+
 ---
 
 ## Environmental Context
@@ -273,62 +315,12 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
 |Additional Instructions|Use terms that are present in the Environment Ontology (ENVO) and which are of smaller spatial grain than your entry for biome. We recommend using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo) to locate appropriate terms. Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 
-|Biome|<code>Recommended</code>|
+|Biome|<code>Recommended</code>, Not in SESAR|
 |:---|:---|
 |Proposed Element Name|biome|
 |Example|shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome [ENVO:01000228]; estuarine biome [ENVO:01000020]|
 |Definition|Major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?).|
 |Additional Instructions|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
-
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|coordinateUncertaintyInMeters|
-|Optionality|Recommended|
-|Example|30 (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time)|
-|Definition|The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. In most cases, a value reflecting the precision and accuracy of the GPS instrument used to obtain coordinates is appropriate here.  Many GPS instruments will provide a precision along with coordinates that can be applied here.  |
-|Additional_instructions||
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|minimumDistanceAboveSurfaceInMeters|
-|Optionality|Optional|
-|Example|4.2|
-|Definition|Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here|
-|Additional_instructions||
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|maximumDistanceAboveSurfaceInMeters|
-|Optionality|Optional|
-|Example|7.2|
-|Definition|Maximum height above the ground surface, in meters.|
-|Additional_instructions||
-
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|filterSize|
-|Optionality|Required if object type is filter, or for a filtered sample (e.g. water sample)|
-|Example|0-0.22 micrometer|
-|Definition|Filtering pore size used in sample preparation (filter size value range). Filter size value range (float-float unit).|
-|Additional_instructions||
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|scientificName|
-|Optionality|Required, if relevant|
-|Example|Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
-|Definition|The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined.|
-|Additional_instructions||
-
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|comments|
-|Optionality|Optional|
-|Example||
-|Definition|Comments or notes about the sample. |
-|Additional_instructions|Free text. You can include weather descriptions here, if relevant |
 
 ---  
 
