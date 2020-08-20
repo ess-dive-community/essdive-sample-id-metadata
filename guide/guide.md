@@ -51,7 +51,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed Element Name|otherName|
 |Example|001ER18FO; 001ER18-FO|
 |Definition|Other sample name(s) that have been used in the past. |
-|Additional Instructions|Use a semi-colon to delimit multiple names where needed.|
+|Additional Instructions|Use a semi-colon to delimit multiple names where needed. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 
 |IGSN|<code> Recommended </code>|
 |:---|:---|
