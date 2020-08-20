@@ -333,19 +333,17 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
 |Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
 
-|SESAR_element_name|Current Archive|
+|Current Archive|<code>Optional</code>|
 |:---|:---|
 |Proposed_element_name|currentArchive|
-|Optionality|Optional|
 |Example|Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood, CO|
-|Definition|Only applies to physical samples that are archived in a collection for some period of time. Name of institution, museum, or repository where the sample is currently stored.|
-|Additional_instructions||
+|Definition|Name of institution, museum, or repository where the sample is currently stored.|
+|Additional_instructions|Only applies to physical samples that are archived in a collection for some period of time.|
 
-|SESAR_element_name|Current Archive Contact|
+|Current Archive Contact|<code>Optional</code>|
 |:---|:---|
 |Proposed_element_name|currentArchiveContact|
-|Optionality|Optional|
 |Example|scientist@lbl.gov|
 |Definition|Address and/or email of the person who should be contacted for information about or access to the sample.|
-|Additional_instructions|Email is not mandatory, but helps for communication about samples.|
+|Additional_instructions|Email is not mandatory, but helps with communication about samples.|
 
