@@ -12,6 +12,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 - [Header Rows](#header-rows)
 - [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
 - [Sample Description](#sample-description)
+- [Methods](#methods)
 - [Location](#location)
 - [Sample Access](#sample-access)
 
@@ -70,21 +71,21 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed Element Name|collectionID|
 |Example|WSFA_June2019|
 |Definition|A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection." |
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
 
 |Event ID|<code>Optional</code>, Not in SESAR|
 |:---|:---|
 |Proposed Element Name|eventID|
 |Example|WSFA_20191023|
 |Definition|A unique identifier for the set of information associated with an Event (something that occurs at a place and time). An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
 
 |Site ID|<code>Optional</code>, Not in SESAR|
 |:---|:---|
-|Proposed_element_name|siteID|
+|Proposed Element Name|siteID|
 |Example|CoyoteRiver_D22|
 |Definition|A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set. For ESS-DIVE, a site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional_instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
 
 ---  
 
@@ -92,108 +93,109 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 |Material|<code>Required</code>|
 |:---|:---|
-|Proposed_element_name|material|
+|Proposed Element Name|material|
 |Example|soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 |Definition|Material that the sample consists of.|
-|Additional_instructions|[Please use controlled list](https://app.geosamples.org/reference/materials.php). ESS-DIVE is requesting additional terms for organisms, organic material, and water samples, [see material terms crosswalk (NEED TO UPDATE LINK)](https://docs.google.com/spreadsheets/d/1fdI1x_nRUcGgcgWhwJZVNkNhVhTUPbHmB0inUEXcDUE/edit?ts=5eeb9683#gid=405062981) |
+|Additional Instructions|[Please use controlled list](https://app.geosamples.org/reference/materials.php). ESS-DIVE is requesting additional terms for organisms, organic material, and water samples, [see material terms crosswalk (NEED TO UPDATE LINK)](https://docs.google.com/spreadsheets/d/1fdI1x_nRUcGgcgWhwJZVNkNhVhTUPbHmB0inUEXcDUE/edit?ts=5eeb9683#gid=405062981) |
 
 |Field name (informal classification)| <code>Optional</code>|
 |:---|:---|
-|Proposed_element_name|classification|
+|Proposed Element Name|classification|
 |Example|leaf, root|
-|Definition|Informal classification of sample. |
-|Additional_instructions|free-text. Here you can add additional material classifications in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
+|Definition|Informal classification of sample.|
+|Additional Instructions|free-text. Here you can add additional material classifications in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
 
-|Sample Description| <code>Recommended</code>|
+|Sample Description|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|sampleDescription|
-|Examples|Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Filter used for filtered surface water samples|
-|Definition|Free text to describe features of a sample such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
-|Additional_instructions|free-text|
+|Proposed Element Name|sampleDescription|
+|Example| Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Example 2) Filter used for filtered surface water samples|
+|Definition|Description of sample features, such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
+|Additional Instructions|free-text|
 
-|SESAR_element_name|Collection method description|
+|Purpose|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|collectionMethodDescription|
-|Optionality|Required|
-|Example|Example 1) "Collect soil samples from top 10 cm using 2-3 cores from with meadow plot or under the bulk of tree/shrub canopies."  Example 2) Excised branch. Example 3) Pumped water at specific depths using tubing connected to CTD.|
-|Definition|Free text description of the collection method for the sample. Include any important terms and details for potential users to understand how your sample was collected.|
-|Additional_instructions|free-text. Collection methods may often be the same across a series/collection of samples; there are two options for providing collection method details at a higher level. Option 1:  Create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).  Option 2: Create a methods file, with a series of methods descriptions that are each associated with a "methodID" and an associated "methodDescription." |
-
-|SESAR_element_name|Purpose|
-|:---|:---|
-|Proposed_element_name|purpose|
-|Optionality|Recommended|
+|Proposed Element Name|purpose|
 |Example|Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
-|Definition|The purpose for collecting the sample. |
-|Additional_instructions|free-text. Purpose may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). |
+|Definition|The scientific purpose for collecting the sample. |
+|Additional Instructions|free-text. Purpose may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). |
 
-|SESAR_element_name|Size|
+|Size|<code>Optional</code>|
 |:---|:---|
-|Proposed_element_name|size|
-|Optionality|Optional|
+|Proposed Element Name|size|
 |Example|4; 6.8|
 |Definition|Size of the registered object, such as the surface area, length of a core, weight, or volume|
-|Additional_instructions||
+|Additional Instructions|| Must be associated with Size unit. 
 
-|SESAR_element_name|Size unit|
+|Size unit|<code>Optional</code>, <code>Required</code> if Size is provided|
 |:---|:---|
-|Proposed_element_name|sizeUnit|
-|Optionality|Optional|
+|Proposed Element Name|sizeUnit|
 |Example|square centimeter; kilogram|
 |Definition|Unit for the numerical value provided for ‘size’.|
-|Additional_instructions|Choose unit terms from the controlled list.  |
+|Additional Instructions|Choose unit terms from the [controlled list](https://docs.google.com/spreadsheets/d/1FJ08qEM9ZTY_V6hPMcpbwYud0s8h6AV_RbuWGcuxtHU/edit#gid=0).|
+
+---
+
+## Methods
+
+|Collection Method Description|<code>Required</code>
+|:---|:---|
+|Proposed Element Name|collectionMethodDescription|
+|Example|Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example 3) Pumped water at specific depths using tubing connected to CTD.|
+|Definition|Description of the collection method for the sample. Include any important terms and details for potential users to understand how your sample was collected.|
+|Additional Instructions|Collection methods may often be the same across a series/collection of samples; there are two options for providing collection method details at a higher level. Option 1:  Create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).  Option 2: Create a methods file, with a series of methods descriptions that are each associated with a "methodID" and an associated "methodDescription." |
+
+|Sample Processing|<code>Recommended</code>, if relevant|
+|:---|:---|
+|Proposed Element Name|sampleProcessing|
+|Example|filter water; store samples in ethanol|
+|Definition|Any processing applied to the sample during or after retrieving the sample from the environment. Can provide a list of preparations and preservation methods for the sample.|
+|Additional Instructions|Sample processing may often be the same across a series/collection of samples. To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods with a semi-colon.|
 
 ---  
 
 ## Location  
 
-|SESAR_element_name|Latitude (Coordinate system: WGS 84)|
+|Latitude (Coordinate system: WGS 84)|<code>Required</code>, if relevant|
 |:---|:---|
-|Proposed_element_name|decimalLatitude|
-|Optionality|Required, if relevant|
+|Proposed Element Name|decimalLatitude|
 |Example|5.89634|
 |Definition|Latitude of the location where the sample was collected, entered in decimal degrees. Negative values for South latitudes.|
-|Additional_instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
+|Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
 
-|SESAR_element_name|Longitude (Coordinate system: WGS 84)|
+|Longitude (Coordinate system: WGS 84)|<code>Required</code>, if relevant|
 |:---|:---|
-|Proposed_element_name|decimalLongitude|
-|Optionality|Required, if relevant|
+|Proposed Element Name|decimalLongitude|
 |Example|-103.785|
 |Definition|Longitude of the location where the sample was collected, entered in decimal degrees. Negative values for ‘West’ longitudes.|
-|Additional_instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
+|Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
 
-|SESAR_element_name|Elevation start|
+|Elevation start|<code>Optional</code>|
 |:---|:---|
-|Proposed_element_name|minimumElevationInMeters|
-|Optionality|Optional|
+|Proposed Element Name|minimumElevationInMeters|
 |Example|678.5|
 |Definition|Elevation at which a sample was collected. Minimum elevation value if elevation taken over a range.|
-|Additional_instructions||
+|Additional Instructions|Provide elevation in meters where possible.|
 
-|SESAR_element_name|Elevation end|
+|Elevation end|<code>Optional</code>|
 |:---|:---|
-|Proposed_element_name|maximumElevationInMeters|
-|Optionality|Optional|
+|Proposed Element Name|maximumElevationInMeters|
 |Example|689.2|
 |Definition|Maximum elevation at which a sample was collected, if elevation was taken over a range. |
-|Additional_instructions||
+|Additional Instructions|Provide elevation in meters where possible.|
 
-|SESAR_element_name|Elevation unit|
+|Elevation unit|<code>Optional</code>|
 |:---|:---|
-|Proposed_element_name||
-|Optionality|Optional|
+|Proposed Element Name||
 |Example|meters|
 |Definition|Unit in which elevation start and/or end are provided in. This will be removed when elevation field is changed to specify meters.  |
-|Additional_instructions|Must be one of the following: meters, feet, miles, kilometers|
+|Additional Instructions|Must be one of the following: meters, feet, miles, kilometers|
 
-|SESAR_element_name|Navigation type|
+|Navigation type|<code>Recommended</code>|
 |:---|:---|
-|Proposed_element_name|geolocationInstrument|
-|Optionality|Recommended|
+|Proposed Element Name|geolocationInstrument|
 |Example|GPS; RTK GPS|
 |Definition|Type of geolocation instrument used to obtain geographic coordinates.|
-|Additional_instructions|Please use controlled list|
+|Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 
 |SESAR_element_name|Primary Physiographic feature|
 |:---|:---|
@@ -324,13 +326,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Maximum height above the ground surface, in meters.|
 |Additional_instructions||
 
-|SESAR_element_name|Not represented|
-|:---|:---|
-|Proposed_element_name|sampleProcessing|
-|Optionality|Recommended, if relevant|
-|Example|filter water; store samples in ethanol|
-|Definition|Any processing applied to the sample during or after retrieving the sample from environment. Can provide a list of preparations and preservation methods for the sample. Separate multiple processes with a semi-colon.      |
-|Additional_instructions||
 
 |SESAR_element_name|Not represented|
 |:---|:---|
