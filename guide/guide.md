@@ -21,14 +21,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Header Rows
 
-|Object Type| <code> Mandatory </code>|
+|Object Type| <code> Required </code>|
 |:---|:---|
 |Proposed Element Name|objectType|
 |Examples|Core; Individual Sample|
 |Definition|Broad characterization of the nature of a sample or specimen.|
 |Additional Instructions|[Use controlled list.](https://www.geosamples.org/help/vocabularies#object) See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 
-|User Code|<code> Mandatory </code>|
+|User Code|<code> Required </code>|
 |:---|:---|
 |Proposed Element Name|userCode|
 |Example|IEMEG|
@@ -39,14 +39,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample IDs and Related Identifiers
 
-|Sample Name|<code> Mandatory </code>|
+|Sample Name|<code> Required </code>|
 |:---|:---|
 |Proposed Element Name|sampleName|
 |Example|001-ER18-FO|
 |Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
 |Additional Instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
 
-|Other name(s)|<code> Optional </code>
+|Other name(s)|<code> Optional </code>|
 |:---|:---|
 |Proposed Element Name|otherName|
 |Example|001ER18FO; 001ER18-FO|
@@ -159,13 +159,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample Collection Details
 
-|Field program/Cruise|<code>Optional</code>, <code>Required</code> at package level, but want to associate with samples for data search and integration.|
-|:---|:---|
-|Proposed Element Name|projectName|
-|Example|Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
-|Definition|Enter the name of the DOE project to associate with this/these sample(s).|
-|Additional Instructions|If multiple projects were involved, enter the project that had the largest contribution first, and separate entries with a semi-colon. Project Name may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "Project Name", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
-
 |Collector/Chief Scientist|<code>Required</code>|
 |:---|:---|
 |Proposed Element Name|collector|
@@ -194,12 +187,19 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|Description of the collection method for the sample. Include any important terms and details for potential users to understand how your sample was collected.|
 |Additional Instructions|Collection methods may often be the same across a series/collection of samples; there are two options for providing collection method details at a higher level. Option 1:  Create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).  Option 2: Create a methods file, with a series of methods descriptions that are each associated with a "methodID" and an associated "methodDescription." |
 
-|Sample Processing|<code>Recommended</code>, if relevant|
+|Sample Processing|<code>Recommended</code>, if relevant. Not in SESAR|
 |:---|:---|
 |Proposed Element Name|sampleProcessing|
 |Example|filter water; store samples in ethanol|
 |Definition|Any processing applied to the sample during or after retrieving the sample from the environment. Can provide a list of preparations and preservation methods for the sample.|
 |Additional Instructions|Sample processing may often be the same across a series/collection of samples. To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods with a semi-colon.|
+
+|Field program/Cruise|<code>Optional</code>, <code>Required</code> at package level, but want to associate with samples for data search and integration.|
+|:---|:---|
+|Proposed Element Name|projectName|
+|Example|Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
+|Definition|Enter the name of the DOE project to associate with this/these sample(s).|
+|Additional Instructions|If multiple projects were involved, enter the project that had the largest contribution first, and separate entries with a semi-colon. Project Name may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "Project Name", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
 
 ---  
 
@@ -226,27 +226,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Definition|The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. In most cases, a value reflecting the precision and accuracy of the GPS instrument used to obtain coordinates is appropriate here.  Many GPS instruments will provide a precision along with coordinates that can be applied here.  |
 |Additional Instructions||
 
-|Elevation start|<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|minimumElevationInMeters|
-|Example|678.5|
-|Definition|Elevation at which a sample was collected. Minimum elevation value if elevation taken over a range.|
-|Additional Instructions|Provide elevation in meters where possible.|
-
-|Elevation end|<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|maximumElevationInMeters|
-|Example|689.2|
-|Definition|Maximum elevation at which a sample was collected, if elevation was taken over a range. |
-|Additional Instructions|Provide elevation in meters where possible.|
-
-|Elevation unit|<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name||
-|Example|meters|
-|Definition|Unit in which elevation start and/or end are provided in. This will be removed when elevation field is changed to specify meters.  |
-|Additional Instructions|Must be one of the following: meters, feet, miles, kilometers|
-
 |Navigation type|<code>Recommended</code>|
 |:---|:---|
 |Proposed Element Name|geolocationInstrument|
@@ -267,6 +246,27 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Example|United States|
 |Definition|Country where the sample was collected.|
 |Additional Instructions|[Use controlled list](https://www.geosamples.org/help/vocabularies/country).|
+
+|Elevation start|<code>Optional</code>|
+|:---|:---|
+|Proposed Element Name|minimumElevationInMeters|
+|Example|678.5|
+|Definition|Elevation at which a sample was collected. Minimum elevation value if elevation taken over a range.|
+|Additional Instructions|Provide elevation in meters where possible.|
+
+|Elevation end|<code>Optional</code>|
+|:---|:---|
+|Proposed Element Name|maximumElevationInMeters|
+|Example|689.2|
+|Definition|Maximum elevation at which a sample was collected, if elevation was taken over a range. |
+|Additional Instructions|Provide elevation in meters where possible.|
+
+|Elevation unit|<code>Optional</code>|
+|:---|:---|
+|Proposed Element Name||
+|Example|meters|
+|Definition|Unit in which elevation start and/or end are provided in. This will be removed when elevation field is changed to specify meters.  |
+|Additional Instructions|Must be one of the following: meters, feet, miles, kilometers|
 
 |Depth in Core (min)|<code>Required</code>, if relevant|
 |:---|:---|
@@ -302,7 +302,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Example|7.2|
 |Definition|Maximum height above the ground surface, in meters.|
 |Additional_instructions||
-
 
 ---
 
