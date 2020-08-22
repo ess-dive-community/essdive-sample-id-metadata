@@ -22,31 +22,32 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type <code>Required</code>
-|Proposed Element Name       |objectType                                          |
-|:---------------------------|:---------------------------------------------------|
-|**Format**                  |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
-|**Definition**              |Broad characterization of the nature of a sample or specimen.|
-|**Additional Instructions** |See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
-|**Examples**                |Core; Individual Sample; Organism|
+|Proposed ESS-DIVE Element Name       |objectType                                          |
+|:------------------------------------|:---------------------------------------------------|
+|**Format**                           |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
+|**Definition**                       |Broad characterization of the nature of a sample or specimen.|
+|**Additional Instructions**          |See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|**Examples**                         |Core; Individual Sample; Organism|
 
 ### User Code <code>Required</code>
-|Proposed Element Name       |userCode                                            |
-|:---------------------------|:---------------------------------------------------|
-|**Format**                  |Five-letter code                                    |
-|**Definition**              |Globally unique code that will be used as a prefix for IGSNs in the submitted batch template.|
-|**Additional Instructions** |User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
-|**Examples**                |IEMEG, IEJDE                                        |
+|Proposed ESS-DIVE Element Name       |userCode                                            |
+|:------------------------------------|:---------------------------------------------------|
+|**Format**                           |Five-letter code                                    |
+|**Definition**                       |Globally unique IGSN code that will be used as a prefix for IGSNs in the submitted batch template.|
+|**Additional Instructions**          |User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+|**Examples**                         |IEMEG, IEJDE                                        |
 
 ---  
 
 ## Sample IDs and Related Identifiers
 
-|Sample Name|<code> Required </code>|
-|:---|:---|
-|Proposed Element Name|sampleName|
-|Example|001-ER18-FO|
-|Definition|Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
-|Additional Instructions|This Sample Name is a place where you can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
+### Sample Name <code> Required </code>
+|Proposed Element Name                |sampleName                                          |
+|:------------------------------------|:---------------------------------------------------|
+|**Format**                           |free text, unique                                   |
+|**Definition**                       |Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
+|**Additional Instructions**          |You can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
+|**Examples**                         |001-ER18-FO                                         |
 
 |Other name(s)|<code> Optional </code>|
 |:---|:---|
