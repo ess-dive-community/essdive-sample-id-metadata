@@ -21,13 +21,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Header Rows
 
-### Object Type <code> Required </code>
+#### Object Type <code> Required </code>
 |Proposed Element Name|objectType|
 |:---|:---|
-|Format|[Controlled list.](https://www.geosamples.org/help/vocabularies#object)|
-|Definition|Broad characterization of the nature of a sample or specimen.|
-|Additional Instructions|See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
-|Examples|Core; Individual Sample|
+|**Format**|[Controlled list.](https://www.geosamples.org/help/vocabularies#object)|
+|**Definition**|Broad characterization of the nature of a sample or specimen.|
+|**Additional Instructions**|See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|**Examples**|Core; Individual Sample|
 
 |User Code|<code> Required </code>|
 |:---|:---|
