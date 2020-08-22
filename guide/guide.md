@@ -10,12 +10,22 @@ We seek any additional feedback, with the goal of making ESS sample information 
 **Categories of Sample Metadata:**
 
 - [Header Rows](#header-rows)
+  * [Object Type <code>Required</code>](#object-type--code-required--code-)
+  * [User Code <code>Required</code>](#user-code--code-required--code-)
 - [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
+  * [Sample Name <code> Required </code>](#sample-name--code--required---code-)
+  * [Other name(s) <code> Optional </code>](#other-name-s---code--optional---code-)
+  * [IGSN <code> Recommended </code>](#igsn--code--recommended---code-)
+  * [Parent IGSN <code>Required</code>, if relevant](#parent-igsn--code-required--code---if-relevant)
+  * [Collection ID <code>Optional</code>](#collection-id--code-optional--code-)
+  * [Event ID <code>Optional</code>](#event-id--code-optional--code-)
+  * [Site ID|<code>Optional</code>](#site-id--code-optional--code-)
 - [Sample Description](#sample-description)
 - [Sample Collection Details](#sample-collection-details)
 - [Location](#location)
 - [Environmental Context](#environmental-context)
 - [Sample Access](#sample-access)
+
 
 ---  
 
