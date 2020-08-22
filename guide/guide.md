@@ -21,7 +21,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Header Rows
 
-###Object Type <code> Required </code>
+### Object Type <code> Required </code>
 |Proposed Element Name|objectType|
 |:---|:---|
 |Format|[Controlled list.](https://www.geosamples.org/help/vocabularies#object)|
