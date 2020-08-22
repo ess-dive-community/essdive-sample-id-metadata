@@ -31,16 +31,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Header Rows
 
-### Object Type <code>Required</code>
-|Proposed ESS-DIVE Element Name       |objectType                                          |
+### Object Type
+|Proposed ESS-DIVE Element Name       |objectType  <code>Required</code>                   |
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Definition**                       |Broad characterization of the nature of a sample or specimen.|
 |**Additional Instructions**          |See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 |**Examples**                         |Core; Individual Sample; Organism|
 
-### User Code <code>Required</code>
-|Proposed ESS-DIVE Element Name       |userCode                                            |
+### User Code 
+|Proposed ESS-DIVE Element Name       |userCode <code>Required</code>                      |
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |Five-letter code                                    |
 |**Definition**                       |Globally unique IGSN code that will be used as a prefix for IGSNs in the submitted batch template.|
