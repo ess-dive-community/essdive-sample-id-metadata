@@ -21,20 +21,21 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Header Rows
 
-### Object Type ###  <code>Required</code>
-|Proposed Element Name|objectType|
+### Object Type <code>Required</code>
+|Proposed Element Name       |objectType                                          |
 |:---------------------------|:---------------------------------------------------|
 |**Format**                  |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Definition**              |Broad characterization of the nature of a sample or specimen.|
 |**Additional Instructions** |See [object type crosswalk](https://docs.google.com/spreadsheets/d/1kBETFbNoMfkgxbVhqiEJppCT2GaZYJUywucSKdblVJM/edit#gid=625226234) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 |**Examples**                |Core; Individual Sample; Organism|
 
-|User Code|<code> Required </code>|
-|:---|:---|
-|Proposed Element Name|userCode|
-|Example|IEMEG|
-|Definition|Five-letter code that will be used as a prefix for IGSNs in the submitted batch template.|
-|Additional Instructions|User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+### User Code <code>Required</code>
+|Proposed Element Name       |userCode                                            |
+|:---------------------------|:---------------------------------------------------|
+|**Format**                  |Five-letter code                                    |
+|**Definition**              |Globally unique code that will be used as a prefix for IGSNs in the submitted batch template.|
+|**Additional Instructions** |User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
+|**Examples**                |IEMEG, IEJDE                                        |
 
 ---  
 
