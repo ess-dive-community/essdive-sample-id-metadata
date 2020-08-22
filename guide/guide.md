@@ -42,54 +42,61 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name <code> Required </code>
-|Proposed Element Name                |sampleName                                          |
+|Proposed ESS-DIVE Element Name       |sampleName                                          |
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |free text, unique                                   |
 |**Definition**                       |Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
 |**Additional Instructions**          |You can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
 |**Examples**                         |001-ER18-FO                                         |
 
-|Other name(s)|<code> Optional </code>|
-|:---|:---|
-|Proposed Element Name|otherName|
-|Example|001ER18FO; 001ER18-FO|
-|Definition|Other sample name(s) that have been used in the past. |
-|Additional Instructions|Use a semi-colon to delimit multiple names where needed.|
+### Other name(s) <code> Optional </code>
+|Proposed ESS-DIVE Element Name       |otherName                                           |
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |Other sample name(s) that have been used in the past.|
+|**Format**                           |free text                                           |
+|**Additional Instructions**          |Use a semi-colon to delimit multiple names where needed.|
+|**Examples**                         |001ER18FO; 001ER18-FO                               |
 
-|IGSN|<code> Recommended </code>|
-|:---|:---|
-|Proposed Element Name|IGSN|
-|Example|IEMEG0001|
-|Definition|Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to assign the IGSN, which is recommended. |
-|Additional Instructions|For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters. |
+### IGSN <code> Recommended </code>
+|Proposed ESS-DIVE Element Name       |IGSN                                                |
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to assign the IGSN, which is recommended.|
+|**Format**                           |semi-opaque, alphanumeric characters (9 recommended)|
+|**Additional Instructions**          |For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters.|
+|**Examples**                         |IEWER7214, IEMEG0215                                |
 
-|Parent IGSN|<code>Required</code>, if relevant|
-|:---|:---|
-|Proposed Element Name|parentIGSN|
-|Example|IEMEG0002|
-|Definition|The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
-|Additional Instructions|Leave blank if a parent IGSN does not exist. |
+### Parent IGSN <code>Required</code>, if relevant
+|Proposed ESS-DIVE Element Name       |parentIGSN                                          |
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
+|**Format**                           |semi-opaque, alphanumeric characters (9 recommended)|                                                    |
+|**Additional Instructions**          |Leave blank if a parent IGSN does not exist.        |
+|**Examples**                         |IEMEG0002                                           |
 
-|Collection ID|<code>Optional</code>, Not in SESAR|
-|:---|:---|
-|Proposed Element Name|collectionID|
-|Example|WSFA_June2019|
-|Definition|A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection." |
-|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+### Collection ID <code>Optional</code>
+|Proposed ESS-DIVE Element Name       |collectionID|
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. |
+|**Format**                           |free text, unique                                   |
+|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection."|
+|**Examples**                         |WSFA_June2019                                       |
 
-|Event ID|<code>Optional</code>, Not in SESAR|
-|:---|:---|
-|Proposed Element Name|eventID|
-|Example|WSFA_20191023|
-|Definition|A unique identifier for the set of information associated with an Event (something that occurs at a place and time). An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+### Event ID <code>Optional</code>
+|Proposed ESS-DIVE Element Name       |eventID|
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |A unique identifier for the set of information associated with an Event (something that occurs at a place and time).|
+|**Format**                           |free text, unique                                   |
+|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
+|**Examples**                         |WSFA_20191023                                       |
 
-|Site ID|<code>Optional</code>, Not in SESAR|
-|:---|:---|
+### Site ID|<code>Optional</code>
 |Proposed Element Name|siteID|
-|Example|CoyoteRiver_D22|
-|Definition|A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set. For ESS-DIVE, a site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|Additional Instructions|Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs.  |
+|:---|:---|
+|:------------------------------------|:---------------------------------------------------|
+|**Definition**                       |A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set.|
+|**Format**                           |free text, unique                                   |
+|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. A site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples. |
+|**Examples**                         |CoyoteRiver_D22                                     |
 
 ---  
 
