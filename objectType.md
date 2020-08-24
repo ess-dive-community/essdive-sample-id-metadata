@@ -1,6 +1,6 @@
-#ESS-DIVE Proposed Object Type Vocabulary
+# ESS-DIVE Proposed Object Type Vocabulary
 
-We have modified the original SESAR IGSN list of [object type terms](https://www.geosamples.org/help/vocabularies#object) for Environmental Systems Science Samples. Currently, **you must use SESAR terms** to register samples for IGSNs. Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
+We have modified the original SESAR IGSN list of [object type terms](https://www.geosamples.org/help/vocabularies#object) for Environmental Systems Science (ESS) samples. Currently, **you must use SESAR terms** to register samples for IGSNs. Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
 
 **ESS-DIVE Object Type**|**SESAR IGSN Label**|**Description**
 :-----------------------|:--------------------|:-----
