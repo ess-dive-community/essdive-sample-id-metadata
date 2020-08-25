@@ -1,0 +1,29 @@
+# ESS-DIVE Sample Units Vocabulary
+
+Here is a subset of controlled unit terms for Environmental Systems Science (ESS) samples, using existing ontology terms from Units Ontology (UO) link to ontology term details (IRI for term). 
+
+Please provide feedback on any additional unit terms needed.  
+
+**Unit category**|**Unit Label**|**UO ID**
+:---------|:-----------------|:------
+length    |meter             |http://purl.obolibrary.org/obo/UO_0000008
+length    |centimeter        |http://purl.obolibrary.org/obo/UO_0000015
+length    |millimeter        |http://purl.obolibrary.org/obo/UO_0000016
+length    |micrometer        |http://purl.obolibrary.org/obo/UO_0000017
+area      |square meter      |http://purl.obolibrary.org/obo/UO_0000080
+area      |square centimeter |http://purl.obolibrary.org/obo/UO_0000081
+area      |square millimeter |http://purl.obolibrary.org/obo/UO_0000082
+area      |square micrometer |http://purl.obolibrary.org/obo/UO_0010001
+mass      |kilogram          |http://purl.obolibrary.org/obo/UO_0000009
+mass      |gram              |http://purl.obolibrary.org/obo/UO_0000021
+mass      |milligram         |http://purl.obolibrary.org/obo/UO_0000022
+mass      |microgram         |http://purl.obolibrary.org/obo/UO_0000023
+mass      |nanogram          |http://purl.obolibrary.org/obo/UO_0000024
+mass      |picogram          |http://purl.obolibrary.org/obo/UO_0000025
+volume    |cubic meter       |http://purl.obolibrary.org/obo/UO_0000096
+volume    |cubic centimeter  |http://purl.obolibrary.org/obo/UO_0000097
+volume    |cubic decimeter   |http://purl.obolibrary.org/obo/UO_0000100
+volume    |milliliter        |http://purl.obolibrary.org/obo/UO_0000098
+volume    |liter             |http://purl.obolibrary.org/obo/UO_0000099
+volume    |nanoliter         |http://purl.obolibrary.org/obo/UO_0000102
+volume    |picoliter         |http://purl.obolibrary.org/obo/UO_0000103
