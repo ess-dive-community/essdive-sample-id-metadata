@@ -13,7 +13,7 @@ Grab                    |Grab                 |A sample (sometimes mechanically 
 Material Sample         |Individual Sample    |A sample that is an individual unit of material, including soil or sediment samples, biological material, or a bottle of fluid. [A physical result of a sampling (or subsampling) event.](	http://rs.tdwg.org/dwc/terms/MaterialSample)
 Filtrate                |NA                   |A sample that has gone through a filtration process to separate solids from fluids (liquids or gases), using a filter medium through which only the fluid can pass. _Must be associated with a filter size._ 
 Material Captured in Filter|NA                |A material sample captured in filter, for example from a water sample that was filtered. Must be associated with filter size field. _Material options include: "particulate matter" or "particulate matter: organic particulate matter" ._
-Organism                |NA                   |[A whole specimen of a biological organism.](http://rs.tdwg.org/dwc/terms/Organism) 
+Organism                |NA                   |A whole specimen of a biological organism. [A particular organism or defined group of organisms considered to be taxonomically homogeneous.](http://rs.tdwg.org/dwc/terms/Organism) 
 Part of organism        |NA                   |A specimen of a portion of a biological organism (e.g. leaf, root, stem).
 Collection of organisms |NA                   |[A material entity that consists of two or more organisms, viruses, or viroids.](http://purl.obolibrary.org/obo/PCO_0000000)
 Site                    |Site                 |A place where a sample is collected.
