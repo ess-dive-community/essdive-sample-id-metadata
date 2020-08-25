@@ -116,7 +116,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------------------|:------------------------------|
 |**Definition**                       |Material that the sample consists of.|
 |**Format**                           |[Controlled list](https://app.geosamples.org/reference/materials.php)
-|**Additional Instructions**          |ESS-DIVE is requesting additional terms for organisms, organic material, and water samples, [see material terms crosswalk (NEED TO UPDATE LINK)](https://docs.google.com/spreadsheets/d/1fdI1x_nRUcGgcgWhwJZVNkNhVhTUPbHmB0inUEXcDUE/edit?ts=5eeb9683#gid=405062981) |
+|**Additional Instructions**          |ESS-DIVE is requesting additional terms for organisms, organic material, and water samples. [See ESS-DIVE proposed material terms, and provide feedback on modifications needed.](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md) |
 |Example|soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
