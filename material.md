@@ -2,11 +2,11 @@
 
 We have modified the original SESAR IGSN list of [materials](https://app.geosamples.org/reference/materials.php) for Environmental Systems Science (ESS) samples. Currently, **you must use SESAR terms** to register samples for IGSNs. Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
 
-**ProposedMaterial**|**IGSN\_SESAR\_Label**|**IGSN\_Core\_Label**|**ENVO\_PO\_ID**|**Description**
-:-----:|:-----:|:-----:|:-----:|:-----:
-gaseous environmental material|Gas|gas|http://purl.obolibrary.org/obo/ENVO\_01000797| 
-ice|Ice|ice|http://purl.obolibrary.org/obo/ENVO\_01001125| 
-liquid environmental material: liquid water|Liquid>aqueous|liquidAqueous|http://purl.obolibrary.org/obo/ENVO\_00002006| 
+**ProposedMaterial**                       |**IGSN_SESAR**|**ENVO Definition**
+:------------------------------------------|:-------------|:-----------------------------------------
+gaseous environmental material             |Gas           |[A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.](http://purl.obolibrary.org/obo/ENVO_01000797)
+ice                                        |Ice           |[An ice is an environmental material which is either frozen or which is maintained in a solid state by gravitational forces or pressure.](http://purl.obolibrary.org/obo/ENVO_01001125)
+liquid environmental material: liquid water|Liquid>aqueous|[An environmental material primarily composed of dihydrogen oxide in its liquid form.](http://purl.obolibrary.org/obo/ENVO_00002006)
 organic material: biofilm material|Liquid>organic|liquidOrganic|http://purl.obolibrary.org/obo/ENVO\_01000156| 
 particulate matter|Particulate|particulate|http://purl.obolibrary.org/obo/ENVO\_01000060| 
 particulate matter: particulate organic matter|Particulate|particulate|Particulate| 
