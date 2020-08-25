@@ -1,4 +1,6 @@
+# ESS-DIVE Proposed Material Vocabulary
 
+We have modified the original SESAR IGSN list of [materials](https://app.geosamples.org/reference/materials.php) for Environmental Systems Science (ESS) samples. Currently, **you must use SESAR terms** to register samples for IGSNs. Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
 
 **ProposedMaterial**|**IGSN\_SESAR\_Label**|**IGSN\_Core\_Label**|**ENVO\_PO\_ID**|**Description**
 :-----:|:-----:|:-----:|:-----:|:-----:
