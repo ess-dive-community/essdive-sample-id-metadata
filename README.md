@@ -1,6 +1,6 @@
 # ESS-DIVE Sample ID and Metadata Standard
 
-ESS-DIVE recommends registering samples for persistent identifiers through the System for Earth Sample Registration (SESAR), specifically [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn). IGSNs are associated with standardized metadata to characterize samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
+ESS-DIVE recommends registering samples for persistent identifiers through the [System for Earth Sample Registration (SESAR)](https://www.geosamples.org/), specifically [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn). IGSNs are associated with standardized metadata to characterize samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
 
 ## Getting started
 
@@ -29,7 +29,7 @@ You can contribute by [submitting an issue](https://github.com/ess-dive-communit
 
 ## Recommended Citation
 
-**_Please cite the SESAR IGSN standard, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.** 
+_**Please cite the SESAR IGSN standard, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
 
 System for Earth Sample Registration (SESAR). 2020. SESAR Batch Registration Quick Guide (Version 7.0). Zenodo. http://doi.org/10.5281/zenodo.3874923
 
