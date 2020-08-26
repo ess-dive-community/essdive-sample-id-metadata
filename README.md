@@ -8,7 +8,7 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 
 - Crosswalk comparing sample-related standards and templates
 - [Downloadable template for sample metadata](sampleTemplate.xls)
-- [Instructions for registering samples for IGSN through SESAR](instructions.md)
+- [Instructions for registering samples for IGSNs through SESAR](instructions.md)
 - [Guide to describe sample metadaata elements and associated requirements](guide.md)
 - Proposed vocabularies for [object type](objectType.md), [material](material.md), and [units](units.md)
 
