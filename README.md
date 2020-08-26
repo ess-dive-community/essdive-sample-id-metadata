@@ -19,7 +19,7 @@ Stay tuned for a link to our related paper describing the sample ID and metadata
 
 ## How to contribute
 
-The purpose of this sample ID and metadata standard is to support ESS scientists in sample data management, discovery, and reuse. The standard should be useful and practical for this community. We therefore solicit feedback on suggested improvements and any aspect of the standard that does not work well for you.
+The purpose of this standard is to support ESS scientists in sample data management, discovery, and reuse. The standard should be useful and practical for this community. We therefore solicit feedback on suggested improvements and any aspect of the standard that does not work well for you.
 
 You can contribute by [submitting an issue](https://github.com/ess-dive-community/essdive-community-repo-guide#how-to-contribute) directly in this github repository (preferred method), or by contacting us at ess-dive-support@lbl.gov.  
 
