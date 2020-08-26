@@ -2,7 +2,7 @@
 
 Here you will find proposed guidelines for standardizing sample metadata to describe interdisciplinary samples within DOE's Environmental Systems Science community.
 
-ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for samples from the System for Earth Sample Registration (SESAR). Most of this proposed sample standard follows SESAR's metadata guidelines. However, we have proposed changes to metadata elements, specific requirements, and vocabularies based on ESS community needs. 
+ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for samples from the System for Earth Sample Registration (SESAR). Most of this proposed sample standard follows [SESAR's metadata guidelines](http://doi.org/10.5281/zenodo.3874923). However, we have proposed changes to metadata elements, specific requirements, and vocabularies based on ESS community needs. 
 
 We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
@@ -112,34 +112,37 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample Description
 
 ### Material 
-|Proposed ESS-DIVE Element Name       |material<code>Required</code>|
-|:------------------------------------|:------------------------------|
+|Proposed ESS-DIVE Element Name       |material<code>Required</code>        |
+|:------------------------------------|:------------------------------------|
 |**Definition**                       |Material that the sample consists of.|
 |**Format**                           |[Controlled list](https://app.geosamples.org/reference/materials.php)
 |**Additional Instructions**          |ESS-DIVE is requesting additional terms for organisms, organic material, and water samples. [See ESS-DIVE proposed material terms, and provide feedback on modifications needed.](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md) |
-|Example|soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
+|**Examples**                         |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
-|Field name (informal classification)| <code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|classification|
-|Example|leaf, root|
-|Definition|Informal classification of sample.|
-|Additional Instructions|free-text. Here you can add additional material classifications in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
+### Field name (informal classification) 
+|Proposed ESS-DIVE Element Name       |classification, or remove <code>Optional</code>                   |
+|:------------------------------------|:-----------------------------------------------------------------|
+|**Definition**                       |Informal classification of sample                                 |
+|**Format**                           |free text                                                         |
+|**Additional Instructions**          |Here you can add additional material classifications that are not in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
+|**Examples**                         |leaf, root                                                        |
 
-|Sample Description|<code>Recommended</code>|
-|:---|:---|
-|Proposed Element Name|sampleDescription|
-|Example| Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Example 2) Filter used for filtered surface water samples|
-|Definition|Description of sample features, such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
-|Additional Instructions|free-text|
+### Sample Description 
+|Proposed ESS-DIVE Element Name       |sampleDescription <code>Recommended</code>|
+|:------------------------------------|:-----------------------------------------|
+|**Definition**                       |Description of sample features, such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
+|**Format**                           |free-text                                 |
+|**Additional Instructions**          |                                          |
+|**Examples**                         |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Example 2) Filter used for filtered surface water samples|
 
-|Purpose|<code>Recommended</code>|
-|:---|:---|
-|Proposed Element Name|purpose|
-|Example|Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
-|Definition|The scientific purpose for collecting the sample. |
-|Additional Instructions|free-text. Purpose may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). |
+### Purpose                           
+|Proposed ESS-DIVE Element Name       |purpose <code>Recommended</code>                  |
+|:------------------------------------|:-------------------------------------------------|
+|**Definition**                       |The scientific purpose for collecting the sample. |
+|**Format**                           |free text
+|**Additional Instructions**          |Purpose may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). |
+|**Examples**                         |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
 
 |Size|<code>Optional</code>|
 |:---|:---|
