@@ -1,6 +1,6 @@
 # ESS-DIVE Sample ID and Metadata Standard
 
-ESS-DIVE recommends registering samples for persistent identifiers, specifically International Geo/General Sample Numbers (IGSNs), which require standardized metadata to characterize samples and their collection details. The IGSN allows efficient and reliable sample tracking, and is especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
+ESS-DIVE recommends registering samples for persistent identifiers, specifically [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn), which are associated with standardized metadata to characterize samples and their collection details. IGSNs facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
 
 ## Getting started
 
@@ -10,6 +10,7 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 - [Downloadable template for sample metadata](sampleTemplate.xls)
 - [Instructions for registering samples for IGSN through SESAR](instructions.md)
 - [Guide to describe sample metadaata elements and associated requirements](guide.md)
+- Proposed vocabularies for [object type](objectType.md), [material](material.md), and [units](units.md)
 
 - [How to contribute](#how-to-contribute)
 
