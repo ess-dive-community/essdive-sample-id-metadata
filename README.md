@@ -15,11 +15,13 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 
 ## About the Sample ID and metadata standard
 
-Here is where we can write a short abstract describing the development of the standard.
+Stay tuned for a link to our related paper describing the sample ID and metadata standard. 
 
 ## How to contribute
 
-Provide details on how users can submit issues to suggest changes to the standard.
+The purpose of this sample ID and metadata standard is to support ESS scientists in sample data management, discovery, and reuse. The standard should be useful and practical for this community. We therefore solicit community feedback on suggested improvements and any aspect of the standard that does not work well for you.
+
+You can contribute by [submitting an issue](https://github.com/ess-dive-community/essdive-community-repo-guide#how-to-contribute) directly in this github repository, or by contacting us at ess-dive-support@lbl.gov.  
 
 ## Copyright information
 
