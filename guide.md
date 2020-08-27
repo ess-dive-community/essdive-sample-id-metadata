@@ -35,8 +35,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
 |:------------------------|:----------------------------------------------------|
 |**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
-|**Definition**           |Broad characterization of the nature of a sample or specimen.|
-|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|**Definition**           |Broad characterization of the nature of a sample or <br>specimen.|
+|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md)<br> for revised terms proposed for ESS-DIVE, and provide feedback on additional<br> terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
@@ -60,7 +60,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=500/>   |
+|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=400/>   |
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Other sample name(s) that have been used in the past.|
 |**Format**               |free text                                            |
