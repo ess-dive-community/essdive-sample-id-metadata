@@ -32,48 +32,48 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|<div style="width:290px">ESS-DIVE Proposed Element Name</div> |objectType  <code>Required</code>                   |
-|:------------------------------------|:---------------------------------------------------|
-|**Format**                           |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
-|**Definition**                       |Broad characterization of the nature of a sample or specimen.|
-|**Additional Instructions**          |See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
-|**Examples**                         |Core; Individual Sample; Organism|
+|ESS-DIVE Proposed Element|objectType <code>Required</code> <img width=500/>    | 
+|:------------------------|:----------------------------------------------------|
+|**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
+|**Definition**           |Broad characterization of the nature of a sample or specimen.|
+|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms <br>proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|<div style="width:290px">ESS-DIVE Proposed Element Name</div>  |userCode <code>Required</code>                      |
-|:------------------------------------|:---------------------------------------------------|
-|**Format**                           |Five-letter code                                    |
-|**Definition**                       |Globally unique IGSN code that will be used as a prefix for IGSNs in the submitted batch template.|
-|**Additional Instructions**          |User codes should be unique to an individual or large project managed by a team; avoid creating multiple user codes. If assigning IGSNs in the IGSN column, the user code must match the user code in the IGSNs. For example, if the user specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG. If you do not specify the user code to be used, a default user code belonging to the registrant will be used.|
-|**Examples**                         |IEMEG, IEJDE                                        |
+|ESS-DIVE Proposed Element|userCode <code>Required</code>                       |
+|:------------------------|:----------------------------------------------------|
+|**Format**               |Five-letter code                                     |
+|**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
+|**Additional Instructions**|User codes should be unique to an individual or large project managed by a team;<br> avoid creating multiple user codes. If assigning IGSNs in the IGSN column, <br>the user code must match the user code in the IGSNs. For example, if the user <br>specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG.<br> If you do not specify the user code to be used, a default user code belonging<br> to the registrant will be used.|
+|**Examples**             |IEMEG, IEJDE                                        |
 
 ---  
 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|<div style="width:290px">ESS-DIVE Proposed Element Name</div> |sampleName <code> Required </code>                  | 
-|:------------------------------------|:---------------------------------------------------|
-|**Format**                           |free text, unique                                   |
-|**Definition**                       |Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
-|**Additional Instructions**          |You can develop a sample ID that has meaning to you and may help in your internal, project sample management.|
+|ESS-DIVE Proposed Element Name|sampleName <code> Required </code><img width=500/>     |  
+|:-----------------------------|:------------------------------------------------------|
+|**Format**                    |free text, unique                                      |
+|**Definition**                |Collector's project-specific sample name, which must be unique for each sample that you<br> are submitting.|
+|**Additional Instructions**   |You can develop a sample ID that has meaning to you and may help in your internal, project<br> sample management.|
 |**Examples**                         |001-ER18-FO                                         |
 
 ### Other name(s) 
-|Proposed ESS-DIVE Element Name       |otherName <code> Optional </code>                   |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |Other sample name(s) that have been used in the past.|
-|**Format**                           |free text                                           |
-|**Additional Instructions**          |Use a semi-colon to delimit multiple names where needed.|
-|**Examples**                         |001ER18FO; 001ER18-FO                               |
+|Proposed ESS-DIVE Element Name|otherName <code> Optional </code> <img width=500/>     |
+|:-----------------------------|:------------------------------------------------------|
+|**Definition**                |Other sample name(s) that have been used in the past.  |
+|**Format**                    |free text                                              |
+|**Additional Instructions**   |Use a semi-colon to delimit multiple names where needed.|
+|**Examples**                  |001ER18FO; 001ER18-FO                                  |
 
 ### IGSN
-|Proposed ESS-DIVE Element Name       |IGSN <code> Recommended </code>                     |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to assign the IGSN, which is recommended.|
-|**Format**                           |semi-opaque, alphanumeric characters (9 recommended)|
-|**Additional Instructions**          |For split samples/subsamples, you can assign your own 1-2 character extensions from the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is not required, but is an option if desired. For assigning your own IGSNS, you must use upper-case alpha-numeric characters.|
-|**Examples**                         |IEWER7214, IEMEG0215                                |
+|Proposed ESS-DIVE Element Name|IGSN <code> Recommended </code>                        |
+|:-----------------------------|:------------------------------------------------------|
+|**Definition**                |Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to<br> assign the IGSN, which is recommended.|
+|**Format**                    |semi-opaque, alphanumeric characters (9 recommended)   |
+|**Additional Instructions**   |For split samples/subsamples, you can assign your own 1-2 character extensions from <br>the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is <br>not required, but is an option if desired. For assigning your own IGSNS, you must use <br>upper-case alpha-numeric characters.|
+|**Examples**                  |IEWER7214, IEMEG0215                                   |
 
 ### Parent IGSN 
 |Proposed ESS-DIVE Element Name       |parentIGSN <code>Required</code>, if relevant       |
