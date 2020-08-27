@@ -32,11 +32,11 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|ESS-DIVE Proposed Element|objectType <code>Required</code> <img width=500/>    | 
+|ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
 |:------------------------|:----------------------------------------------------|
 |**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
-|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms <br>proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
+|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE, and provide feedback on additional terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
@@ -52,44 +52,43 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|ESS-DIVE Proposed Element Name|sampleName <code> Required </code><img width=500/>     |  
-|:-----------------------------|:------------------------------------------------------|
-|**Format**                    |free text, unique                                      |
-|**Definition**                |Collector's project-specific sample name, which must be unique for each sample that you<br> are submitting.|
-|**Additional Instructions**   |You can develop a sample ID that has meaning to you and may help in your internal, project<br> sample management.|
-|**Examples**                         |001-ER18-FO                                         |
+|ESS-DIVE Proposed Element|sampleName <code>Required</code>                     |
+|:------------------------|:----------------------------------------------------|
+|**Format**               |free text, unique                                    |
+|**Definition**           |Collector's project-specific sample name, which must be unique for each sample that<br> you are submitting.|
+|**Additional Instructions**|You can develop a sample ID that has meaning to you and may help in your internal, <br>project sample management.|
+|**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|Proposed ESS-DIVE Element Name|otherName <code> Optional </code> <img width=500/>     |
-|:-----------------------------|:------------------------------------------------------|
-|**Definition**                |Other sample name(s) that have been used in the past.  |
-|**Format**                    |free text                                              |
-|**Additional Instructions**   |Use a semi-colon to delimit multiple names where needed.|
-|**Examples**                  |001ER18FO; 001ER18-FO                                  |
+|ESS-DIVE Proposed Element|otherName <code> Optional </code>                    |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Other sample name(s) that have been used in the past.|
+|**Format**               |free text                                            |
+|**Additional Instructions**|Use a semi-colon to delimit multiple names where needed.|
+|**Examples**             |001ER18FO; 001ER18-FO                                |
 
 ### IGSN
-|Proposed ESS-DIVE Element Name|IGSN <code> Recommended </code>                        |
-|:-----------------------------|:------------------------------------------------------|
-|**Definition**                |Globally unique and persistent identifier for the sample. Leave blank if you want SESAR to<br> assign the IGSN, which is recommended.|
-|**Format**                    |semi-opaque, alphanumeric characters (9 recommended)   |
-|**Additional Instructions**   |For split samples/subsamples, you can assign your own 1-2 character extensions from <br>the Parent IGSN, and submit your own IGSNs for registering these child samples.  This is <br>not required, but is an option if desired. For assigning your own IGSNS, you must use <br>upper-case alpha-numeric characters.|
-|**Examples**                  |IEWER7214, IEMEG0215                                   |
+|ESS-DIVE Proposed Element|IGSN <code> Recommended </code>                      |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
+|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
+|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own <br>IGSNS, you must use <br>upper-case alpha-numeric characters.|
+|**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
-|Proposed ESS-DIVE Element Name       |parentIGSN <code>Required</code>, if relevant       |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |The larger sample from which a child sample was derived. For example, a core section may be the parent of a series of subsamples or split samples. Parent and child samples are linked in the SESAR catalog. Sibling samples are inferred from parent-child relationships and are linked on the landing page for a sample.    |
-|**Format**                           |semi-opaque, alphanumeric characters (9 recommended)|                                                    |
-|**Additional Instructions**          |Leave blank if a parent IGSN does not exist.        |
-|**Examples**                         |IEMEG0002                                           |
+|Proposed ESS-DIVE Element|parentIGSN <code>Required</code>, if relevant        |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page<br> for a sample.    |
+|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  |**Additional Instructions**|Leave blank if a parent IGSN does not exist.       |
+|**Examples**              |IEMEG0002                                           |
 
 ### Collection ID 
-|Proposed ESS-DIVE Element Name       |collectionID <code>Optional</code>                  |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. |
-|**Format**                           |free text, unique                                   |
-|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. A collection identifier can be used to link a set of samples together, and/or to enable efficient entry of metadata that is the same across all samples in a "sample collection."|
-|**Examples**                         |WSFA_June2019                                       |
+|Proposed ESS-DIVE Element|collectionID <code>Optional</code>                   |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. |
+|**Format**               |free text, unique                                    |
+|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates <br>linking related collection, site, event, and sample IDs. A collection identifier<br> can be used to link a set of samples together, and/or to enable efficient<br> entry of metadata that is the same across all samples in a "sample collection."|
+|**Examples**             |WSFA_June2019                                        |
 
 ### Event ID 
 |Proposed ESS-DIVE Element Name       |eventID <code>Optional</code>                       |
