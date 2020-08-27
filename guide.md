@@ -72,7 +72,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
-|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own <br>IGSNS, you must use <br>upper-case alpha-numeric characters.|
+|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own <br>IGSNS, you must use upper-case alpha-numeric characters.|
 |**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
