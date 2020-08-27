@@ -32,7 +32,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|Proposed ESS-DIVE Element Name       |objectType  <code>Required</code>                   |
+|<div style="width:290px">ESS-DIVE Proposed Element Name</div> |objectType  <code>Required</code>                   |
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Definition**                       |Broad characterization of the nature of a sample or specimen.|
@@ -40,7 +40,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**                         |Core; Individual Sample; Organism|
 
 ### User Code 
-|Proposed ESS-DIVE Element Name       |userCode <code>Required</code>                      |
+|<div style="width:290px">ESS-DIVE Proposed Element Name</div>  |userCode <code>Required</code>                      |
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |Five-letter code                                    |
 |**Definition**                       |Globally unique IGSN code that will be used as a prefix for IGSNs in the submitted batch template.|
@@ -52,7 +52,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|Proposed ESS-DIVE Element Name       |sampleName <code> Required </code>                  | 
+|<div style="width:290px">ESS-DIVE Proposed Element Name</div> |sampleName <code> Required </code>                  | 
 |:------------------------------------|:---------------------------------------------------|
 |**Format**                           |free text, unique                                   |
 |**Definition**                       |Collector's project-specific sample name, which must be unique for each sample that you are submitting.|
