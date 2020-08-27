@@ -34,16 +34,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Object Type
 |ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
 |:------------------------|:----------------------------------------------------|
-|**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
+|**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
 |**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE, and provide feedback<br> on additional terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
 |ESS-DIVE Proposed Element|userCode <code>Required</code>                       |
 |:------------------------|:----------------------------------------------------|
-|**Format**               |Five-letter code                                     |
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
+|**Format**               |Five-letter code                                     |
 |**Additional Instructions**|User codes should be unique to an individual or large project managed by a team;<br> avoid creating multiple user codes. If assigning IGSNs in the IGSN column, <br>the user code must match the user code in the IGSNs. For example, if the user <br>specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG.<br> If you do not specify the user code to be used, a default user code belonging<br> to the registrant will be used.|
 |**Examples**             |IEMEG, IEJDE                                        |
 
@@ -54,8 +54,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Sample Name
 |ESS-DIVE Proposed Element|sampleName <code>Required</code>                     |
 |:------------------------|:----------------------------------------------------|
-|**Format**               |free text, unique                                    |
 |**Definition**           |Collector's project-specific sample name, which must be unique for each sample that<br> you are submitting.|
+|**Format**               |free text, unique                                    |
 |**Additional Instructions**|You can develop a sample ID that has meaning to you and may help in your internal, <br>project sample management.|
 |**Examples**             |001-ER18-FO                                          |
 
@@ -79,7 +79,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed ESS-DIVE Element|parentIGSN <code>Required</code>, if relevant        |
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for a sample.|
-|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  |**Additional Instructions**|Leave blank if a parent IGSN does not exist.       |
+|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  |**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
 |**Examples**              |IEMEG0002                                           |
 
 ### Collection ID 
