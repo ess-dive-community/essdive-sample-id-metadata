@@ -60,7 +60,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|ESS-DIVE Proposed Element|otherName <code> Optional </code>                    |
+|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=500/>   |
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Other sample name(s) that have been used in the past.|
 |**Format**               |free text                                            |
@@ -85,18 +85,18 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Collection ID 
 |Proposed ESS-DIVE Element|collectionID <code>Optional</code>                   |
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A unique identifier for the set of information associated with a collection of samples; collections may be organized around a particular project, data set, field season, region, site, etc. |
+|**Definition**           |A unique identifier for the set of information associated with a collection<br> of samples; collections may be organized around a particular project, data set,<br> field season, region, site, etc. |
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates <br>linking related collection, site, event, and sample IDs. A collection identifier<br> can be used to link a set of samples together, and/or to enable efficient<br> entry of metadata that is the same across all samples in a "sample collection."|
 |**Examples**             |WSFA_June2019                                        |
 
 ### Event ID 
-|Proposed ESS-DIVE Element Name       |eventID <code>Optional</code>                       |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |A unique identifier for the set of information associated with an Event (something that occurs at a place and time).|
-|**Format**                           |free text, unique                                   |
-|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. An event identifier can be used to link a set of samples collected on a specific date,  and/or to enable efficient entry of metadata that is the same across these samples.|
-|**Examples**                         |WSFA_20191023                                       |
+|Proposed ESS-DIVE Element|eventID <code>Optional</code>                        |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |A unique identifier for the set of information associated with an Event <br>(something that occurs at a place and time).|
+|**Format**               |free text, unique                                    |
+|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates<br> linking related collection, site, event, and sample IDs. An event identifier<br> can be used to link a set of samples collected on a specific date,  and/or to<br> enable efficient entry of metadata that is the same across these samples.|
+|**Examples**             |WSFA_20191023                                        |
 
 ### Site ID
 |Proposed ESS-DIVE Element Name       |siteID <code>Optional</code>                        |
