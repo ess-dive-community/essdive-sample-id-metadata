@@ -60,7 +60,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=400/>   |
+|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=450/>   |
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Other sample name(s) that have been used in the past.|
 |**Format**               |free text                                            |
@@ -78,16 +78,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Parent IGSN 
 |Proposed ESS-DIVE Element|parentIGSN <code>Required</code>, if relevant        |
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page<br> for a sample.    |
+|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for a sample.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  |**Additional Instructions**|Leave blank if a parent IGSN does not exist.       |
 |**Examples**              |IEMEG0002                                           |
 
 ### Collection ID 
 |Proposed ESS-DIVE Element|collectionID <code>Optional</code>                   |
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A unique identifier for the set of information associated with a collection<br> of samples; collections may be organized around a particular project, data set,<br> field season, region, site, etc. |
+|**Definition**           |A unique identifier for the set of information associated with a collection of<br> samples; collections may be organized around a particular project, data set, field<br> season, region, site, etc. |
 |**Format**               |free text, unique                                    |
-|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates <br>linking related collection, site, event, and sample IDs. A collection identifier<br> can be used to link a set of samples together, and/or to enable efficient<br> entry of metadata that is the same across all samples in a "sample collection."|
+|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates linking<br> related collection, site, event, and sample IDs. A collection identifier can be<br> used to link a set of samples together, and/or to enable efficient entry of<br> metadata that is the same across all samples in a "sample collection."|
 |**Examples**             |WSFA_June2019                                        |
 
 ### Event ID 
@@ -113,7 +113,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Material 
 |Proposed ESS-DIVE Element|material<code>Required</code>                        |
 |:------------------------|:----------------------------------------------------|
-|**Definition**                       |Material that the sample consists of.|
+|**Definition**           |Material that the sample consists of.                |
 |**Format**               |[Controlled list](https://app.geosamples.org/reference/materials.php)|
 |**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, <br>and water samples. See ESS-DIVE's proposed [material terms](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md), and provide feedback on modifications needed.] |
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
