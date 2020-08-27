@@ -40,7 +40,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|ESS-DIVE Proposed Element|userCode <code>Required</code>                       |
+|ESS-DIVE Proposed Element|userCode <p align="right"> <code>Required</code> </p>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
 |**Format**               |Five-letter code                                     |
