@@ -72,7 +72,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
-|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own <br>IGSNS, you must use upper-case alpha-numeric characters.|
+|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own IGSNS,<br> you must use upper-case alpha-numeric characters.|
 |**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
@@ -99,24 +99,24 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |WSFA_20191023                                        |
 
 ### Site ID
-|Proposed ESS-DIVE Element Name       |siteID <code>Optional</code>                        |
-|:------------------------------------|:---------------------------------------------------|
-|**Definition**                       |A unique identifier for the set of site location information. May be a global unique identifier or an identifier specific to the data set.|
-|**Format**                           |free text, unique                                   |
-|**Additional Instructions**          |Not in SESAR. Must be unique within the data package (project-assigned, and does not need to be globally unique). See link to diagram that demonstrates linking related collection, site, event, and sample IDs. A site identifier can be used to link a set of samples collected from a specific site,  and/or to enable efficient entry of metadata that is the same across these samples. |
-|**Examples**                         |CoyoteRiver_D22                                     |
+|Proposed ESS-DIVE Element|siteID <code>Optional</code>                         |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |A unique identifier for the set of site location information. May be a global<br> unique identifier or an identifier specific to the data set.|
+|**Format**               |free text, unique                                    |
+|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does not<br> need to be globally unique). See link to diagram that demonstrates linking<br> related collection, site, event, and sample IDs. A site identifier can be used<br> to link a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
+|**Examples**             |CoyoteRiver_D22                                      |
 
 ---  
 
 ## Sample Description
 
 ### Material 
-|Proposed ESS-DIVE Element Name       |material<code>Required</code>        |
-|:------------------------------------|:------------------------------------|
+|Proposed ESS-DIVE Element|material<code>Required</code>                        |
+|:------------------------|:----------------------------------------------------|
 |**Definition**                       |Material that the sample consists of.|
-|**Format**                           |[Controlled list](https://app.geosamples.org/reference/materials.php)
-|**Additional Instructions**          |ESS-DIVE is requesting additional terms for organisms, organic material, and water samples. [See ESS-DIVE proposed material terms, and provide feedback on modifications needed.](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md) |
-|**Examples**                         |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
+|**Format**               |[Controlled list](https://app.geosamples.org/reference/materials.php)|
+|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, <br>and water samples. See ESS-DIVE's proposed [material terms](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md), and provide feedback on modifications needed.] |
+|**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
 ### Field name (informal classification) 
