@@ -115,25 +115,25 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[Controlled list](https://app.geosamples.org/reference/materials.php)|
-|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, <br>and water samples. See ESS-DIVE's proposed [material terms](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md), and provide feedback on modifications needed.] |
+|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and water samples.<br> See ESS-DIVE's proposed [material terms](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md), and provide feedback on modifications needed.]|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
 ### Field name (informal classification) 
-|Proposed ESS-DIVE Element Name       |classification, or remove <code>Optional</code>                   |
-|:------------------------------------|:-----------------------------------------------------------------|
-|**Definition**                       |Informal classification of sample                                 |
-|**Format**                           |free text                                                         |
-|**Additional Instructions**          |Here you can add additional material classifications that are not in the current SESAR IGSN controlled fields.  We will remove this field when object-type and material controlled terms are revised and expanded to accomodate ESS sample types.  |
-|**Examples**                         |leaf, root                                                        |
+|Proposed ESS-DIVE Element|classification, or remove <code>Optional</code>      |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Informal classification of sample                    |
+|**Format**               |free text                                            |
+|**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields.  We will remove this field when object-type and material<br> controlled terms are revised and expanded to accomodate ESS sample types.|
+|**Examples**             |leaf, root                                           |
 
 ### Sample Description 
-|Proposed ESS-DIVE Element Name       |sampleDescription <code>Recommended</code>|
-|:------------------------------------|:-----------------------------------------|
-|**Definition**                       |Description of sample features, such as its components, texture, color, shape, treatments, plot ID from which the sample was taken, etc.|
-|**Format**                           |free-text                                 |
-|**Additional Instructions**          |                                          |
-|**Examples**                         |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming experiment; Example 2) Filter used for filtered surface water samples|
+|Proposed ESS-DIVE Element|sampleDescription <code>Recommended</code>           |
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
+|**Format**               |free-text                                            |
+|**Additional Instructions**|                                                   |
+|**Examples**               |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
 |Proposed ESS-DIVE Element Name       |purpose <code>Recommended</code>                  |
