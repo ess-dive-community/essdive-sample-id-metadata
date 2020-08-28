@@ -36,7 +36,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|ESS-DIVE Proposed Element|<div align="right">objectType <img width=200/> <code>Required</code> </div>| 
+|ESS-DIVE Proposed Element|<div align="right">objectType <img width=500/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
 |**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
