@@ -41,11 +41,30 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Sample Processing](#sample-processing) | 
 [Field program/Cruise](#field-program-cruise)
 
+**[Location](#location)**:     
+[Latitude (Coordinate system: WGS 84)](#latitude--coordinate-system--wgs-84-) | 
+[Longitude (Coordinate system: WGS 84)](#longitude--coordinate-system--wgs-84-) | 
+[Coordinate Uncertainty In Meters](#coordinate-uncertainty-in-meters) | 
+[Navigation type](#navigation-type) | 
+[Location description](#location-description) | 
+[Country](#country) | 
+[Elevation start](#elevation-start) | 
+[Elevation end](#elevation-end) | 
+[Elevation unit](#elevation-unit) | 
+[Depth in Core (min)](#depth-in-core--min-) | 
+[Depth in Core (max)](#depth-in-core--max-) | 
+[Depth scale](#depth-scale) | 
+[Minimum Distance above Surface in Meters](#minimum-distance-above-surface-in-meters) | 
+[Maximum Distance above Surface in Meters](#maximum-distance-above-surface-in-meters) | 
 
-- [Location](#location)
-- [Environmental Context](#environmental-context)
-- [Sample Access](#sample-access)
+**[Environmental Context](#environmental-context)**:      
+[Primary Physiographic feature](#primary-physiographic-feature) | 
+[Biome](#biome)
 
+**[Sample Access](#sample-access)**:     
+[Release Date](#release-date) | 
+[Current Archive](#current-archive) | 
+[Current Archive Contact](#current-archive-contact)
 
 ---  
 ## Header Rows
@@ -257,98 +276,112 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Location  
 
-|Latitude (Coordinate system: WGS 84)|<code>Required</code>, if relevant|
+### Latitude (Coordinate system: WGS 84)
+<code>Required</code>, if relevant
 |:---|:---|
 |Proposed Element Name|decimalLatitude|
 |Example|5.89634|
 |Definition|Latitude of the location where the sample was collected, entered in decimal degrees. Negative values for South latitudes.|
 |Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
 
-|Longitude (Coordinate system: WGS 84)|<code>Required</code>, if relevant|
+### Longitude (Coordinate system: WGS 84)
+<code>Required</code>, if relevant
 |:---|:---|
 |Proposed Element Name|decimalLongitude|
 |Example|-103.785|
 |Definition|Longitude of the location where the sample was collected, entered in decimal degrees. Negative values for ‘West’ longitudes.|
 |Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
 
-|Coordinate Uncertainty In Meters|code>Recommended</code>, Not in SESAR|
+### Coordinate Uncertainty In Meters
+code>Recommended</code>, Not in SESAR
 |:---|:---|
 |Proposed Element Name|coordinateUncertaintyInMeters|
 |Example|30 (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time)|
 |Definition|The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. In most cases, a value reflecting the precision and accuracy of the GPS instrument used to obtain coordinates is appropriate here.  Many GPS instruments will provide a precision along with coordinates that can be applied here.  |
 |Additional Instructions||
 
-|Navigation type|<code>Recommended</code>|
+### Navigation type
+<code>Recommended</code>
 |:---|:---|
 |Proposed Element Name|geolocationInstrument|
 |Example|GPS; RTK GPS|
 |Definition|Type of geolocation instrument used to obtain geographic coordinates.|
 |Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 
-|Location description|<code>Recommended</code>|
+### Location description 
+<code>Recommended</code>
 |:---|:---|
 |Proposed Element Name|locationDescription|
 |Example|300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
 |Definition|Free text description of the location.|
 |Additional Instructions|You can also include details here about the location type, e.g. whether it is an absolute or reference location, plot ID and description.|
 
-|Country|<code>Recommended</code>|
+### Country
+<code>Recommended</code>
 |:---|:---|
 |Proposed Element Name|country|
 |Example|United States|
 |Definition|Country where the sample was collected.|
 |Additional Instructions|[Use controlled list](https://www.geosamples.org/help/vocabularies/country).|
 
-|Elevation start|<code>Optional</code>|
+### Elevation start
+<code>Optional</code>
 |:---|:---|
 |Proposed Element Name|minimumElevationInMeters|
 |Example|678.5|
 |Definition|Elevation at which a sample was collected. Minimum elevation value if elevation taken over a range.|
 |Additional Instructions|Provide elevation in meters where possible.|
 
-|Elevation end|<code>Optional</code>|
+### Elevation end
+<code>Optional</code>
 |:---|:---|
 |Proposed Element Name|maximumElevationInMeters|
 |Example|689.2|
 |Definition|Maximum elevation at which a sample was collected, if elevation was taken over a range. |
 |Additional Instructions|Provide elevation in meters where possible.|
 
-|Elevation unit|<code>Optional</code>|
+### Elevation unit
+<code>Optional</code>
 |:---|:---|
 |Proposed Element Name||
 |Example|meters|
 |Definition|Unit in which elevation start and/or end are provided in. This will be removed when elevation field is changed to specify meters.  |
 |Additional Instructions|Must be one of the following: meters, feet, miles, kilometers|
 
-|Depth in Core (min)|<code>Required</code>, if relevant|
+### Depth in Core (min)
+<code>Required</code>, if relevant
 |:---|:---|
 |Proposed Element Name|minimumDepthInMeters|
 |Example|0.001|
 |Definition|Minimum depth at which a sample was collected, below ground or under water.|
 |Additional Instructions|Recommend using meters.|
 
-|Depth in Core (max)|<code>Optional</code>|
+### Depth in Core (max)
+<code>Optional</code>|
 |:---|:---|
 |Proposed Element Name|maximumDepthInMeters|
 |Example|0.003|
 |Definition|Maximum depth at which a sample was collected, below ground or under water. |
 |Additional Instructions|Recommend using meters|
 
-|Depth scale|<code>Required</code>, if relevant|
+### Depth scale
+<code>Required</code>, if relevant
 |:---|:---|
 |Proposed Element Name|NA, proposing that depth be required in meters|
 |Example|meters|
 |Definition|Unit in which the depth is provided|
 |Additional Instructions|This field will be deleted when we change the depth field to be required in meters|
 
-|Minimum Distance above Surface in Meters|<code>Optional</code>| 
+### Minimum Distance above Surface in Meters
+<code>Optional</code>
 |:---|:---|
 |Proposed Element Name|minimumDistanceAboveSurfaceInMeters|
 |Example|4.2|
 |Definition|Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here|
 |Additional_instructions||
 
-|Maximum Distance above Surface in Meters|<code>Optional</code>| 
+### Maximum Distance above Surface in Meters
+<code>Optional</code>| 
 |:---|:---|
 |Proposed_element_name|maximumDistanceAboveSurfaceInMeters|
 |Example|7.2|
@@ -359,14 +392,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Environmental Context
 
-|Primary Physiographic feature|<code>Recommended</code>|
+### Primary Physiographic feature
+<code>Recommended</code>
 |:---|:---|
 |Proposed Element Name|localEnvironmentalContext|
 |Example|river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449]; mountain [ENVO:00000081]|
 |Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
 |Additional Instructions|Use terms that are present in the Environment Ontology (ENVO) and which are of smaller spatial grain than your entry for biome. We recommend using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo) to locate appropriate terms. Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 
-|Biome|<code>Recommended</code>, Not in SESAR|
+### Biome
+<code>Recommended</code>, Not in SESAR
 |:---|:---|
 |Proposed Element Name|biome|
 |Example|shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome [ENVO:01000228]; estuarine biome [ENVO:01000020]|
@@ -377,21 +412,24 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample Access
 
-|Release Date|<code>Required</code>|
+### Release Date  
+<code>Required</code>
 |:---|:---|
 |Proposed_element_name|releaseDate|
 |Example|2018-03-15|
 |Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
 |Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
 
-|Current Archive|<code>Optional</code>|
+### Current Archive 
+<code>Optional</code>
 |:---|:---|
 |Proposed_element_name|currentArchive|
 |Example|Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood, CO|
 |Definition|Name of institution, museum, or repository where the sample is currently stored.|
 |Additional_instructions|Only applies to physical samples that are archived in a collection for some period of time.|
 
-|Current Archive Contact|<code>Optional</code>|
+### Current Archive Contact
+<code>Optional</code>
 |:---|:---|
 |Proposed_element_name|currentArchiveContact|
 |Example|scientist@lbl.gov|
