@@ -53,7 +53,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|ESS-DIVE Proposed Element|sampleName <code>Required</code>                     |
+|ESS-DIVE Proposed Element|s<div align="right">sampleName <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Collector's project-specific sample name, which must be unique for each sample that<br> you are submitting.|
 |**Format**               |free text, unique                                    |
@@ -61,7 +61,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|ESS-DIVE Proposed Element|otherName <code> Optional </code> <img width=450/>   |
+|ESS-DIVE Proposed Element|<div align="right">otherName <img width=250/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Other sample name(s) that have been used in the past.|
 |**Format**               |free text                                            |
@@ -69,7 +69,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001ER18FO; 001ER18-FO                                |
 
 ### IGSN
-|ESS-DIVE Proposed Element|IGSN <code> Recommended </code>                      |
+|ESS-DIVE Proposed Element<div align="right">IGSN <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
@@ -77,14 +77,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
-|Proposed ESS-DIVE Element|parentIGSN <code>Required</code>, if relevant        |
+|Proposed ESS-DIVE Element|<div align="right">parentIGSN <img width=200/> if relevant,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for a sample.|
-|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  |**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
+|**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  
+|**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
 |**Examples**              |IEMEG0002                                           |
 
 ### Collection ID 
-|Proposed ESS-DIVE Element|collectionID <code>Optional</code>                   |
+|Proposed ESS-DIVE Element|<div align="right">collectionID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of information associated with a collection of<br> samples; collections may be organized around a particular project, data set, field<br> season, region, site, etc. |
 |**Format**               |free text, unique                                    |
@@ -92,7 +93,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |WSFA_June2019                                        |
 
 ### Event ID 
-|Proposed ESS-DIVE Element|eventID <code>Optional</code>                        |
+|Proposed ESS-DIVE Element|<div align="right">eventID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of information associated with an Event <br>(something that occurs at a place and time).|
 |**Format**               |free text, unique                                    |
@@ -100,7 +101,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |WSFA_20191023                                        |
 
 ### Site ID
-|Proposed ESS-DIVE Element|siteID <code>Optional</code>                         |
+|Proposed ESS-DIVE Element|<div align="right">siteID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of site location information. May be a global<br> unique identifier or an identifier specific to the data set.|
 |**Format**               |free text, unique                                    |
@@ -112,7 +113,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample Description
 
 ### Material 
-|Proposed ESS-DIVE Element|material<code>Required</code>                        |
+|Proposed ESS-DIVE Element|<div align="right">material <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[Controlled list](https://app.geosamples.org/reference/materials.php)|
@@ -121,7 +122,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 
 ### Field name (informal classification) 
-|Proposed ESS-DIVE Element|classification, or remove <code>Optional</code>      |
+|Proposed ESS-DIVE Element|<div align="right">classification, or remove <img width=200/> <code>Optional</code> </div>
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Informal classification of sample                    |
 |**Format**               |free text                                            |
@@ -129,7 +130,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |leaf, root                                           |
 
 ### Sample Description 
-|Proposed ESS-DIVE Element|sampleDescription <code>Recommended</code>           |
+|Proposed ESS-DIVE Element|<div align="right">sampleDescription <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
@@ -137,26 +138,28 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**               |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
-|Proposed ESS-DIVE Element Name       |purpose <code>Recommended</code>                  |
-|:------------------------------------|:-------------------------------------------------|
-|**Definition**                       |The scientific purpose for collecting the sample. |
-|**Format**                           |free text
-|**Additional Instructions**          |Purpose may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). |
-|**Examples**                         |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
+|Proposed ESS-DIVE Element Name|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |The scientific purpose for collecting the sample. |
+|**Format**               |free text                                         |
+|**Additional Instructions**|Purpose may often be the same across a series/collection of samples; To avoid<br> entering the same information across numerous samples, you can create a<br> separate file with metadata to describe a sample collection, which contains a<br> "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). |
+|**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
 
-|Size|<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|size|
-|Example|4; 6.8|
-|Definition|Size of the registered object, such as the surface area, length of a core, weight, or volume|
-|Additional Instructions|| Must be associated with Size unit. 
+### Size
+|Proposed ESS-DIVE Element Name|<div align="right">size <img width=250/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Size of the registered object, such as the surface area, length of a core, weight, or volume|
+|**Format**               |Number                                               |
+|**Additional Instructions**| Must be associated with Size unit. 
+|**Examples**             |4; 6.8                                               |
 
-|Size unit|<code>Optional</code>, <code>Required</code> if Size is provided|
-|:---|:---|
-|Proposed Element Name|sizeUnit|
-|Example|square centimeter; kilogram|
-|Definition|Unit for the numerical value provided for ‘size’.|
-|Additional Instructions|Choose unit terms from the [controlled list](https://docs.google.com/spreadsheets/d/1FJ08qEM9ZTY_V6hPMcpbwYud0s8h6AV_RbuWGcuxtHU/edit#gid=0).|
+## Size unit
+|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=200/> <code>Optional</code>, if Size provided,<code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Unit for the numerical value provided for ‘size’.|
+|**Format**               |[Controlled List](units.md)                          |
+|**Additional Instructions**|Provide feedback on additional terms needed from [Units Ontology](http://www.ontobee.org/ontology/UO)|
+|**Examples**             |square centimeter; kilogram                          |
 
 |Filter Size|<code>Required</code>, if object type is "fitrate" or "material captured in filter"|
 |:---|:---|
