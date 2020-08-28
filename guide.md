@@ -34,11 +34,11 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|ESS-DIVE Proposed Element|<div align="right">objectType <img width=500/> <code>Required</code> </div>| 
+|ESS-DIVE Proposed Element|<div align="right">objectType <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
-|**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
-|**Additional Instructions**|See [object type crosswalk](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE, and provide feedback<br> on additional terms or revisions needed.
+|**Format**               |[SESAR Controlled List](https://www.geosamples.org/help/vocabularies#object). See [object type list](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE|
+|**Additional Instructions**|Provide feedback on additional terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
