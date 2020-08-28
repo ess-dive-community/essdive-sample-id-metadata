@@ -36,7 +36,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
+|ESS-DIVE Proposed Element|<div align="right">objectType <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
 |**Format**               |[Controlled list](https://www.geosamples.org/help/vocabularies#object)|
@@ -44,7 +44,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|ESS-DIVE Proposed Element|<div userCode align="right">userCode <img width=200/> <code>Required</code> </div>|
+|ESS-DIVE Proposed Element|<div align="right">userCode <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
 |**Format**               |Five-letter code                                     |
