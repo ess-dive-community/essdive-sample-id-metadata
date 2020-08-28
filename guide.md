@@ -153,7 +153,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment<br> Ontology (ENVO)|
-|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
+|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and water<br> samples. Please provide feedback on any other terms needed.|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
@@ -171,7 +171,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Definition**           |Description of sample features, such as its components, texture, color, shape, <br>treatments, plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
-|**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
+|**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil<br> warming experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
 |Proposed ESS-DIVE Element|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
