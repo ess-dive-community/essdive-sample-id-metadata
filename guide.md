@@ -125,7 +125,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed ESS-DIVE Element|<div align="right">material <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
-|**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment Ontology (ENVO)|
+|**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment<br> Ontology (ENVO)|
 |**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
@@ -144,15 +144,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
-|**Examples**               |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
+|**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
 |Proposed ESS-DIVE Element Name|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The scientific purpose for collecting the sample. |
-|**Format**               |free text                                         |
+|**Definition**           |The scientific purpose for collecting the sample.    |
+|**Format**               |free text                                            |
 |**Additional Instructions**|Purpose may often be the same across a series/collection of samples; To avoid<br> entering the same information across numerous samples, you can create a<br> separate file with metadata to describe a sample collection, which contains a<br> "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). |
-|**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs. |
+|**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs.                         |
 
 ### Size
 |Proposed ESS-DIVE Element Name|<div align="right">size <img width=250/> <code>Optional</code> </div>|
@@ -197,47 +197,53 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample Collection Details
 
-|Collector/Chief Scientist|<code>Required</code>|
-|:---|:---|
-|Proposed Element Name|collector|
-|Example|John Smith|
-|Definition|Name of the person(s) who collected the sample.|
-|Additional Instructions|You can enter multiple collectors/sampling team for large sampling efforts, separated with a semi-colon. If the collector(s) of the sample(s) is/are not known, enter name of the person responsible for the sample.|
+### Collector/Chief Scientist
+|Proposed ESS-DIVE Element Name|<div align="right">collector <img width=200/> <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           ||Definition|Name of the person(s) who collected the sample.|
+|**Format**               |
+|**Additional Instructions**|You can enter multiple collectors/sampling team for large sampling efforts, separated<br> with a semi-colon. If the collector(s) of the sample(s) is/are not known,<br> enter name of the person responsible for the sample.|
+|**Examples**             |John Smith|
 
-|Collection Date|<code>Required</code>|
-|:---|:---|
-|Proposed Element Name|collectionDate|
-|Example|2019-08-14|
-|Definition|Date when the sample was collected. YYYY-MM-DD|
-|Additional Instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
+### Collection Date
+|Proposed ESS-DIVE Element Name|<div align="right">collectionDate <img width=200/> <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Date when the sample was collected.                  |
+|**Format**               |YYYY-MM-DD                                           |
+|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards<br> can be provided as a separate variable (column) in addition to UTC format.|
+|**Examples**             |2019-08-14                                           |
 
-|Collection Time|<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|collectionTime|
-|Example|12:05:03Z|
-|Definition|Time when the sample was collected. HH:MM:SSZ|
-|Additional Instructions|All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard (RFC 3339). Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.|
+### Collection Time
+|Proposed ESS-DIVE Element Name|<div align="right">collectionTime <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Time when the sample was collected.                  |
+|**Format**               |HH:MM:SSZ                                            |
+|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards<br> can be provided as a separate variable (column) in addition to UTC format.|
+|**Examples**             |12:05:03Z                                            |
 
-|Collection Method Description|<code>Required</code>
-|:---|:---|
-|Proposed Element Name|collectionMethodDescription|
-|Example|Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example 3) Pumped water at specific depths using tubing connected to CTD.|
-|Definition|Description of the collection method for the sample. Include any important terms and details for potential users to understand how your sample was collected.|
-|Additional Instructions|Collection methods may often be the same across a series/collection of samples; there are two options for providing collection method details at a higher level. Option 1:  Create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).  Option 2: Create a methods file, with a series of methods descriptions that are each associated with a "methodID" and an associated "methodDescription." |
+### Collection Method Description
+|Proposed ESS-DIVE Element Name|<div align="right">collectionMethodDescription <img width=200/> <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
+|**Format**               |
+|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample collection<br>, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions that<br> are each associated with a "methodID" and an associated "methodDescription." |
+|**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot<br> or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example<br> 3) Pumped water at specific depths using tubing connected to CTD.|
 
-|Sample Processing|<code>Recommended</code>, if relevant. Not in SESAR|
-|:---|:---|
-|Proposed Element Name|sampleProcessing|
-|Example|filter water; store samples in ethanol|
-|Definition|Any processing applied to the sample during or after retrieving the sample from the environment. Can provide a list of preparations and preservation methods for the sample.|
-|Additional Instructions|Sample processing may often be the same across a series/collection of samples. To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods with a semi-colon.|
+### Sample Processing
+|Proposed ESS-DIVE Element Name|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
+|**Format**               |
+|**Additional Instructions**|Not in SESAR. Sample processing may often be the same across a series/collection<br> of samples. To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a sample collection,<br> which contains a "collectionID", and any associated metadata fields<br> (e.g. "sampleProcessing", "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods<br> with a semi-colon.|
+|**Examples**             |filter water; store samples in ethanol|
 
-|Field program/Cruise|<code>Optional</code>, <code>Required</code> at package level, but want to associate with samples for data search and integration.|
-|:---|:---|
-|Proposed Element Name|projectName|
-|Example|Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
-|Definition|Enter the name of the DOE project to associate with this/these sample(s).|
-|Additional Instructions|If multiple projects were involved, enter the project that had the largest contribution first, and separate entries with a semi-colon. Project Name may often be the same across a series/collection of samples; To avoid entering the same information across numerous samples, you can create a separate file with metadata to describe a sample collection, which contains a "collectionID", and any associated metadata fields (e.g. "Project Name", "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+### Field program/Cruise
+|Proposed ESS-DIVE Element Name|<div align="right">projectName <img width=200/> if relevant, <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
+|**Format**               |free text                                            |
+|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search and<br> integration.If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-colon.<br> Project Name may often be the same across a series/collection of samples; To<br> avoid entering the same information across numerous samples, you can create a<br> separate file with metadata to describe a sample collection, which contains a<br> "collectionID", and any associated metadata fields (e.g. "Project Name",<br> "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+|**Examples**             |Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
 
 ---  
 
