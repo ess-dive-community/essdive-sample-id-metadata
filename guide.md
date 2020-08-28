@@ -2,7 +2,7 @@
 
 Here you will find proposed guidelines for standardizing sample metadata to describe interdisciplinary samples within DOE's Environmental Systems Science community.
 
-ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for samples from the System for Earth Sample Registration (SESAR). Most of this proposed sample standard follows [SESAR's metadata guidelines](http://doi.org/10.5281/zenodo.3874923). However, we have proposed changes to metadata elements, specific requirements, and vocabularies based on ESS community needs. 
+ESS-DIVE recommends obtaining International Geo/General Sample Numbers (IGSNs) for samples from the System for Earth Sample Registration (SESAR). Most of this proposed sample standard follows [SESAR's metadata guidelines](http://doi.org/10.5281/zenodo.3874923). However, we have proposed changes to metadata elements, specific requirements, and vocabularies based on ESS community needs. 
 
 We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
@@ -189,7 +189,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| Must be associated with Size unit. 
 |**Examples**             |4; 6.8                                               |
 
-## Size unit
+### Size unit
 |Proposed ESS-DIVE Element|<div align="right">sizeUnit <img width=150/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
@@ -197,7 +197,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
 |**Examples**             |square centimeter; kilogram                          |
 
-## Filter Size
+### Filter Size
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter <br>size value range.                                 |
@@ -205,7 +205,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|                                                   |
 |**Examples**             |0-0.22 micrometer                                    |
 
-## Scientific Name
+### Scientific Name
 |Proposed ESS-DIVE Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
@@ -213,7 +213,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|                                                   |
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
 
-## Sample Remarks
+### Sample Remarks
 |Proposed ESS-DIVE Element|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Comments or notes about the sample.<img width=100/>  |
@@ -227,10 +227,10 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Collector/Chief Scientist
 |Proposed ESS-DIVE Element|<div align="right">collector <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           ||Definition|Name of the person(s) who collected the sample.|
+|**Definition**           |Name of the person(s) who collected the sample.      |
 |**Format**               |                                                     |
 |**Additional Instructions**|You can enter multiple collectors/sampling team for large sampling efforts, separated<br> with a semi-colon. If the collector(s) of the sample(s) is/are not known,<br> enter name of the person responsible for the sample.|
-|**Examples**             |John Smith|
+|**Examples**             |John Smith; Jane Johnson|
 
 ### Collection Date
 |Proposed ESS-DIVE Element|<div align="right">collectionDate <img width=200/> <code>Required</code> </div>|
@@ -249,18 +249,18 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |12:05:03Z                                            |
 
 ### Collection Method Description
-|Proposed ESS-DIVE Element|<div align="right">collectionMethodDescription <img width=200/> <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">collectionMethodDescription <img width=100/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
-|**Format**               |
-|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample collection<br>, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions that<br> are each associated with a "methodID" and an associated "methodDescription." |
+|**Format**               |                                                     |
+|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions that<br> are each associated with a "methodID" and an associated "methodDescription." |
 |**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot<br> or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example<br> 3) Pumped water at specific depths using tubing connected to CTD.|
 
 ### Sample Processing
 |Proposed ESS-DIVE Element|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
-|**Format**               |
+|**Format**               |                                                     |
 |**Additional Instructions**|Not in SESAR. Sample processing may often be the same across a series/collection<br> of samples. To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a sample collection,<br> which contains a "collectionID", and any associated metadata fields<br> (e.g. "sampleProcessing", "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods<br> with a semi-colon.|
 |**Examples**             |filter water; store samples in ethanol|
 
@@ -269,7 +269,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
-|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search and<br> integration.If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-colon.<br> Project Name may often be the same across a series/collection of samples; To<br> avoid entering the same information across numerous samples, you can create a<br> separate file with metadata to describe a sample collection, which contains a<br> "collectionID", and any associated metadata fields (e.g. "Project Name",<br> "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search and<br> integration.If multiple projects were involved, enter the project that had the<br> largest contribution first, and separate entries with a semi-colon. Project Name<br> may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g. "Project Name",<br>"collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
 |**Examples**             |Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
 
 ---  
@@ -280,33 +280,33 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed ESS-DIVE Element|<div align="right">decimalLatitude <img width=150/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Latitude of the location where the sample was collected, entered in decimal<br> degrees. Negative values for South latitudes.|
-|**Format**               |
+|**Format**               |Decimal degrees, coordinate system: WGS 84           |
 |**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
-|**Examples**             |5.89634|
+|**Examples**             |5.89634                                              |
 
 ### Longitude (Coordinate system: WGS 84)
-<code>Required</code>, if relevant
-|:---|:---|
-|Proposed Element Name|decimalLongitude|
-|Example|-103.785|
-|Definition|Longitude of the location where the sample was collected, entered in decimal degrees. Negative values for ‘West’ longitudes.|
-|Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
+|Proposed ESS-DIVE Element|<div align="right">decimalLongitude<img width=150/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Longitude of the location where the sample was collected. Negative values <br> for ‘West’ longitudes.|
+|**Format**               |Decimal degrees, coordinate system: WGS 84           |
+|**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
+|**Examples**             |-103.785                                             |
 
 ### Coordinate Uncertainty In Meters
-code>Recommended</code>, Not in SESAR
-|:---|:---|
-|Proposed Element Name|coordinateUncertaintyInMeters|
-|Example|30 (reasonable lower limit of a GPS reading under good conditions if the actual precision was not recorded at the time)|
-|Definition|The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term. In most cases, a value reflecting the precision and accuracy of the GPS instrument used to obtain coordinates is appropriate here.  Many GPS instruments will provide a precision along with coordinates that can be applied here.  |
-|Additional Instructions||
+|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=50/> if relevant, <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |The horizontal distance (in meters) from the given decimalLatitude and <br>decimalLongitude describing the smallest circle containing the whole of the Location.|
+|**Format**               |Number                                             |
+|**Additional Instructions**|Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not<br> applicable (because there are no coordinates). Zero is not a valid value for<br> this term. In most cases, a value reflecting the precision and accuracy of<br> the GPS instrument used to obtain coordinates is appropriate here.  Many GPS<br> instruments will provide a precision along with coordinates that can be<br> applied here.  |
+|**Examples**             |30 (reasonable lower limit of a GPS reading under good conditions if the actual<br> precision was not recorded at the time)|
 
 ### Navigation type
-<code>Recommended</code>
-|:---|:---|
-|Proposed Element Name|geolocationInstrument|
-|Example|GPS; RTK GPS|
-|Definition|Type of geolocation instrument used to obtain geographic coordinates.|
-|Additional Instructions|[Please use controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
+|Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> if relevant, <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Type of geolocation instrument used to obtain geographic coordinates.|
+|**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).
+|**Additional Instructions**|Provide feedback on additional terms needed.|
+|**Examples**             |GPS; RTK GPS|
 
 ### Location description 
 <code>Recommended</code>
