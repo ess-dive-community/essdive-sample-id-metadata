@@ -9,13 +9,11 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ---  
 **Sample Metadata List - Links to More Details**
 
-**[Header Rows](#header-rows)**
-
+**[Header Rows](#header-rows)**: 
 [Object Type](#object-type) |
 [User Code](#user-code)
 
-**[Sample IDs and Related Identifiers](sample-ids-and-related-identifiers)**
-
+**[Sample IDs and Related Identifiers](sample-ids-and-related-identifiers)**:
 [Sample Name](#sample-name) |
 [Other name(s)](#other-name-s-) |
 [IGSN](#igsn) |
