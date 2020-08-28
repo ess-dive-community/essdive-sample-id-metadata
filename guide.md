@@ -53,7 +53,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|ESS-DIVE Proposed Element|s<div align="right">sampleName <img width=200/> <code>Required</code> </div>|
+|ESS-DIVE Proposed Element|<div align="right">sampleName <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Collector's project-specific sample name, which must be unique for each sample that<br> you are submitting.|
 |**Format**               |free text, unique                                    |
@@ -63,7 +63,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Other name(s) 
 |ESS-DIVE Proposed Element|<div align="right">otherName <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Other sample name(s) that have been used in the past.<img width=250/>|
+|**Definition**           |Other sample name(s) that have been used in the past.<img width=220/>|
 |**Format**               |free text                                            |
 |**Additional Instructions**|Use a semi-colon to delimit multiple names where needed.|
 |**Examples**             |001ER18FO; 001ER18-FO                                |
