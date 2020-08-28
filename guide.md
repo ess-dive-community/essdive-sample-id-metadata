@@ -61,15 +61,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other name(s) 
-|ESS-DIVE Proposed Element|<div align="right">otherName <img width=250/> <code>Optional</code> </div>|
+|ESS-DIVE Proposed Element|<div align="right">otherName <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Other sample name(s) that have been used in the past.|
+|**Definition**           |Other sample name(s) that have been used in the past.<img width=250/>|
 |**Format**               |free text                                            |
 |**Additional Instructions**|Use a semi-colon to delimit multiple names where needed.|
 |**Examples**             |001ER18FO; 001ER18-FO                                |
 
 ### IGSN
-|ESS-DIVE Proposed Element<div align="right">IGSN <img width=200/> <code>Recommended</code> </div>|
+|ESS-DIVE Proposed Element|<div align="right">IGSN <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
@@ -77,7 +77,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
-|Proposed ESS-DIVE Element|<div align="right">parentIGSN <img width=200/> if relevant,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">parentIGSN <img width=150/> if relevant,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for a sample.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  
