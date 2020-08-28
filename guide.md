@@ -174,7 +174,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
-|Proposed ESS-DIVE Element Name|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The scientific purpose for collecting the sample.    |
 |**Format**               |free text                                            |
@@ -182,7 +182,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils<br> associated with trees and shrubs.                     |
 
 ### Size
-|Proposed ESS-DIVE Element Name|<div align="right">size <img width=250/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">size <img width=250/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Size of the registered object, such as the surface area, length of a core, weight, or<br> volume|
 |**Format**               |Number                                               |
@@ -190,7 +190,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |4; 6.8                                               |
 
 ## Size unit
-|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=150/> only if Size provided,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">sizeUnit <img width=150/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
@@ -198,7 +198,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |square centimeter; kilogram                          |
 
 ## Filter Size
-|Proposed ESS-DIVE Element Name|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter <br>size value range.                                 |
 |**Format**               |Number range and unit (float-float unit)             |
@@ -206,7 +206,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |0-0.22 micrometer                                    |
 
 ## Scientific Name
-|Proposed ESS-DIVE Element Name|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
 |**Format**               |                                                     |
@@ -214,10 +214,10 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
 
 ## Sample Remarks
-|Proposed ESS-DIVE Element Name|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Comments or notes about the sample.<img width=100/>  |
-|**Format**               |free text
+|**Format**               |free text                                            |
 |**Additional Instructions**|You can include weather descriptions here, if relevant.|
 |**Examples**             |                                                     |
 ---
@@ -225,15 +225,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample Collection Details
 
 ### Collector/Chief Scientist
-|Proposed ESS-DIVE Element Name|<div align="right">collector <img width=200/> <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">collector <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           ||Definition|Name of the person(s) who collected the sample.|
-|**Format**               |
+|**Format**               |                                                     |
 |**Additional Instructions**|You can enter multiple collectors/sampling team for large sampling efforts, separated<br> with a semi-colon. If the collector(s) of the sample(s) is/are not known,<br> enter name of the person responsible for the sample.|
 |**Examples**             |John Smith|
 
 ### Collection Date
-|Proposed ESS-DIVE Element Name|<div align="right">collectionDate <img width=200/> <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">collectionDate <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Date when the sample was collected.                  |
 |**Format**               |YYYY-MM-DD                                           |
@@ -241,7 +241,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |2019-08-14                                           |
 
 ### Collection Time
-|Proposed ESS-DIVE Element Name|<div align="right">collectionTime <img width=200/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">collectionTime <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Time when the sample was collected.                  |
 |**Format**               |HH:MM:SSZ                                            |
@@ -249,7 +249,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |12:05:03Z                                            |
 
 ### Collection Method Description
-|Proposed ESS-DIVE Element Name|<div align="right">collectionMethodDescription <img width=200/> <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">collectionMethodDescription <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
 |**Format**               |
@@ -257,7 +257,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot<br> or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example<br> 3) Pumped water at specific depths using tubing connected to CTD.|
 
 ### Sample Processing
-|Proposed ESS-DIVE Element Name|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
 |**Format**               |
@@ -265,7 +265,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |filter water; store samples in ethanol|
 
 ### Field program/Cruise
-|Proposed ESS-DIVE Element Name|<div align="right">projectName <img width=200/> if relevant, <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> if relevant, <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
@@ -277,12 +277,12 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Location  
 
 ### Latitude (Coordinate system: WGS 84)
-<code>Required</code>, if relevant
-|:---|:---|
-|Proposed Element Name|decimalLatitude|
-|Example|5.89634|
-|Definition|Latitude of the location where the sample was collected, entered in decimal degrees. Negative values for South latitudes.|
-|Additional Instructions|Please supply no more than 6 decimal places (meter scale resolution) in the actual number (not just display format.) No letters are allowed.|
+|Proposed ESS-DIVE Element|<div align="right">decimalLatitude <img width=150/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Latitude of the location where the sample was collected, entered in decimal<br> degrees. Negative values for South latitudes.|
+|**Format**               |
+|**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
+|**Examples**             |5.89634|
 
 ### Longitude (Coordinate system: WGS 84)
 <code>Required</code>, if relevant
