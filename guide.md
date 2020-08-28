@@ -7,7 +7,7 @@ ESS-DIVE recommends obtaining International General Sample Numbers (IGSNs) for s
 We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---  
-**Sample Metadata**
+**Sample Metadata List - Links to More Details**
 
 **[Header Rows](#header-rows)**
 
@@ -24,8 +24,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Event ID](#event-id) |
 [Site ID](#site-id)
 
+**[Sample Description](#sample-description)**
 
-- [Sample Description](#sample-description)
 - [Sample Collection Details](#sample-collection-details)
 - [Location](#location)
 - [Environmental Context](#environmental-context)
@@ -44,7 +44,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|ESS-DIVE Proposed Element|userCode<div align="right"><code>Required</code></div>|
+|ESS-DIVE Proposed Element|<div userCode align="right"><code>Required</code></div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
 |**Format**               |Five-letter code                                     |
