@@ -9,12 +9,12 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ---  
 **Sample Metadata**
 
-**Header Rows**
+**[Header Rows](#header-rows)**
 
 [Object Type](#object-type) |
 [User Code](#user-code)
 
-**Sample IDs and Related Identifiers**
+**[Sample IDs and Related Identifiers](sample-ids-and-related-identifiers)**
 
 [Sample Name](#sample-name) |
 [Other name(s)](#other-name-s-) |
@@ -33,6 +33,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 
 ---  
+## Header Rows
 
 ### Object Type
 |ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
@@ -51,6 +52,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |IEMEG, IEJDE                                        |
 
 ---  
+## Sample IDs and Related Identifiers
 
 ### Sample Name
 |ESS-DIVE Proposed Element|sampleName <code>Required</code>                     |
