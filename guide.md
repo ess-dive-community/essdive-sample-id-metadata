@@ -9,17 +9,22 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ---  
 **Sample Metadata**
 
-- [Header Rows](#header-rows)
-  * [Object Type](#object-type)
-  * [User Code](#user-code)
-- [Sample IDs and Related Identifiers](#sample-ids-and-related-identifiers)
-  * [Sample Name](#sample-name)
-  * [Other name(s)](#other-name-s-)
-  * [IGSN](#igsn)
-  * [Parent IGSN](#parent-igsn)
-  * [Collection ID](#collection-id)
-  * [Event ID](#event-id)
-  * [Site ID](#site-id)
+**Header Rows**
+
+[Object Type](#object-type) |
+[User Code](#user-code)
+
+**Sample IDs and Related Identifiers**
+
+[Sample Name](#sample-name) |
+[Other name(s)](#other-name-s-) |
+[IGSN](#igsn) |
+[Parent IGSN](#parent-igsn) |
+[Collection ID](#collection-id) |
+[Event ID](#event-id) |
+[Site ID](#site-id)
+
+
 - [Sample Description](#sample-description)
 - [Sample Collection Details](#sample-collection-details)
 - [Location](#location)
@@ -28,8 +33,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 
 ---  
-
-## Header Rows
 
 ### Object Type
 |ESS-DIVE Proposed Element|objectType <code>Required</code>                     | 
@@ -40,7 +43,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|ESS-DIVE Proposed Element|userCode <div align="right"> <code>Required</code> </div>|
+|ESS-DIVE Proposed Element|userCode<div align="right"><code>Required</code></div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
 |**Format**               |Five-letter code                                     |
@@ -48,8 +51,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |IEMEG, IEJDE                                        |
 
 ---  
-
-## Sample IDs and Related Identifiers
 
 ### Sample Name
 |ESS-DIVE Proposed Element|sampleName <code>Required</code>                     |
