@@ -22,7 +22,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Event ID](#event-id) |
 [Site ID](#site-id)
 
-**[Sample Description](#sample-description)**
+**[Sample Description](#sample-description)**:
+[Material](#material)|
+[Field name (informal classification)](#field-name--informal-classification-)|
+[Sample Description](#sample-description)|
+[Purpose](#purpose)|
+[Size](#size)|
+[Size unit](#size-unit)|
+[Filter Size](#filter-size)|
+[Scientific Name](#scientific-name)|
+[Sample Remarks](#sample-remarks)
 
 - [Sample Collection Details](#sample-collection-details)
 - [Location](#location)
@@ -105,7 +114,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of site location information. May be a global<br> unique identifier or an identifier specific to the data set.|
 |**Format**               |free text, unique                                    |
-|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does not<br> need to be globally unique). See link to diagram that demonstrates linking<br> related collection, site, event, and sample IDs. A site identifier can be used<br> to link a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
+|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned,<br> and does not need to be globally unique). See link to diagram that demonstrates<br> linking related collection, site, event, and sample IDs. A site identifier can be<br> used to link a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
 |**Examples**             |CoyoteRiver_D22                                      |
 
 ---  
@@ -116,8 +125,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |Proposed ESS-DIVE Element|<div align="right">material <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
-|**Format**               |[Controlled list](https://app.geosamples.org/reference/materials.php)|
-|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and water samples.<br> See ESS-DIVE's proposed [material terms](https://github.com/ess-dive-community/sample-id-metadata/blob/master/material.md), and provide feedback on modifications needed.]|
+|**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment Ontology (ENVO)|
+|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
@@ -154,34 +163,36 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |4; 6.8                                               |
 
 ## Size unit
-|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=200/> <code>Optional</code>, if Size provided,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=200/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Unit for the numerical value provided for ‘size’.|
+|**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
-|**Additional Instructions**|Provide feedback on additional terms needed from [Units Ontology](http://www.ontobee.org/ontology/UO)|
+|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.|
 |**Examples**             |square centimeter; kilogram                          |
 
-|Filter Size|<code>Required</code>, if object type is "fitrate" or "material captured in filter"|
-|:---|:---|
-|Proposed Element Name|filterSize|
-|Example|0-0.22 micrometer|
-|Definition|Filtering pore size used in sample preparation (filter size value range). Filter size value range (float-float unit).|
-|Additional Instructions||
+## Filter Size
+|Proposed ESS-DIVE Element Name|<div align="right">filterSize <img width=50/> only if object type is "fitrate" or "material captured in filter",<code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter <br>size value range.                                 |
+|**Format**               |Number range and unit (float-float unit)             |
+|**Additional Instructions**|                                                   |
+|**Examples**             |0-0.22 micrometer                                    |
 
-|Scientific Name|<code>Required</code>, if object type is "organism"|
-|:---|:---|
-|Proposed Element Name|scientificName|
-|Example|Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
-|Definition|The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined.|
-|Additional_instructions||
+## Scientific Name
+|Proposed ESS-DIVE Element Name|<div align="right">scientificName <img width=100/> only if object type is Organism,<code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
+|**Format**               |                                                     |
+|**Additional Instructions**|                                                   |
+|**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
 
-|Sample Remarks|<code>Optional</code>
-|:---|:---|
-|Proposed Element Name|sampleRemarks|
-|Example||
-|Definition|Comments or notes about the sample. |
-|Additional Instructions|Free text. You can include weather descriptions here, if relevant |
-
+## Sample Remarks
+|Proposed ESS-DIVE Element Name|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Comments or notes about the sample.<img width=100/>  |
+|**Format**               |free text
+|**Additional Instructions**|You can include weather descriptions here, if relevant.|
+|**Examples**             |                                                     |
 ---
 
 ## Sample Collection Details
