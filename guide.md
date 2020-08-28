@@ -33,7 +33,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Scientific Name](#scientific-name) |
 [Sample Remarks](#sample-remarks)
 
-- [Sample Collection Details](#sample-collection-details)
+**[Sample Collection Details](#sample-collection-details)**:     
+[Collector/Chief Scientist](#collector-chief-scientist) |
+[Collection Date](#collection-date) | 
+[Collection Time](#collection-time) | 
+[Collection Method Description](#collection-method-description) | 
+[Sample Processing](#sample-processing) | 
+[Field program/Cruise](#field-program-cruise)
+
+
 - [Location](#location)
 - [Environmental Context](#environmental-context)
 - [Sample Access](#sample-access)
@@ -141,7 +149,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Sample Description 
 |Proposed ESS-DIVE Element|<div align="right">sampleDescription <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
+|**Definition**           |Description of sample features, such as its components, texture, color, shape, <br>treatments, plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
@@ -151,27 +159,27 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The scientific purpose for collecting the sample.    |
 |**Format**               |free text                                            |
-|**Additional Instructions**|Purpose may often be the same across a series/collection of samples; To avoid<br> entering the same information across numerous samples, you can create a<br> separate file with metadata to describe a sample collection, which contains a<br> "collectionID", and any associated metadata fields (e.g. "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). |
-|**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils associated with trees and shrubs.                         |
+|**Additional Instructions**|Purpose may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g.<br> "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+|**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils<br> associated with trees and shrubs.                     |
 
 ### Size
 |Proposed ESS-DIVE Element Name|<div align="right">size <img width=250/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Size of the registered object, such as the surface area, length of a core, weight, or volume|
+|**Definition**           |Size of the registered object, such as the surface area, length of a core, weight, or<br> volume|
 |**Format**               |Number                                               |
 |**Additional Instructions**| Must be associated with Size unit. 
 |**Examples**             |4; 6.8                                               |
 
 ## Size unit
-|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=200/> only if Size provided,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element Name|<div align="right">sizeUnit <img width=150/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
-|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.|
+|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
 |**Examples**             |square centimeter; kilogram                          |
 
 ## Filter Size
-|Proposed ESS-DIVE Element Name|<div align="right">filterSize <img width=50/> only if object type is "fitrate" or "material captured in filter",<code>Required</code> </div>|
+|Proposed ESS-DIVE Element Name|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter <br>size value range.                                 |
 |**Format**               |Number range and unit (float-float unit)             |
@@ -179,7 +187,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |0-0.22 micrometer                                    |
 
 ## Scientific Name
-|Proposed ESS-DIVE Element Name|<div align="right">scientificName <img width=100/> only if object type is Organism,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element Name|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
 |**Format**               |                                                     |
