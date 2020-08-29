@@ -341,7 +341,7 @@ _Not a SESAR Field_
 |**Examples**             |678.5|
 
 ### Elevation end
-Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=80/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=50/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a range. |
 |**Format**               |Number                                               |
@@ -410,7 +410,7 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 |**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
 |**Additional Instructions**|Choose environmental context that is a smaller spatial grain than your entry <br> for biome. Delimit multiple values using semi-colon. If needed, request new<br> terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
-|**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449];<br> mountain [ENVO:00000081] <br>For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider: canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
+|**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem<br> [ENVO:01000449]; mountain [ENVO:00000081] <br>For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider: canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
 
 ### Biome
 _Not a SESAR Field_
