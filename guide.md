@@ -264,7 +264,7 @@ _Not a SESAR Field_
 
 ### Sample Processing
 _Not a SESAR Field_
-|Proposed ESS-DIVE Element|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">sampleProcessing <img width=120/> if relevant, <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
 |**Format**               |                                                     |
