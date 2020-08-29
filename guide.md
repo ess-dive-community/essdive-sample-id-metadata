@@ -204,7 +204,7 @@ _Not a SESAR Field_
 _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size value range.                                 |
+|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size value<br> range.                                 |
 |**Format**               |Number range and unit (float-float unit)             |
 |**Additional Instructions**|                                                   |
 |**Examples**             |0-0.22 micrometer                                    |
