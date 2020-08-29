@@ -185,7 +185,7 @@ _Not a SESAR Field_
 |**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils<br> associated with trees and shrubs.                     |
 
 ### Size
-|Proposed ESS-DIVE Element|<div align="right">size <img width=150/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">size <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Size of the registered object, such as the surface area, length of a core, weight,<br> or volume|
 |**Format**               |Number                                               |
