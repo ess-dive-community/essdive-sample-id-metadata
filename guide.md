@@ -73,7 +73,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |ESS-DIVE Proposed Element|<div align="right">objectType <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
-|**Format**               |[SESAR Controlled List](https://www.geosamples.org/help/vocabularies#object). See [object type list](https://github.com/ess-dive-community/sample-id-metadata/blob/master/objectType.md) for revised terms proposed for ESS-DIVE|
+|**Format**               |[SESAR Controlled List](https://www.geosamples.org/help/vocabularies#object). See [object type list](terms/objectType.md) for revised terms proposed for ESS-DIVE|
 |**Additional Instructions**|Provide feedback on additional terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
@@ -155,7 +155,7 @@ _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">material <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
-|**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment<br> Ontology (ENVO)|
+|**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](terms/material.md) from Environment<br> Ontology (ENVO)|
 |**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
@@ -196,7 +196,7 @@ _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">sizeUnit <img width=100/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
-|**Format**               |[Controlled List](units.md)                          |
+|**Format**               |[Controlled List](terms/units.md)                    |
 |**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
 |**Examples**             |square centimeter; kilogram                          |
 
