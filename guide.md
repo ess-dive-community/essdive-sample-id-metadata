@@ -358,7 +358,7 @@ Proposed ESS-DIVE Element|<div align="right">elevationUnit (recommend meters) <i
 
 ### Minimum Depth in Meters
 _Note that SESAR field is "Depth in Core (min)"_
-Proposed ESS-DIVE Element|<div align="right">minimumDepthInMeters <img width=150/> if relevant, <code>Required</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">minimumDepthInMeters <img width=50/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Depth, or minimum depth (if taken over a range) at which a sample was collected, <br>below ground or under water.                  |
 |**Format**               |Number                                               |
@@ -367,10 +367,10 @@ Proposed ESS-DIVE Element|<div align="right">minimumDepthInMeters <img width=150
 
 ### Maximum Depth in Meters
 _Note that SESAR field is "Depth in Core (max)"_
-Proposed ESS-DIVE Element|<div align="right">maximumDepthInMeters <img width=150/> if relevant, <code>Required</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">maximumDepthInMeters <img width=50/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Format**               |Number                                               |
-|**Definition**           |Maximum depth at which a sample was collected, below ground or under water. <img width=50/> |
+|**Definition**           |Maximum depth at which a sample was collected, below ground or under water. <img width=20/> |
 |**Additional Instructions**|Recommend using meters.                            |
 |**Examples**             |0.003|
 
@@ -384,16 +384,16 @@ Proposed ESS-DIVE Element|<div align="right">depthUnit (recommend meters) <img w
 
 ### Minimum Distance above Surface in Meters
 _Not a SESAR Field_
-Proposed ESS-DIVE Element|<div align="right">minimumDistanceAboveSurfaceInMeters <img width=125/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">minimumDistanceAboveSurfaceInMeters <img width=50/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here.|
+|**Definition**           |Minimum height above the ground surface, in meters.  If no range of values collected,<br> provide height measurement here.|
 |**Format**               |Number                                               |
 |**Additional Instructions**|                                                   |
 |**Examples**             |4.2                                                  |
 
 ### Maximum Distance above Surface in Meters
 _Not a SESAR Field_
-Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters <img width=125/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters <img width=50/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Maximum height above the ground surface, in meters.<img width=200/>|
 |**Format**               |Number                                               |
@@ -405,9 +405,9 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 ## Environmental Context
 
 ### Primary Physiographic feature
-<Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=150/> <code>Recommended</code> </div>|
+<Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
+|**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
 |**Additional Instructions**|Choose environmental context that is a smaller spatial grain than your entry <br> for biome. Delimit multiple values using semi-colon. If needed, request new<br> terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 |**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449];<br> mountain [ENVO:00000081] <br>For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider: canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
@@ -417,7 +417,7 @@ _Not a SESAR Field_
 <Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Major environmental system your sample or specimen came from. The systems identified<br> should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
-|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
+|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO identifier<br> - see examples below.|
 |**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 |**Examples**             |shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome<br> [ENVO:01000228]; estuarine biome [ENVO:01000020]|
 
@@ -428,9 +428,9 @@ _Not a SESAR Field_
 ### Release Date  
 <Proposed ESS-DIVE Element|<div align="right">releaseDate <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
+|**Definition**           |Date when sample metadata should be publicly accessible and searchable. If null<br>, defaults to date of registration in SESAR (recommended). |
 |**Format**               |YYYY-MM-DD                                           |
-|**Additional Instructions**|SESAR recommends that sample metadata become public within 2 years of sample registration.|
+|**Additional Instructions**|SESAR recommends that sample metadata become public within 2 years of sample <br>registration.|
 |**Examples**             |2018-03-15                                           |                    
 ### Current Archive 
 <Proposed ESS-DIVE Element|<div align="right">currentArchive <img width=200/> <code>Optional</code> </div>|
@@ -441,7 +441,7 @@ _Not a SESAR Field_
 |**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,>br> CO|
 
 ### Current Archive Contact
-<Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=200/> <code>Optional</code> </div>|
+<Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=150/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Address and/or email of the person who should be contacted for information about<br> or access to the sample.|
 |**Format**               |free text                                            |
