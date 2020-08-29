@@ -333,7 +333,7 @@ _Not a SESAR Field_
 |**Examples**             |United States                                        |
 
 ### Elevation start
-|Proposed ESS-DIVE Element|<div align="right">minimumElevationInMeters <img width=50/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">minimumElevationInMeters <img width=80/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation<br> taken over a range.|
 |**Format**               |Number                                               |
@@ -341,11 +341,11 @@ _Not a SESAR Field_
 |**Examples**             |678.5|
 
 ### Elevation end
-Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=50/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=80/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a range. |
 |**Format**               |Number                                               |
-|**Additional Instructions**|Leave blank if elevation is a single value and not range. Provide elevation in meters where possible.|
+|**Additional Instructions**|Leave blank if elevation is a single value and not range. Provide elevation in<br> meters where possible.|
 |**Examples**             |689.2                                                |
 
 ### Elevation unit
