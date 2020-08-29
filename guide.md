@@ -410,14 +410,14 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 |**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
 |**Additional Instructions**|Choose environmental context that is a smaller spatial grain than your entry <br> for biome. Delimit multiple values using semi-colon. If needed, request new<br> terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
-|**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem<br> [ENVO:01000449]; mountain [ENVO:00000081] <br>For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider: canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
+|**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem<br> [ENVO:01000449]; mountain [ENVO:00000081] <br>_For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider:_ canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
 
 ### Biome
 _Not a SESAR Field_
 <Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Major environmental system your sample or specimen came from. The systems identified<br> should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
-|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO identifier<br> - see examples below.|
+|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO<br> identifier - see examples below.|
 |**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 |**Examples**             |shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome<br> [ENVO:01000228]; estuarine biome [ENVO:01000020]|
 
