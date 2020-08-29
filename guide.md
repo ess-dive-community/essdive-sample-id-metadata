@@ -15,7 +15,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 **[Sample IDs and Related Identifiers](sample-ids-and-related-identifiers)**:     
 [Sample Name](#sample-name) |
-[Other name(s)](#other-name-s-) |
+[Other names](#other-names) |
 [IGSN](#igsn) |
 [Parent IGSN](#parent-igsn) |
 [Collection ID](#collection-id) |
@@ -24,7 +24,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 **[Sample Description](#sample-description)**:     
 [Material](#material) |
-[Field name (informal classification)](#field-name--informal-classification-) |
+[Field name informal classification](#field-name-informal-classification) |
 [Sample Description](#sample-description) |
 [Purpose](#purpose) |
 [Size](#size) |
@@ -34,16 +34,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Sample Remarks](#sample-remarks)
 
 **[Sample Collection Details](#sample-collection-details)**:     
-[Collector/Chief Scientist](#collector-chief-scientist) |
+[Collector Chief Scientist](#collector-chief-scientist) |
 [Collection Date](#collection-date) | 
 [Collection Time](#collection-time) | 
 [Collection Method Description](#collection-method-description) | 
 [Sample Processing](#sample-processing) | 
-[Field program/Cruise](#field-program-cruise)
+[Field program Cruise](#field-program-cruise)
 
 **[Location](#location)**:     
-[Latitude (Coordinate system: WGS 84)](#latitude--coordinate-system--wgs-84-) | 
-[Longitude (Coordinate system: WGS 84)](#longitude--coordinate-system--wgs-84-) | 
+[Latitude Coordinate system WGS 84](#latitude-coordinate-system-wgs-84) | 
+[Longitude Coordinate system WGS 84](#longitude-coordinate-system-wgs-84) | 
 [Coordinate Uncertainty In Meters](#coordinate-uncertainty-in-meters) | 
 [Navigation type](#navigation-type) | 
 [Location description](#location-description) | 
@@ -51,8 +51,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Elevation start](#elevation-start) | 
 [Elevation end](#elevation-end) | 
 [Elevation unit](#elevation-unit) | 
-[Depth in Core (min)](#depth-in-core--min-) | 
-[Depth in Core (max)](#depth-in-core--max-) | 
+[Depth in Core min](#depth-in-core-min) | 
+[Depth in Core max](#depth-in-core-max) | 
 [Depth scale](#depth-scale) | 
 [Minimum Distance above Surface in Meters](#minimum-distance-above-surface-in-meters) | 
 [Maximum Distance above Surface in Meters](#maximum-distance-above-surface-in-meters) | 
@@ -96,7 +96,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|You can develop a sample ID that has meaning to you and may help in your internal, <br>project sample management.|
 |**Examples**             |001-ER18-FO                                          |
 
-### Other name(s) 
+### Other names 
 |ESS-DIVE Proposed Element|<div align="right">otherName <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Other sample name(s) that have been used in the past.<img width=220/>|
@@ -157,7 +157,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
-### Field name (informal classification) 
+### Field name informal classification 
 |Proposed ESS-DIVE Element|<div align="right">classification, or remove <img width=200/> <code>Optional</code> </div>
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Informal classification of sample                    |
@@ -264,7 +264,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|Not in SESAR. Sample processing may often be the same across a series/collection<br> of samples. To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a sample collection,<br> which contains a "collectionID", and any associated metadata fields<br> (e.g. "sampleProcessing", "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods<br> with a semi-colon.|
 |**Examples**             |filter water; store samples in ethanol|
 
-### Field program/Cruise
+### Field Program Cruise
 |Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> if relevant, <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
@@ -276,7 +276,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Location  
 
-### Latitude (Coordinate system: WGS 84)
+### Latitude Coordinate system WGS 84
 |Proposed ESS-DIVE Element|<div align="right">decimalLatitude <img width=150/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Latitude of the location where the sample was collected, entered in decimal<br> degrees. Negative values for South latitudes.|
@@ -284,7 +284,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
 |**Examples**             |5.89634                                              |
 
-### Longitude (Coordinate system: WGS 84)
+### Longitude Coordinate system WGS 84
 |Proposed ESS-DIVE Element|<div align="right">decimalLongitude<img width=150/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Longitude of the location where the sample was collected. Negative values <br> for ‘West’ longitudes.|
