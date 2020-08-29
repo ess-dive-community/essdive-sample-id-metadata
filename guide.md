@@ -243,7 +243,7 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Date when the sample was collected.                  |
 |**Format**               |YYYY-MM-DD                                           |
-|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards<br> can be provided as a separate variable (column) in addition to UTC format.|
+|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards can be<br> provided as a separate variable (column) in addition to UTC format.|
 |**Examples**             |2019-08-14                                           |
 
 ### Collection Time
@@ -251,7 +251,7 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Time when the sample was collected.                  |
 |**Format**               |HH:MM:SSZ                                            |
-|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards<br> can be provided as a separate variable (column) in addition to UTC format.|
+|**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards can be<br> provided as a separate variable (column) in addition to UTC format.|
 |**Examples**             |12:05:03Z                                            |
 
 ### Collection Method Description
@@ -259,7 +259,7 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
 |**Format**               |                                                     |
-|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", <br>etc.).  Option 2: Create a methods file, with a series of methods descriptions<br> that are each associated with a "methodID" and an associated "methodDescription." |
+|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions<br> that are each associated with a "methodID" and an associated "methodDescription." |
 |**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow<br> plot or under the bulk of tree/shrub canopies.  Example 2) Excised branch.<br> Example 3) Pumped water at specific depths using tubing connected to CTD.|
 
 ### Sample Processing
@@ -405,46 +405,46 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 ## Environmental Context
 
 ### Primary Physiographic feature
-<code>Recommended</code>
-|:---|:---|
-|Proposed Element Name|localEnvironmentalContext|
-|Example|river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449]; mountain [ENVO:00000081]|
-|Definition|Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
-|Additional Instructions|Use terms that are present in the Environment Ontology (ENVO) and which are of smaller spatial grain than your entry for biome. We recommend using the Ontology Lookup Service (https://www.ebi.ac.uk/ols/ontologies/envo) to locate appropriate terms. Delimit multiple values using semi-colon. Example: Annotating a pooled sample taken from various vegetation layers in a forest consider: canopy [ENVO:00000047]; herb and fern layer [ENVO:01000337]; litter layer [ENVO:01000338]; understory [01000335]; shrub layer [ENVO:01000336]. If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
+<Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=150/> <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. |
+|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
+|**Additional Instructions**|Choose environmental context that is a smaller spatial grain than your entry <br> for biome. Delimit multiple values using semi-colon. If needed, request new<br> terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
+|**Examples**             |river [ENVO:00000022]; pond [ENVO:00000033]; wet meadow ecosystem [ENVO:01000449];<br> mountain [ENVO:00000081] <br>For annotating a pooled sample taken from various<br> vegetation layers in a forest, consider: canopy [ENVO:00000047]; herb and<br> fern layer [ENVO:01000337]; litter layer [ENVO:01000338];<br> understory [01000335]; shrub layer [ENVO:01000336].|
 
 ### Biome
-<code>Recommended</code>, Not in SESAR
-|:---|:---|
-|Proposed Element Name|biome|
-|Example|shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome [ENVO:01000228]; estuarine biome [ENVO:01000020]|
-|Definition|Major environmental system your sample or specimen came from. The systems identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. were you in the desert or a rainforest?).|
-|Additional Instructions|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
+_Not a SESAR Field_
+<Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Major environmental system your sample or specimen came from. The systems identified<br> should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
+|**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
+|**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
+|**Examples**             |shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome<br> [ENVO:01000228]; estuarine biome [ENVO:01000020]|
 
 ---  
 
 ## Sample Access
 
 ### Release Date  
-<code>Required</code>
-|:---|:---|
-|Proposed_element_name|releaseDate|
-|Example|2018-03-15|
-|Definition|Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
-|Additional_instructions|SESAR recommends that sample metadata become public within 2 years of sample registration.|
-
+<Proposed ESS-DIVE Element|<div align="right">releaseDate <img width=200/> <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Date when sample metadata should be publicly accessible and searchable. If null, defaults to date of registration in SESAR (recommended). |
+|**Format**               |YYYY-MM-DD                                           |
+|**Additional Instructions**|SESAR recommends that sample metadata become public within 2 years of sample registration.|
+|**Examples**             |2018-03-15                                           |                    
 ### Current Archive 
-<code>Optional</code>
-|:---|:---|
-|Proposed_element_name|currentArchive|
-|Example|Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood, CO|
-|Definition|Name of institution, museum, or repository where the sample is currently stored.|
-|Additional_instructions|Only applies to physical samples that are archived in a collection for some period of time.|
+<Proposed ESS-DIVE Element|<div align="right">currentArchive <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Name of institution, museum, or repository where the sample is currently stored.|
+|**Format**               |                                                     |
+|**Additional Instructions**|Only applies to physical samples that are archived in a collection for some period<br> of time.|
+|**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,>br> CO|
 
 ### Current Archive Contact
-<code>Optional</code>
-|:---|:---|
-|Proposed_element_name|currentArchiveContact|
-|Example|scientist@lbl.gov|
-|Definition|Address and/or email of the person who should be contacted for information about or access to the sample.|
-|Additional_instructions|Email is not mandatory, but helps with communication about samples.|
+<Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Address and/or email of the person who should be contacted for information about<br> or access to the sample.|
+|**Format**               |free text                                            |
+|**Additional Instructions**|Email is not mandatory, but helps with communication about samples.|
+|**Examples**             |scientist@lbl.gov                                    |
 
