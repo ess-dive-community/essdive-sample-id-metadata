@@ -405,7 +405,7 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 ## Environmental Context
 
 ### Primary Physiographic feature
-<Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=100/> <code>Recommended</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
@@ -414,9 +414,9 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 
 ### Biome
 _Not a SESAR Field_
-<Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recommended</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Major environmental system your sample or specimen came from. The systems identified<br> should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
+|**Definition**           |Major environmental system your sample or specimen came from. The systems<br> identified should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO<br> identifier - see examples below.|
 |**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 |**Examples**             |shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome<br> [ENVO:01000228]; estuarine biome [ENVO:01000020]|
@@ -426,7 +426,7 @@ _Not a SESAR Field_
 ## Sample Access
 
 ### Release Date  
-<Proposed ESS-DIVE Element|<div align="right">releaseDate <img width=200/> <code>Required</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">releaseDate <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Date when sample metadata should be publicly accessible and searchable. If null<br>, defaults to date of registration in SESAR (recommended). |
 |**Format**               |YYYY-MM-DD                                           |
@@ -441,7 +441,7 @@ _Not a SESAR Field_
 |**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,>br> CO|
 
 ### Current Archive Contact
-<Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=150/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=150/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Address and/or email of the person who should be contacted for information about<br> or access to the sample.|
 |**Format**               |free text                                            |
