@@ -272,7 +272,7 @@ _Not a SESAR Field_
 |**Examples**             |filter water; store samples in ethanol|
 
 ### Field Program Cruise
-|Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> if relevant, <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">projectName <img width=150/> if relevant, <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
@@ -284,7 +284,7 @@ _Not a SESAR Field_
 ## Location  
 
 ### Latitude Coordinate system WGS 84
-|Proposed ESS-DIVE Element|<div align="right">decimalLatitude <img width=150/> if relevant, <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">decimalLatitude <img width=100/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Latitude of the location where the sample was collected, entered in decimal<br> degrees. Negative values for South latitudes.|
 |**Format**               |Decimal degrees, coordinate system: WGS 84           |
@@ -292,7 +292,7 @@ _Not a SESAR Field_
 |**Examples**             |5.89634                                              |
 
 ### Longitude Coordinate system WGS 84
-|Proposed ESS-DIVE Element|<div align="right">decimalLongitude<img width=150/> if relevant, <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">decimalLongitude<img width=100/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Longitude of the location where the sample was collected. Negative values <br> for ‘West’ longitudes.|
 |**Format**               |Decimal degrees, coordinate system: WGS 84           |
