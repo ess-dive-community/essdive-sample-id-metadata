@@ -109,39 +109,42 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
-|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own IGSNS,<br> you must use upper-case alpha-numeric characters.|
+|**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own<br> IGSNS, you must use upper-case alpha-numeric characters.|
 |**Examples**             |IEWER7214, IEMEG0215                                 |
 
 ### Parent IGSN 
 |Proposed ESS-DIVE Element|<div align="right">parentIGSN <img width=150/> if relevant,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for a sample.|
+|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for<br> a sample.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  
 |**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
 |**Examples**              |IEMEG0002                                           |
 
 ### Collection ID 
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">collectionID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A unique identifier for the set of information associated with a collection of<br> samples; collections may be organized around a particular project, data set, field<br> season, region, site, etc. |
+|**Definition**           |A unique identifier for the set of information associated with a collection of<br> samples; collections may be organized around a particular project, data set,<br> field season, region, site, etc. |
 |**Format**               |free text, unique                                    |
-|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates linking<br> related collection, site, event, and sample IDs. A collection identifier can be<br> used to link a set of samples together, and/or to enable efficient entry of<br> metadata that is the same across all samples in a "sample collection."|
+|**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need<br> to be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. A collection identifier can be<br> used to link a set of samples together, and/or to enable efficient entry of<br> metadata that is the same across all samples in a "sample collection."|
 |**Examples**             |WSFA_June2019                                        |
 
 ### Event ID 
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">eventID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of information associated with an Event <br>(something that occurs at a place and time).|
 |**Format**               |free text, unique                                    |
-|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned, and does<br> not need to be globally unique). See link to diagram that demonstrates<br> linking related collection, site, event, and sample IDs. An event identifier<br> can be used to link a set of samples collected on a specific date,  and/or to<br> enable efficient entry of metadata that is the same across these samples.|
+|**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need <br> to be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. An event identifier can be used to<br> link a set of samples collected on a specific date,  and/or to enable efficient<br> entry of metadata that is the same across these samples.|
 |**Examples**             |WSFA_20191023                                        |
 
 ### Site ID
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">siteID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A unique identifier for the set of site location information. May be a global<br> unique identifier or an identifier specific to the data set.|
 |**Format**               |free text, unique                                    |
-|**Additional Instructions**|Not in SESAR. Must be unique within the data package (project-assigned,<br> and does not need to be globally unique). See link to diagram that demonstrates<br> linking related collection, site, event, and sample IDs. A site identifier can be<br> used to link a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
+|**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need to<br> be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. A site identifier can be used to link<br> a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
 |**Examples**             |CoyoteRiver_D22                                      |
 
 ---  
@@ -153,7 +156,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](material.md) from Environment<br> Ontology (ENVO)|
-|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and water<br> samples. Please provide feedback on any other terms needed.|
+|**Additional Instructions**|ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
 |**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
 
 
@@ -162,13 +165,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Informal classification of sample                    |
 |**Format**               |free text                                            |
-|**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields.  We will remove this field when object-type and material<br> controlled terms are revised and expanded to accomodate ESS sample types.|
+|**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields.  We will remove this field when object-type and<br> material controlled terms are revised and expanded to accomodate ESS sample<br> types.|
 |**Examples**             |leaf, root                                           |
 
 ### Sample Description 
 |Proposed ESS-DIVE Element|<div align="right">sampleDescription <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
+|**Definition**           |Description of sample features, such as its components, texture, color, shape,<br> treatments, plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
@@ -198,6 +201,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |square centimeter; kilogram                          |
 
 ### Filter Size
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size value range.                                 |
@@ -206,6 +210,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |0-0.22 micrometer                                    |
 
 ### Scientific Name
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
@@ -214,6 +219,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
 
 ### Sample Remarks
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Comments or notes about the sample.<img width=250/>  |
@@ -253,15 +259,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
 |**Format**               |                                                     |
-|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions that<br> are each associated with a "methodID" and an associated "methodDescription." |
-|**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow plot<br> or under the bulk of tree/shrub canopies.  Example 2) Excised branch. Example<br> 3) Pumped water at specific depths using tubing connected to CTD.|
+|**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", <br>etc.).  Option 2: Create a methods file, with a series of methods descriptions<br> that are each associated with a "methodID" and an associated "methodDescription." |
+|**Examples**             |Example 1) Collect soil samples from top 10 cm using 2-3 cores from with meadow<br> plot or under the bulk of tree/shrub canopies.  Example 2) Excised branch.<br> Example 3) Pumped water at specific depths using tubing connected to CTD.|
 
 ### Sample Processing
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">sampleProcessing <img width=200/> if relevant, <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
 |**Format**               |                                                     |
-|**Additional Instructions**|Not in SESAR. Sample processing may often be the same across a series/collection<br> of samples. To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a sample collection,<br> which contains a "collectionID", and any associated metadata fields<br> (e.g. "sampleProcessing", "collectionMethodDescription",<br> "Purpose", "Chief Scientist", etc.). Separate multiple sample processing methods<br> with a semi-colon.|
+|**Additional Instructions**|Sample processing may often be the same across a series/collection of samples.<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g.<br> "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist",<br> etc.). Separate multiple sample processing methods<br> with a semi-colon.|
 |**Examples**             |filter water; store samples in ethanol|
 
 ### Field Program Cruise
@@ -269,7 +276,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
-|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search and<br> integration.If multiple projects were involved, enter the project that had the<br> largest contribution first, and separate entries with a semi-colon. Project Name<br> may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g. "Project Name",<br>"collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
+|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration.If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-colon. Project Name<br> may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g. "Project<br> Name","collectionMethodDescription", "Purpose", "Chief Scientist"...|
 |**Examples**             |Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
 
 ---  
@@ -293,9 +300,10 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |-103.785                                             |
 
 ### Coordinate Uncertainty In Meters
+_Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=50/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The horizontal distance (in meters) from the given decimalLatitude and <br>decimalLongitude describing the smallest circle containing the whole of the Location.|
+|**Definition**           |The horizontal distance (in meters) from the given decimal Latitude and decimal<br> Longitude describing the smallest circle containing the whole of the<br> Location.|
 |**Format**               |Number                                             |
 |**Additional Instructions**|Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not<br> applicable (because there are no coordinates). Zero is not a valid value for<br> this term. In most cases, a value reflecting the precision and accuracy of<br> the GPS instrument used to obtain coordinates is appropriate here.  Many GPS<br> instruments will provide a precision along with coordinates that can be<br> applied here.  |
 |**Examples**             |30 (reasonable lower limit of a GPS reading under good conditions if the actual<br> precision was not recorded at the time)|
@@ -303,7 +311,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Navigation type
 |Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Type of geolocation instrument used to obtain geographic coordinates. <img width=100/>|
+|**Definition**           |Type of geolocation instrument used to obtain geographic coordinates. <img width=200/>|
 |**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 |**Additional Instructions**|Provide feedback on additional terms needed.|
 |**Examples**             |GPS; RTK GPS|
@@ -327,7 +335,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Elevation start
 |Proposed ESS-DIVE Element|<div align="right">minimumElevationInMeters <img width=80/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation taken over a range.|
+|**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation taken<br> over a range.|
 |**Format**               |Number                                               |
 |**Additional Instructions**|Provide elevation in meters where possible.|
 |**Examples**             |678.5|
@@ -344,7 +352,7 @@ Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width
 Proposed ESS-DIVE Element|<div align="right">elevationUnit (recommend meters) <img width=100/> if relevant, <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit that elevation start and/or end are provided in.   
-|**Format**               |Recommend meters. <img width=150/>                   |
+|**Format**               |Recommend meters. <img width=200/>                   |
 |**Additional Instructions**|This will be removed when elevation field is changed to specify meters. |
 |**Examples**             |meters|
 
