@@ -343,7 +343,7 @@ _Not a SESAR Field_
 ### Elevation end
 Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=80/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a range. |
+|**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a<br> range. |
 |**Format**               |Number                                               |
 |**Additional Instructions**|Leave blank if elevation is a single value and not range. Provide elevation in<br> meters where possible.|
 |**Examples**             |689.2                                                |
