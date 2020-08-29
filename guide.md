@@ -433,12 +433,12 @@ Proposed ESS-DIVE Element|<div align="right">releaseDate <img width=200/> <code>
 |**Additional Instructions**|SESAR recommends that sample metadata become public within 2 years of sample <br>registration.|
 |**Examples**             |2018-03-15                                           |                    
 ### Current Archive 
-<Proposed ESS-DIVE Element|<div align="right">currentArchive <img width=200/> <code>Optional</code> </div>|
+Proposed ESS-DIVE Element|<div align="right">currentArchive <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Name of institution, museum, or repository where the sample is currently stored.|
 |**Format**               |                                                     |
 |**Additional Instructions**|Only applies to physical samples that are archived in a collection for some period<br> of time.|
-|**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,>br> CO|
+|**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,<br> CO|
 
 ### Current Archive Contact
 Proposed ESS-DIVE Element|<div align="right">currentArchiveContact <img width=150/> <code>Optional</code> </div>|
