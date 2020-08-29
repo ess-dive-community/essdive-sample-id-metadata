@@ -115,7 +115,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Parent IGSN 
 |Proposed ESS-DIVE Element|<div align="right">parentIGSN <img width=150/> if relevant,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples.<br> Parent and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for<br> a sample.|
+|**Definition**           |The larger sample from which a child sample was derived. For example, a core<br> section may be the parent of a series of subsamples or split samples. Parent<br> and child samples are linked in the SESAR catalog. Sibling samples are<br> inferred from parent-child relationships and are linked on the landing page for<br> a sample.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |  
 |**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
 |**Examples**              |IEMEG0002                                           |
