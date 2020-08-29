@@ -1,16 +1,19 @@
 # ESS-DIVE Sample ID and Metadata Standard
 
-ESS-DIVE recommends registering samples for persistent identifiers through the [System for Earth Sample Registration (SESAR)](https://www.geosamples.org/), specifically [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn). IGSNs are associated with standardized metadata to characterize samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
+ESS-DIVE recommends registering samples for [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn) through the [System for Earth Sample Registration (SESAR)](https://www.geosamples.org/). IGSNs are associated with standardized metadata to characterize a variety of different samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
+
+ESS-DIVE has worked with community scientists to test use of IGSNs and associated metadata in interdisciplinary Environmental Systems Science. We therefore have specific recommendations for extending IGSN metadata for this interdisciplinary community.
 
 ## Getting started
 
-ESS-DIVE has worked with community scientists to test use of IGSNs and associated metadata in interdisciplinary Environmental Systems Science. We therefore have specific recommendations for extending IGSN metadata for this interdisciplinary community, which are incorporated in the following documents (modified from SESAR IGSN):
+[IGSN metadata quick reference guide](guide.md): SESAR metadata guide modified for interdiscipinary ESS samples. 
 
-- Crosswalk comparing sample-related standards and templates
-- [Downloadable template for sample metadata](sampleTemplate.xls)
-- [Instructions for registering samples for IGSNs through SESAR](instructions.md)
-- [Guide to describe sample metadaata elements and associated requirements](guide.md)
-- Proposed vocabularies for [object type](objectType.md), [material](material.md), and [units](units.md)
+Other documents:
+
+- [Instructions document](instructions.md): Description of procedure to register samples for IGSNs through SESAR. 
+- [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs.  
+- [Term documents](/terms): 
+
 - [How to contribute](#how-to-contribute)
 
 ## About the Sample ID and metadata standard
