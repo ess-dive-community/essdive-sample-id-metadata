@@ -168,10 +168,10 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Sample Description 
 |Proposed ESS-DIVE Element|<div align="right">sampleDescription <img width=200/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Description of sample features, such as its components, texture, color, shape, <br>treatments, plot ID from which the sample was taken, etc.|
+|**Definition**           |Description of sample features, such as its components, texture, color, shape, treatments,<br> plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
-|**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil<br> warming experiment; Example 2) Filter used for filtered surface water samples|
+|**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
 |Proposed ESS-DIVE Element|<div align="right">purpose <img width=200/> <code>Recommended</code> </div>|
@@ -194,13 +194,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
-|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
+|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=80/>|
 |**Examples**             |square centimeter; kilogram                          |
 
 ### Filter Size
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter <br>size value range.                                 |
+|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size value range.                                 |
 |**Format**               |Number range and unit (float-float unit)             |
 |**Additional Instructions**|                                                   |
 |**Examples**             |0-0.22 micrometer                                    |
@@ -216,7 +216,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Sample Remarks
 |Proposed ESS-DIVE Element|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Comments or notes about the sample.<img width=100/>  |
+|**Definition**           |Comments or notes about the sample.<img width=250/>  |
 |**Format**               |free text                                            |
 |**Additional Instructions**|You can include weather descriptions here, if relevant.|
 |**Examples**             |                                                     |
@@ -224,7 +224,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ## Sample Collection Details
 
-### Collector/Chief Scientist
+### Collector Chief Scientist
 |Proposed ESS-DIVE Element|<div align="right">collector <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Name of the person(s) who collected the sample.      |
@@ -293,7 +293,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |-103.785                                             |
 
 ### Coordinate Uncertainty In Meters
-|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=50/> if relevant, <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=50/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The horizontal distance (in meters) from the given decimalLatitude and <br>decimalLongitude describing the smallest circle containing the whole of the Location.|
 |**Format**               |Number                                             |
@@ -301,92 +301,96 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Examples**             |30 (reasonable lower limit of a GPS reading under good conditions if the actual<br> precision was not recorded at the time)|
 
 ### Navigation type
-|Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> if relevant, <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Type of geolocation instrument used to obtain geographic coordinates.|
-|**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).
+|**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 |**Additional Instructions**|Provide feedback on additional terms needed.|
 |**Examples**             |GPS; RTK GPS|
 
 ### Location description 
-<code>Recommended</code>
-|:---|:---|
-|Proposed Element Name|locationDescription|
-|Example|300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
-|Definition|Free text description of the location.|
-|Additional Instructions|You can also include details here about the location type, e.g. whether it is an absolute or reference location, plot ID and description.|
+|Proposed ESS-DIVE Element|<div align="right">locationDescription<img width=200/> <code>Recommended</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Free text description of the location.|
+|**Format**               |
+|**Additional Instructions**|You can also include details here about the location type, e.g. whether it is an absolute<br> or reference location, plot ID and description.|
+|**Examples**             |300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
 
 ### Country
-<code>Recommended</code>
-|:---|:---|
-|Proposed Element Name|country|
-|Example|United States|
-|Definition|Country where the sample was collected.|
-|Additional Instructions|[Use controlled list](https://www.geosamples.org/help/vocabularies/country).|
+|Proposed ESS-DIVE Element|<div align="right">country<img width=200/>  <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Country where the sample was collected.              |
+|**Format**               |[SESAR controlled list](https://www.geosamples.org/help/vocabularies/country). <img width=150/>        |
+|**Additional Instructions**|Use SESAR list, but may change controlled list to [GAZ ontology](http://purl.obolibrary.org/obo/gaz).                             |
+|**Examples**             |United States                                        |
 
 ### Elevation start
-<code>Optional</code>
-|:---|:---|
-|Proposed Element Name|minimumElevationInMeters|
-|Example|678.5|
-|Definition|Elevation at which a sample was collected. Minimum elevation value if elevation taken over a range.|
-|Additional Instructions|Provide elevation in meters where possible.|
+|Proposed ESS-DIVE Element|<div align="right">minimumElevationInMeters <img width=80/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation<br> taken over a range.|
+|**Format**               |Number                                               |
+|**Additional Instructions**|Provide elevation in meters where possible.|
+|**Examples**             |678.5|
 
 ### Elevation end
-<code>Optional</code>
-|:---|:---|
-|Proposed Element Name|maximumElevationInMeters|
-|Example|689.2|
-|Definition|Maximum elevation at which a sample was collected, if elevation was taken over a range. |
-|Additional Instructions|Provide elevation in meters where possible.|
+Proposed ESS-DIVE Element|<div align="right">maximumElevationInMeters <img width=80/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a range. |
+|**Format**               |Number                                               |
+|**Additional Instructions**|Leave blank if elevation is a single value and not range. Provide elevation in meters where possible.|
+|**Examples**             |689.2                                                |
 
 ### Elevation unit
-<code>Optional</code>
-|:---|:---|
-|Proposed Element Name||
-|Example|meters|
-|Definition|Unit in which elevation start and/or end are provided in. This will be removed when elevation field is changed to specify meters.  |
-|Additional Instructions|Must be one of the following: meters, feet, miles, kilometers|
+Proposed ESS-DIVE Element|<div align="right">elevationUnit (recommend meters) <img width=100/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Unit that elevation start and/or end are provided in.   
+|**Format**               |Recommend meters. <img width=150/>                   |
+|**Additional Instructions**|This will be removed when elevation field is changed to specify meters. |
+|**Examples**             |meters|
 
-### Depth in Core (min)
-<code>Required</code>, if relevant
-|:---|:---|
-|Proposed Element Name|minimumDepthInMeters|
-|Example|0.001|
-|Definition|Minimum depth at which a sample was collected, below ground or under water.|
-|Additional Instructions|Recommend using meters.|
+### Minimum Depth in Meters
+_Note that SESAR field is "Depth in Core (min)"_
+Proposed ESS-DIVE Element|<div align="right">minimumDepthInMeters <img width=150/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Depth, or minimum depth (if taken over a range) at which a sample was collected, <br>below ground or under water.                  |
+|**Format**               |Number                                               |
+|**Additional Instructions**|Recommend using meters.                            |
+|**Examples**             |0.001                                                |
 
-### Depth in Core (max)
-<code>Optional</code>|
-|:---|:---|
-|Proposed Element Name|maximumDepthInMeters|
-|Example|0.003|
-|Definition|Maximum depth at which a sample was collected, below ground or under water. |
-|Additional Instructions|Recommend using meters|
+### Maximum Depth in Meters
+_Note that SESAR field is "Depth in Core (max)"_
+Proposed ESS-DIVE Element|<div align="right">maximumDepthInMeters <img width=150/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Format**               |Number                                               |
+|**Definition**           |Maximum depth at which a sample was collected, below ground or under water. <img width=50/> |
+|**Additional Instructions**|Recommend using meters.                            |
+|**Examples**             |0.003|
 
 ### Depth scale
-<code>Required</code>, if relevant
-|:---|:---|
-|Proposed Element Name|NA, proposing that depth be required in meters|
-|Example|meters|
-|Definition|Unit in which the depth is provided|
-|Additional Instructions|This field will be deleted when we change the depth field to be required in meters|
+Proposed ESS-DIVE Element|<div align="right">depthUnit (recommend meters) <img width=100/> if relevant, <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Format**               |Recommend meters. <img width=150/>                   |
+|**Definition**           |Unit in which the depth is provided, should be meters.|
+|**Additional Instructions**|This field will be deleted when we change the depth field to be required in meters.|
+|**Examples**             |meters|
 
 ### Minimum Distance above Surface in Meters
-<code>Optional</code>
-|:---|:---|
-|Proposed Element Name|minimumDistanceAboveSurfaceInMeters|
-|Example|4.2|
-|Definition|Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here|
-|Additional_instructions||
+_Not a SESAR Field_
+Proposed ESS-DIVE Element|<div align="right">minimumDistanceAboveSurfaceInMeters <img width=125/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Minimum height above the ground surface, in meters.  If no range of values collected, provide height measurement here.|
+|**Format**               |Number                                               |
+|**Additional Instructions**|                                                   |
+|**Examples**             |4.2                                                  |
 
 ### Maximum Distance above Surface in Meters
-<code>Optional</code>| 
-|:---|:---|
-|Proposed_element_name|maximumDistanceAboveSurfaceInMeters|
-|Example|7.2|
-|Definition|Maximum height above the ground surface, in meters.|
-|Additional_instructions||
+_Not a SESAR Field_
+Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters <img width=125/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Maximum height above the ground surface, in meters.<img width=200/>|
+|**Format**               |Number                                               |
+|**Additional Instructions**|                                                   |
+|**Examples**             |7.2                                                  |
 
 ---
 
