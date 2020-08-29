@@ -185,7 +185,7 @@ _Not a SESAR Field_
 |**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils<br> associated with trees and shrubs.                     |
 
 ### Size
-|Proposed ESS-DIVE Element|<div align="right">size <img width=180/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">size <img width=150/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Size of the registered object, such as the surface area, length of a core, weight,<br> or volume|
 |**Format**               |Number                                               |
@@ -193,7 +193,7 @@ _Not a SESAR Field_
 |**Examples**             |4; 6.8                                               |
 
 ### Size unit
-|Proposed ESS-DIVE Element|<div align="right">sizeUnit <img width=120/> only if Size provided,<code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">sizeUnit <img width=100/> only if Size provided,<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
