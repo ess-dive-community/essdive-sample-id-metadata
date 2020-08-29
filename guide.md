@@ -303,7 +303,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Navigation type
 |Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Type of geolocation instrument used to obtain geographic coordinates.|
+|**Definition**           |Type of geolocation instrument used to obtain geographic coordinates. <img width=100/>|
 |**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 |**Additional Instructions**|Provide feedback on additional terms needed.|
 |**Examples**             |GPS; RTK GPS|
@@ -319,7 +319,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Country
 |Proposed ESS-DIVE Element|<div align="right">country<img width=200/>  <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Country where the sample was collected.              |
+|**Definition**           |Country where the sample was collected. <img width=200/>|
 |**Format**               |[SESAR controlled list](https://www.geosamples.org/help/vocabularies/country). <img width=150/>        |
 |**Additional Instructions**|Use SESAR list, but may change controlled list to [GAZ ontology](http://purl.obolibrary.org/obo/gaz).                             |
 |**Examples**             |United States                                        |
@@ -327,7 +327,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ### Elevation start
 |Proposed ESS-DIVE Element|<div align="right">minimumElevationInMeters <img width=80/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation<br> taken over a range.|
+|**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation taken over a range.|
 |**Format**               |Number                                               |
 |**Additional Instructions**|Provide elevation in meters where possible.|
 |**Examples**             |678.5|
