@@ -8,17 +8,26 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 
 [IGSN metadata quick reference guide](guide.md): SESAR metadata guide modified for interdiscipinary ESS samples. 
 
-Other documents:
+Documents for sample ID and metadata registration:
 
-- [Instructions document](instructions.md): Description of procedure to register samples for IGSNs through SESAR. 
+- [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs.  
-- [Term documents](/terms): 
 
-- [How to contribute](#how-to-contribute)
+[How to contribute](#how-to-contribute)
 
+---
 ## About the Sample ID and metadata standard
 
 Stay tuned for a link to our related paper describing the sample ID and metadata standard. 
+
+[Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the quick reference guide. 
+
+- [Sample metadata translation table](/terms/crosswalk.md): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
+- [Object type vocabulary](/terms/objectType.md): Description of terms for ESS-DIVE IGSN sample object types. 
+* [Object type comparison](/terms/objectTypeCrosswalk.tsv): Comparison of object type terms.
+- [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
+* [Material comparison](/terms/materialCrosswalk.tsv): Comparison of material terms. 
+
 
 ## How to contribute
 
