@@ -301,7 +301,7 @@ _Not a SESAR Field_
 
 ### Coordinate Uncertainty In Meters
 _Not a SESAR Field_
-|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=50/> <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=80/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |The horizontal distance (in meters) from the given decimal Latitude and decimal<br> Longitude describing the smallest circle containing the whole of the<br> Location.|
 |**Format**               |Number                                             |
@@ -321,7 +321,7 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Free text description of the location.|
 |**Format**               |
-|**Additional Instructions**|You can also include details here about the location type, e.g. whether it is an absolute<br> or reference location, plot ID and description.|
+|**Additional Instructions**|You can also include details here about the location type, e.g. whether it is an<br> absolute or reference location, plot ID and description.|
 |**Examples**             |300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
 
 ### Country
