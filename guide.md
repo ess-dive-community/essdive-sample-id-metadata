@@ -51,8 +51,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Elevation start](#elevation-start) | 
 [Elevation end](#elevation-end) | 
 [Elevation unit](#elevation-unit) | 
-[Depth in Core min](#depth-in-core-min) | 
-[Depth in Core max](#depth-in-core-max) | 
+[Minimum Depth in Meters](#minimum-depth-in-meters) | 
+[Maximum Depth in Meters](#maximum-depth-in-meters) | 
 [Depth scale](#depth-scale) | 
 [Minimum Distance above Surface in Meters](#minimum-distance-above-surface-in-meters) | 
 [Maximum Distance above Surface in Meters](#maximum-distance-above-surface-in-meters) | 
