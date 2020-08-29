@@ -24,9 +24,9 @@ Stay tuned for a link to our related paper describing the sample ID and metadata
 
 - [Sample metadata translation table](/terms/crosswalk.md): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
 - [Object type vocabulary](/terms/objectType.md): Description of terms for ESS-DIVE IGSN sample object types. 
-* [Object type comparison](/terms/objectTypeCrosswalk.tsv): Comparison of object type terms.
+  * [Object type comparison](/terms/ObjectTypeCrosswalk.tsv): Comparison of object type terms.
 - [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
-* [Material comparison](/terms/materialCrosswalk.tsv): Comparison of material terms. 
+  * [Material comparison](/terms/MaterialCrosswalk.tsv): Comparison of material terms. 
 
 
 ## How to contribute
