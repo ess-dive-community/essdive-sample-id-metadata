@@ -8,12 +8,11 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 
 [IGSN metadata quick reference guide](guide.md): SESAR metadata guide modified for interdiscipinary ESS samples. 
 
-Documents for sample ID and metadata registration:
+Documents for sample ID and metadata:
 
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs.  
-
-[How to contribute](#how-to-contribute)
+- [How to contribute](#contribute.md): A guide on how to contribute to ESS-DIVE's IGSN metadata. 
 
 ---
 ## About the Sample ID and metadata standard
