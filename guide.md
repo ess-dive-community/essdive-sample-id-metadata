@@ -187,7 +187,7 @@ _Not a SESAR Field_
 ### Size
 |Proposed ESS-DIVE Element|<div align="right">size <img width=250/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Size of the registered object, such as the surface area, length of a core, weight, or<br> volume|
+|**Definition**           |Size of the registered object, such as the surface area, length of a core, weight,<br> or volume|
 |**Format**               |Number                                               |
 |**Additional Instructions**| Must be associated with Size unit. 
 |**Examples**             |4; 6.8                                               |
@@ -197,14 +197,14 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](units.md)                          |
-|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=80/>|
+|**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
 |**Examples**             |square centimeter; kilogram                          |
 
 ### Filter Size
 _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size value<br> range.                                 |
+|**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size<br> value range.                                 |
 |**Format**               |Number range and unit (float-float unit)             |
 |**Additional Instructions**|                                                   |
 |**Examples**             |0-0.22 micrometer                                    |
@@ -213,7 +213,7 @@ _Not a SESAR Field_
 _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The full scientific name, with authorship and date information if known. When <br>forming part of an Identification, this should be the name in lowest level <br>taxonomic rank that can be determined.|
+|**Definition**           |The full scientific name, with authorship and date information if known. When forming<br> part of an Identification, this should be the name in lowest level taxonomic<br> rank that can be determined.|
 |**Format**               |                                                     |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
@@ -222,7 +222,7 @@ _Not a SESAR Field_
 _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">sampleRemarks <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Comments or notes about the sample.<img width=250/>  |
+|**Definition**           |Comments or notes about the sample. <img width=250/> |
 |**Format**               |free text                                            |
 |**Additional Instructions**|You can include weather descriptions here, if relevant.|
 |**Examples**             |                                                     |
