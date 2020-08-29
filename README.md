@@ -15,9 +15,7 @@ Documents for sample ID and metadata:
 - [How to contribute](#contribute.md): A guide on how to contribute to ESS-DIVE's IGSN metadata. 
 
 ---
-## About the Sample ID and metadata standard
-
-Stay tuned for a link to our related paper describing the sample ID and metadata standard. 
+## About the Sample ID and metadata reporting format
 
 [Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the quick reference guide. 
 
@@ -26,6 +24,8 @@ Stay tuned for a link to our related paper describing the sample ID and metadata
   * [Object type comparison](/terms/ObjectTypeCrosswalk.tsv): Comparison of object type terms.
 - [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
   * [Material comparison](/terms/MaterialCrosswalk.tsv): Comparison of material terms. 
+  
+  Stay tuned for a link to our related paper describing the sample ID and metadata reporting format. 
 
 
 ## How to contribute
