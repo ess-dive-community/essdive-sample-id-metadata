@@ -272,11 +272,11 @@ _Not a SESAR Field_
 |**Examples**             |filter water; store samples in ethanol|
 
 ### Field Program Cruise
-|Proposed ESS-DIVE Element|<div align="right">projectName <img width=150/> if relevant, <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
-|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration.If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-colon. Project Name<br> may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g. "Project<br> Name","collectionMethodDescription", "Purpose", "Chief Scientist"...|
+|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration.If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-<br>colon. Project Name may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g. "Project Name",<br>"collectionMethodDescription", "Purpose", "Chief Scientist"...|
 |**Examples**             |Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function SFA |
 
 ---  
