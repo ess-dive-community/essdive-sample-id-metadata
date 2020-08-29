@@ -317,7 +317,7 @@ _Not a SESAR Field_
 |**Examples**             |GPS; RTK GPS|
 
 ### Location description 
-|Proposed ESS-DIVE Element|<div align="right">locationDescription<img width=200/> <code>Recommended</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">locationDescription<img width=150/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Free text description of the location.|
 |**Format**               |
@@ -325,7 +325,7 @@ _Not a SESAR Field_
 |**Examples**             |300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
 
 ### Country
-|Proposed ESS-DIVE Element|<div align="right">country<img width=200/>  <code>Required</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">country<img width=150/>  <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Country where the sample was collected. <img width=200/>|
 |**Format**               |[SESAR controlled list](https://www.geosamples.org/help/vocabularies/country). <img width=150/>        |
