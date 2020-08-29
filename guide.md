@@ -213,7 +213,7 @@ _Not a SESAR Field_
 _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |The full scientific name, with authorship and date information if known. When forming<br> part of an Identification, this should be the name in lowest level taxonomic<br> rank that can be determined.|
+|**Definition**           |The full scientific name, with authorship and date information if known. When<br> forming part of an Identification, this should be the name in lowest level taxonomic<br> rank that can be determined.|
 |**Format**               |                                                     |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
