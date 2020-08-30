@@ -11,7 +11,7 @@ ESS-DIVE has worked with community scientists to test use of IGSNs and associate
 Documents to get started and contribute:
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
-- [How to contribute](#contribute.md): A guide on how to contribute to ESS-DIVE's sample metadata reporting format. 
+- [How to contribute](contribute.md): A guide on how to contribute to ESS-DIVE's sample metadata reporting format. 
 
 ---
 ## About the Sample ID and metadata reporting format
