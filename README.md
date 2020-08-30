@@ -16,7 +16,7 @@ Documents to get started and contribute:
 ---
 ## About the Sample ID and metadata reporting format
 
-The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR IGSN guide and template, with modifications to address Environmental Systems Science (ESS) sample needs and practicalities. To develop recommendationss for ESS, we conducted research on related sample standards and templates in addition to a pilot test with project scientists to test use of IGSN and standard metadata. Stay tuned for a link to our related paper describing the sample ID and metadata reporting format. 
+The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR IGSN guide and template, with modifications to address Environmental Systems Science (ESS) sample needs and practicalities. To develop recommendationss for ESS, we conducted research on related sample standards and templates in addition to work with project scientists to test use of IGSN and standard metadata. Stay tuned for a link to our related paper describing our recommended sample ID and metadata reporting format. 
 
 [Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the quick reference guide. 
 
