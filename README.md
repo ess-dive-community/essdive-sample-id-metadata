@@ -23,15 +23,9 @@ Documents to get started and contribute:
   * [Object type comparison](/terms/ObjectTypeCrosswalk.tsv): Comparison of object type terms.
 - [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
   * [Material comparison](/terms/MaterialCrosswalk.tsv): Comparison of material terms. 
-  
-  Stay tuned for a link to our related paper describing the sample ID and metadata reporting format. 
+- [Units vocabulary](/terms/units.md): Subset of likely relevant units terms from the [Units Ontology (UO)](http://www.ontobee.org/ontology/UO).
 
-
-## How to contribute
-
-The purpose of this standard is to support ESS scientists in sample data management, discovery, and reuse. The standard should be useful and practical for this community. We therefore solicit feedback on suggested improvements and any aspect of the standard that does not work well for you.
-
-You can contribute by [submitting an issue](https://github.com/ess-dive-community/essdive-community-repo-guide#how-to-contribute) directly in this github repository (preferred method), or by contacting us at ess-dive-support@lbl.gov.  
+Stay tuned for a link to our related paper describing the sample ID and metadata reporting format. 
 
 ## Copyright information
 
@@ -39,7 +33,7 @@ You can contribute by [submitting an issue](https://github.com/ess-dive-communit
 
 ## Recommended Citation
 
-_**Please cite the SESAR IGSN standard, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
+_**Please cite the SESAR IGSN guide and/or schema, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
 
 System for Earth Sample Registration (SESAR). 2020. SESAR Batch Registration Quick Guide (Version 7.0). Zenodo. http://doi.org/10.5281/zenodo.3874923
 
