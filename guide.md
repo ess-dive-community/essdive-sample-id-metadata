@@ -39,14 +39,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Collection Time](#collection-time) | 
 [Collection Method Description](#collection-method-description) | 
 [Sample Processing](#sample-processing) | 
-[Field program Cruise](#field-program-cruise)
+[Field Program Cruise](#field-program-cruise)
 
 **[Location](#location)**:     
 [Latitude Coordinate system WGS 84](#latitude-coordinate-system-wgs-84) | 
 [Longitude Coordinate system WGS 84](#longitude-coordinate-system-wgs-84) | 
 [Coordinate Uncertainty In Meters](#coordinate-uncertainty-in-meters) | 
-[Navigation type](#navigation-type) | 
-[Location description](#location-description) | 
+[Navigation Type](#navigation-type) | 
+[Location Description](#location-description) | 
 [Country](#country) | 
 [Elevation start](#elevation-start) | 
 [Elevation end](#elevation-end) | 
@@ -308,7 +308,7 @@ _Not a SESAR Field_
 |**Additional Instructions**|Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not<br> applicable (because there are no coordinates). Zero is not a valid value for<br> this term. In most cases, a value reflecting the precision and accuracy of<br> the GPS instrument used to obtain coordinates is appropriate here.  Many GPS<br> instruments will provide a precision along with coordinates that can be<br> applied here.  |
 |**Examples**             |30 (reasonable lower limit of a GPS reading under good conditions if the actual<br> precision was not recorded at the time)|
 
-### Navigation type
+### Navigation Type
 |Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Type of geolocation instrument used to obtain geographic coordinates. <img width=20/>|
@@ -316,7 +316,7 @@ _Not a SESAR Field_
 |**Additional Instructions**|Provide feedback on additional terms needed.|
 |**Examples**             |GPS; RTK GPS|
 
-### Location description 
+### Location Description 
 |Proposed ESS-DIVE Element|<div align="right">locationDescription<img width=150/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Free text description of the location.|
