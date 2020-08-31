@@ -58,7 +58,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Maximum Distance above Surface in Meters](#maximum-distance-above-surface-in-meters) | 
 
 **[Environmental Context](#environmental-context)**:      
-[Primary Physiographic feature](#primary-physiographic-feature) | 
+[Physiographic feature](#primary-physiographic-feature) | 
 [Biome](#biome)
 
 **[Sample Access](#sample-access)**:     
@@ -404,7 +404,7 @@ Proposed ESS-DIVE Element|<div align="right">maximumDistanceAboveSurfaceInMeters
 
 ## Environmental Context
 
-### Primary Physiographic feature
+### Physiographic feature
 Proposed ESS-DIVE Element|<div align="right">localEnvironmentalContext <img width=100/> <code>Recommended</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
