@@ -23,7 +23,7 @@ The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR
 [Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the quick reference guide. 
 
 - [Sample metadata translation table](/terms/sampleMetadataCrosswalk): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
-- Sample metadata sources
+- [Sample metadata sources](/terms/sampleMetadataSources): List of sources for standard or template in translation table, with scope and available citation. 
 - [Object type vocabulary](/terms/objectType.md): Description of terms for ESS-DIVE IGSN sample object types. 
   * [Object type comparison](/terms/ObjectTypeCrosswalk.tsv): Comparison of object type terms.
 - [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
