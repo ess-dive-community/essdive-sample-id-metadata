@@ -26,12 +26,12 @@ Below we outline supporting documents used to compare related metadata and vocab
 
 [Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the quick reference guide. 
 
-- [Sample metadata translation table](/terms/sampleMetadataCrosswalk.csv): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
-- [Sample metadata sources](/terms/sampleMetadataSources.md): List of sources for standard or template in translation table, with scope and available citation. 
+- [Sample metadata translation table](/terms/sampleMetadata_translation_table.csv): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
+- [Sample metadata sources](/terms/sampleMetadata_sources.md): List of sources for standard or template in translation table, with scope and available citation. 
 - [Object type vocabulary](/terms/objectType.md): Description of terms for ESS-DIVE IGSN sample object types. 
-  * [Object type comparison](/terms/ObjectTypeCrosswalk.tsv): Comparison of object type terms.
+  * [Object type comparison](/terms/objectType_translation_table.csv): Comparison of object type terms.
 - [Material vocabulary](/terms/material.md): Description of terms for ESS-DIVE IGSN sample object types. 
-  * [Material comparison](/terms/MaterialCrosswalk.tsv): Comparison of material terms. 
+  * [Material comparison](/terms/material_translation_table.csv): Comparison of material terms. 
 - [Units vocabulary](/terms/units.md): Subset of likely relevant units terms from the [Units Ontology (UO)](http://www.ontobee.org/ontology/UO).
 
 ## Copyright information
@@ -42,7 +42,7 @@ Funding for the development of ESS-DIVE's Sample ID and metadata reporting forma
 
 The updated sample reporting format for interdisciplinary ESS samples contains modifications and extensions of guidelines originally created by the System for Earth Sample Registration (SESAR) and IGSN organization. Individuals within these organizations are responsible for creating IGSN identifiers and standard sample metadata templates. We especially thank Kerstin Lehnert, Jens Klump, Lesley Wyborn, and Sarah Ramdeen for their development and engagement work, and/or direct assistence with using IGSN. 
 
-As outlined in the [sample metadata sources]((/terms/sampleMetadataSources.md) document, many recommended metadata additions to the IGSN guidelines/schema come from Darwin Core, and MIxS. 
+As outlined in the [sample metadata sources]((/terms/sampleMetadata_sources.md) document, many recommended metadata additions to the IGSN guidelines/schema come from Darwin Core, and MIxS. 
 
 ESS community scientists helped test use of IGSNs, and provided critical feedback - resulting in our final recommendations. These include individuals from eight ESS projects, including: 
 - SLAC Subsurface Biogeochemical Research (SBR) Scientific Focus Area (SFA), National Accellerator Laboratory Groundwater Quality: Zach Perzan and Kristin Boye
