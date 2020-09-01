@@ -2,7 +2,7 @@
 
 ESS-DIVE recommends registering samples for [International Geo/General Sample Numbers (IGSNs)](https://www.geosamples.org/aboutigsn) through the [System for Earth Sample Registration (SESAR)](https://www.geosamples.org/). IGSNs are associated with standardized metadata to characterize a variety of different samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
 
-ESS-DIVE has worked with community scientists to test use of IGSNs and associated metadata in interdisciplinary Environmental Systems Science. We therefore have specific recommendations for extending IGSN metadata for this interdisciplinary community.
+ESS-DIVE has worked with ESS community scientists to test use of IGSNs and associated metadata in interdisciplinary Environmental Systems Science. Here we outline modified IGSN metadata guidelines to account for needs of a variety of related geological and biological samples. While generally following the IGSN core descriptive metadata schema, we provide recommendations for extending sample type terms, and connecting to related templates geared towards biodiversity (Darwin Core) and genomic (Minimum Information about any Sequence, MIxS) samples and specimens. 
 
 ## Getting started
 
