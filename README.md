@@ -34,6 +34,9 @@ The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR
 
 ## Funding and acknowledgements
 
+Funding for the development of ESS-DIVE's Sample ID and metadata reporting format was provided by the US Deparment of Energy (DOE), Biological and Environmental Research Program, Earth and Environmental Systems Sciences Division, Data Management
+
+
 ## Recommended Citation
 
 _**Please cite the SESAR IGSN guide and/or schema, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
