@@ -53,7 +53,7 @@ I suggest the following changes (leave blank whatever would not change):
 
 ### Change documentation
 
-Copy and paste this template into your [new issue](https://github.com/ess-dive-community/essdive-sample-id-metadata/issues/new) if you want to make a change to the documentation. Or, fork the repository, make the changes yourself, and send a pull request.
+Copy and paste this template into your [new issue](https://github.com/ess-dive-community/essdive-sample-id-metadata/issues/new) if you want to make a change to the documentation.
 
 ```
 ## Change documentation
