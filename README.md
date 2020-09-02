@@ -61,10 +61,12 @@ Representatives from other US DOE data systems and user facilities that work wit
 
 ## Recommended citation
 
-_**Please cite the SESAR IGSN guide and/or schema, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
+_**Please cite the SESAR IGSN guide and/or schema, Darwin Core, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
 
 System for Earth Sample Registration (SESAR). 2020. SESAR Batch Registration Quick Guide (Version 7.0). Zenodo. http://doi.org/10.5281/zenodo.3874923
 
 System for Earth Sample Registration (SESAR). 2020. SESAR XML Schema for samples (Version 4.0). Zenodo. http://doi.org/10.5281/zenodo.3875531 
+
+Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
 
 _ESS-DIVE citation will be provided when available._ 
