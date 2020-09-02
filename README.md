@@ -13,12 +13,12 @@ Documents to get started:
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
 
 
-## How to Contribute: 
+## How to contribute: 
 
 ESS-DIVE is a community-focused data repository. Our sample reporting format must fit the needs of ESS data contributors and users, and we need your feedback. See our [guide on how to contribute](contribute.md) to ESS-DIVE's sample metadata reporting format. 
 
 ---
-## About the Sample ID and metadata reporting format
+## About the sample ID and metadata reporting format
 
 The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR IGSN guide and template, with modifications to address ESS sample needs and practicalities. To develop recommendations for ESS, we conducted research on related sample standards and templates in addition to work with project scientists to test use of IGSN and standard metadata. Stay tuned for a link to our related paper describing the recommended sample ID and metadata reporting format. 
 
@@ -59,7 +59,7 @@ Representatives from other US DOE data systems and user facilities that work wit
 - The Department of Energy Systems Biology Knowledgebase (KBase): Shane Canon, Paramvir Dehal
 - Environmental Molecular Sciences Laboratory: Lee Ann McCue, Dave Millard, Steven Wiley
 
-## Recommended Citation
+## Recommended citation
 
 _**Please cite the SESAR IGSN guide and/or schema, and ESS-DIVE's modified version for Environmental Systems Science Samples when describing sample collection and data management methods in your related datasets and publications.**_ 
 
