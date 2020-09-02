@@ -6,7 +6,7 @@ ESS-DIVE has worked with our community scientists to test use of IGSNs and assoc
 
 ## Getting started
 
-[ESS-DIVE's IGSN metadata reference guide](guide.md): <br>IGSN sample metadata guide, modified ([from the SESAR IGSN guide](http://doi.org/10.5281/zenodo.3874923)) for interdiscipinary Environmental System Science (ESS) samples. 
+[ESS-DIVE's IGSN metadata reference guide](guide.md): <br>IGSN sample metadata guide, modified (from the SESAR IGSN guide - see link and citation below) for interdiscipinary Environmental System Science (ESS) samples. 
 
 Other documents to get started:
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
