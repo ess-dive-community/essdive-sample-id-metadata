@@ -42,7 +42,7 @@ Funding for the development of ESS-DIVE's Sample ID and metadata reporting forma
 
 The updated sample reporting format for interdisciplinary ESS samples contains modifications and extensions of guidelines originally created by the System for Earth Sample Registration (SESAR) and IGSN organization. Individuals within these organizations are responsible for creating IGSN identifiers and standard sample metadata templates. We especially thank Kerstin Lehnert, Jens Klump, Lesley Wyborn, and Sarah Ramdeen for their development and engagement work, and/or direct assistence with using IGSN. 
 
-As outlined in the [sample metadata sources]((/terms/sampleMetadata_sources.md) document, many recommended metadata additions to the IGSN guidelines/schema come from Darwin Core, and MIxS. 
+As outlined in the [sample metadata sources](/terms/sampleMetadata_sources.md) document, many recommended metadata additions to the IGSN guidelines/schema come from Darwin Core, and MIxS. 
 
 ESS community scientists helped test use of IGSNs, and provided critical feedback - resulting in our final recommendations. These include individuals from eight ESS projects, including: 
 - SLAC Subsurface Biogeochemical Research (SBR) Scientific Focus Area (SFA), National Accellerator Laboratory Groundwater Quality: Zach Perzan and Kristin Boye
