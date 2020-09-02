@@ -66,4 +66,9 @@ I suggest the following changes:
 
 ```
 
+### Citation
+These issue templates were modeled from that provided by Darwin Core: 
+
+Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
+
 
