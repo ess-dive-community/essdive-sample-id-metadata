@@ -5,6 +5,13 @@ Here's how you can contribute to ESS-DIVE's proposed sample ID and metadata repo
 * Want to make a change to the reporting format? Copy and paste one of the **issue templates** below and [submit a new issue](https://github.com/ess-dive-community/essdive-sample-id-metadata/issues/new).
 * Have a question? Contact us at ess-dive-support@lbl.gov. 
 
+---
+## Citation
+These issue templates were modeled from that provided by Darwin Core: 
+
+Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
+
+---
 ## Issue templates
 
 ### New term
@@ -65,10 +72,6 @@ Copy and paste this template into your [new issue](https://github.com/ess-dive-c
 I suggest the following changes:
 
 ```
----
-## Citation
-These issue templates were modeled from that provided by Darwin Core: 
 
-Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
 
 
