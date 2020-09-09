@@ -277,7 +277,7 @@ _SESAR name is "Field Program/Cruise"_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
-|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration. If multiple projects were involved, enter the project that<br> had the largest contribution first, and separate entries with a semi-<br>colon. Project Name may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a project or sample collection, which<br> contains a "collectionID" or "Field Program/Cruise", and any associated<br> metadata fields (e.g. "Collection Method Description", "Purpose", "Chief Scientist"...|
+|**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration. Project details may often be the same across a series/collection<br> of samples; To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a project or<br> sample collection, which contains a "collectionID" or "Field Program/Cruise",<br> and any associated metadata fields (e.g. "Collection Method Description",<br> "Purpose", "Chief Scientist"...|
 |**Examples**             |Next Generation Ecosystem Experiments (NGEE) Tropics; LBNL Watershed Function<br> SFA |
 
 ---  
