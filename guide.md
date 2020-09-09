@@ -39,7 +39,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Collection Time](#collection-time) | 
 [Collection Method Description](#collection-method-description) | 
 [Sample Processing](#sample-processing) | 
-[Field Program Cruise of Project Name](#field-program-cruise-or-project-name)
+[Field Program or Project Name](#field-program-or-project-name)
 
 **[Location](#location)**:     
 [Latitude Coordinate system WGS 84](#latitude-coordinate-system-wgs-84) | 
@@ -271,7 +271,7 @@ _Not a SESAR Field_
 |**Additional Instructions**|Sample processing may often be the same across a series/collection of samples.<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g.<br> "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist",<br> etc.). Separate multiple sample processing methods<br> with a semi-colon.|
 |**Examples**             |filter water; store samples in ethanol|
 
-### Field Program Cruise or Project Name
+### Field Program or Project Name
 _SESAR name is "Field Program/Cruise"_
 |Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
