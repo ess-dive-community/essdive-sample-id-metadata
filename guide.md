@@ -20,7 +20,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Parent IGSN](#parent-igsn) |
 [Collection ID](#collection-id) |
 [Event ID](#event-id) |
-[Site ID](#site-id)
+[Location ID](#location-id)
 
 **[Sample Description](#sample-description)**:     
 [Material](#material) |
@@ -138,11 +138,11 @@ _Not a SESAR Field_
 |**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need <br> to be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. An event identifier can be used to<br> link a set of samples collected on a specific date,  and/or to enable efficient<br> entry of metadata that is the same across these samples.|
 |**Examples**             |WSFA_20191023                                        |
 
-### Site ID
+### Location ID
 _Not a SESAR Field_
-|Proposed ESS-DIVE Element|<div align="right">siteID <img width=200/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">locationID <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A unique identifier for the set of site location information. May be a global<br> unique identifier or an identifier specific to the data set.|
+|**Definition**           |A unique identifier for the set of location information. May be a global<br> unique identifier or an identifier specific to the data set.|
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need to<br> be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. A site identifier can be used to link<br> a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
 |**Examples**             |CoyoteRiver_D22                                      |
