@@ -53,7 +53,7 @@ ESS community scientists helped test use of IGSNs, and provided critical feedbac
 - Lawrence Berkeley National Lab Terrestrial Ecosystem Function (TES) SFA, Belowground Biogeochemistry
 - Brookhaven National Lab TES SFA, Next Generation Ecosystem Experiments (NGEE) Tropics: Kim Ely, Emily Robles
 
-Representatives from other US DOE data systems and user facilities that work with ESS samples, including: 
+We thank representatives from other US DOE data systems and user facilities that work with ESS samples who have contributed to sample discussions, including: 
 - Joint Genome Institute (JGI): Kjiersten Fagnan, David Hays
 - National Microbiome Data Collaborative (NMDC): Emiley Eloe-Fadrosh, Elisha Wood-Charlson, Chris Mungall, William Duncan
 - The Department of Energy Systems Biology Knowledgebase (KBase): Shane Canon, Paramvir Dehal
