@@ -273,7 +273,7 @@ _Not a SESAR Field_
 
 ### Field Program or Project Name
 _SESAR name is "Field Program/Cruise"_
-|Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> <code>Optional</code> </div>|
+|Proposed ESS-DIVE Element|<div align="right">projectName <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
