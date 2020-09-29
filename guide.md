@@ -8,6 +8,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ---  
 ## Sample Metadata Content - Link to More Details
+*Required fields are marked with an asterisk, and indicated in detailed tables below.
 
 **[Header Rows](#header-rows)**:      
 [Object Type*](#object-type) |
