@@ -34,16 +34,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Sample Remarks](#sample-remarks)
 
 **[Sample Collection Details](#sample-collection-details)**:     
-[Collector Chief Scientist](#collector-chief-scientist) |
-[Collection Date](#collection-date) | 
+[Collector Chief Scientist*](#collector-chief-scientist) |
+[Collection Date*](#collection-date) | 
 [Collection Time](#collection-time) | 
-[Collection Method Description](#collection-method-description) | 
+[Collection Method Description*](#collection-method-description) | 
 [Sample Processing](#sample-processing) | 
 [Field Program or Project Name](#field-program-or-project-name)
 
 **[Location](#location)**:     
-[Latitude Coordinate system WGS 84](#latitude-coordinate-system-wgs-84) | 
-[Longitude Coordinate system WGS 84](#longitude-coordinate-system-wgs-84) | 
+[Latitude Coordinate system WGS 84*](#latitude-coordinate-system-wgs-84) | 
+[Longitude Coordinate system WGS 84*](#longitude-coordinate-system-wgs-84) | 
 [Coordinate Uncertainty In Meters](#coordinate-uncertainty-in-meters) | 
 [Navigation Type](#navigation-type) | 
 [Location Description](#location-description) | 
@@ -58,11 +58,11 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Maximum Distance above Surface in Meters](#maximum-distance-above-surface-in-meters) | 
 
 **[Environmental Context](#environmental-context)**:      
-[Physiographic feature](#primary-physiographic-feature) | 
+[Physiographic feature*](#primary-physiographic-feature) | 
 [Biome](#biome)
 
 **[Sample Access](#sample-access)**:     
-[Release Date](#release-date) | 
+[Release Date*](#release-date) | 
 [Current Archive](#current-archive) | 
 [Current Archive Contact](#current-archive-contact)
 
