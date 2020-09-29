@@ -10,11 +10,11 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample Metadata Content - Link to More Details
 
 **[Header Rows](#header-rows)**:      
-[Object Type](#object-type) |
-[User Code](#user-code)
+[Object Type*](#object-type) |
+[User Code*](#user-code)
 
 **[Sample IDs and Related Identifiers](sample-ids-and-related-identifiers)**:     
-[Sample Name](#sample-name) |
+[Sample Name*](#sample-name) |
 [Other names](#other-names) |
 [IGSN](#igsn) |
 [Parent IGSN](#parent-igsn) |
@@ -23,7 +23,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Location ID](#location-id)
 
 **[Sample Description](#sample-description)**:     
-[Material](#material) |
+[Material*](#material) |
 [Field name informal classification](#field-name-informal-classification) |
 [Sample Description](#sample-description) |
 [Purpose](#purpose) |
