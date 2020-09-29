@@ -40,7 +40,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Collection Time](#collection-time) | 
 [Collection Method Description*](#collection-method-description) | 
 [Sample Processing](#sample-processing) | 
-[Field Program or Project Name](#field-program-or-project-name)
+[Field Program or Project Name*](#field-program-or-project-name)
 
 **[Location](#location)**:     
 [Latitude Coordinate system WGS 84*](#latitude-coordinate-system-wgs-84) | 
