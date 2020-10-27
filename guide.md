@@ -46,7 +46,6 @@ We seek any additional feedback, with the goal of making ESS sample information 
 **[Location](#location)**:     
 [Latitude Coordinate system WGS 84*](#latitude-coordinate-system-wgs-84) | 
 [Longitude Coordinate system WGS 84*](#longitude-coordinate-system-wgs-84) | 
-[Coordinate Uncertainty In Meters](#coordinate-uncertainty-in-meters) | 
 [Navigation Type](#navigation-type) | 
 [Location Description](#location-description) | 
 [Country](#country) | 
@@ -310,15 +309,6 @@ _SESAR name is "Field Program/Cruise"_
 |**Format**               |Decimal degrees, coordinate system: WGS 84           |
 |**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
 |**Examples**             |-103.785                                             |
-
-### Coordinate Uncertainty In Meters
-_Not a SESAR Field_
-|Proposed ESS-DIVE Element|<div align="right">coordinateUncertaintyInMeters<img width=80/> <code>Recommended</code> </div>|
-|:------------------------|:----------------------------------------------------|
-|**Definition**           |The horizontal distance (in meters) from the given decimal Latitude and decimal<br> Longitude describing the smallest circle containing the whole of the<br> Location.|
-|**Format**               |Number                                             |
-|**Additional Instructions**|Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not<br> applicable (because there are no coordinates). Zero is not a valid value for<br> this term. In most cases, a value reflecting the precision and accuracy of<br> the GPS instrument used to obtain coordinates is appropriate here.  Many GPS<br> instruments will provide a precision along with coordinates that can be<br> applied here.  |
-|**Examples**             |30 (reasonable lower limit of a GPS reading under good conditions if the actual<br> precision was not recorded at the time)|
 
 ### Navigation Type
 |Proposed ESS-DIVE Element|<div align="right">geolocationInstrument<img width=100/> <code>Recommended</code> </div>|
