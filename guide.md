@@ -31,6 +31,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Size](#size) |
 [Size unit](#size-unit) |
 [Filter Size](#filter-size) |
+[Filter Size Unit](#filter-size-unit) |
 [Scientific Name](#scientific-name) |
 [Sample Remarks](#sample-remarks)
 
@@ -206,9 +207,18 @@ _Not a SESAR Field_
 |Proposed ESS-DIVE Element|<div align="right">filterSize <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size<br> value range.                                 |
-|**Format**               |Number range and unit (float-float unit)             |
+|**Format**               |Number range (float-float)                           |
 |**Additional Instructions**|                                                   |
-|**Examples**             |0-0.22 micrometer                                    |
+|**Examples**             |0-0.22                                               |
+
+### Filter Size Unit
+_Not a SESAR Field_
+|Proposed ESS-DIVE Element|<div align="right">filterSizeUnit <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Filtering pore size unit.                            |
+|**Format**               |unit (float-float unit)                              |
+|**Additional Instructions**|                                                   |
+|**Examples**             |micrometer                                           |
 
 ### Scientific Name
 _Not a SESAR Field_
