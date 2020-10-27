@@ -430,7 +430,7 @@ Proposed ESS-DIVE Element|<div align="right">biome <img width=200/> <code>Recomm
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Major environmental system your sample or specimen came from. The systems<br> identified should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO<br> identifier - see examples below.|
-|**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
+|**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). Use a semi-colon to delimit multiple biomes where needed. If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
 |**Examples**             |shrubland biome [ENVO:01000176]; tropical moist broadleaf forest biome<br> [ENVO:01000228]; estuarine biome [ENVO:01000020]|
 
 ---  
