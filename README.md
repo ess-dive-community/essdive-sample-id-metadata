@@ -12,6 +12,15 @@ Other documents to get started:
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
 
+## File formatting requirements
+
+ESS-DIVE has higher-level requirements and recommendations for documenting individual files, including those in csv spreadsheet formats.  Here is a quick summary of relevant requirements. 
+
+- File names should include only ASCII characters, camelCase, underscores or dashes.
+- There should be no empty rows.
+- Reporting should be consistent within a column, for example with the same number of decimal places where relevant. 
+- Use "NA" for missing values in columns with text, and "-9999" for missing values in columns with numbers. 
+
 
 ## How to contribute: 
 
