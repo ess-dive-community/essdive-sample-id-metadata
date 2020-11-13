@@ -24,7 +24,13 @@ ESS-DIVE has higher-level requirements and recommendations for documenting indiv
 
 ## How to contribute: 
 
-ESS-DIVE is a community-focused data repository. Our sample reporting format must fit the needs of ESS data contributors and users, and we need your feedback. See our [guide on how to contribute](contribute.md) to ESS-DIVE's sample metadata reporting format. 
+Want to make a change to the reporting format? [Submit a new issue](https://github.com/ess-dive-community/essdive-sample-id-metadata/issues/new/choose) and use one of several templates that we provide to: suggest a new term, modify a term, or propose changes to documentation within this repository.
+
+Have a question? Contact us at ess-dive-support@lbl.gov. 
+
+The issue templates we use are modeled from that provided by Darwin Core: 
+
+Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
 
 ---
 ## About the sample ID and metadata reporting format
