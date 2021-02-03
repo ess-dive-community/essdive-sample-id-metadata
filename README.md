@@ -66,7 +66,7 @@ ESS community scientists helped test use of IGSNs, and provided critical feedbac
 - Argonne National Lab SBR SFA, Argonne Wetland Hydrobiogeochemistry: Pamela Weisenhorn 
 - Lawrence Berkeley National Lab SBR SFA, Watershed Function (2 sub-projects): Patrick Sorensen, Dana Chadwick, Zarine Kakalia, Eoin Brodie
 - Lawrence Berkeley National Lab Terrestrial Ecosystem Function (TES) SFA, Belowground Biogeochemistry
-- Brookhaven National Lab TES SFA, Next Generation Ecosystem Experiments (NGEE) Tropics: Kim Ely, Emily Robles
+- Next Generation Ecosystem Experiments -Arctic (NGEE-Arctic) and -Tropics (NGEE-Tropics) projects: Kim Ely
 
 We thank representatives from other US DOE data systems and user facilities that work with ESS samples who have contributed to sample discussions, including: 
 - Joint Genome Institute (JGI): Kjiersten Fagnan, David Hays
@@ -84,4 +84,4 @@ System for Earth Sample Registration (SESAR). 2020. SESAR XML Schema for samples
 
 Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014). Darwin Core. Zenodo. https://doi.org/10.5281/zenodo.592792   
 
-_ESS-DIVE citation will be provided when available._ 
+Damerow J ; Varadharajan C ; Boye K ; Brodie E ; Burrus M ; Chadwick D ; Cholia S ; Crystal-Ornelas R ; Elbashandy H ; Eloy Alves R ; Ely K ; Goldman A ; Hendrix V ; Jones C ; Jones M ; Kakalia Z ; Kemner K ; Kersting A ; Maher K ; Merino N ; O'Brien F ; Perzan Z ; Robles E ; Snavely C ; Sorensen P ; Stegen J ; Weisenhorn P ; Whitenack K ; Zavarin M ; Agarwal D  (2020): Sample Identifiers and Metadata Reporting Format for Environmental Systems Science. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem (ESS-DIVE). https://doi.org/10.15485/1660470
