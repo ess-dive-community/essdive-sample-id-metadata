@@ -50,6 +50,7 @@ Below we outline supporting documents used to compare related metadata and vocab
 - [Units vocabulary](/terms/units.md): Subset of likely relevant units terms from the [Units Ontology (UO)](http://www.ontobee.org/ontology/UO).
 
 ## Copyright information
+The ESS-DIVE Sample ID and metadata reporting format (IGSN-ESS) is licensed under the Creative Commons Attribution 4.0 International (CCby4).
 
 ## Funding and acknowledgements
 
