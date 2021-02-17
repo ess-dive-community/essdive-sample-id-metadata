@@ -41,7 +41,7 @@ Below we outline supporting documents used to compare related metadata and vocab
 
 [Metadata research documents](/terms): Files with descriptions of metadata fields and controlled vocabulary terms. Metadata fields with controlled vocabularies are described in the [sample metadata reference guide](guide.md). 
 
-- [Sample metadata translation table](/terms/sampleMetadata_translation_table.csv): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
+- [Sample metadata translation table](/terms/sampleMetadataTranslationTable.csv): Comparison of basic sample metadata elements across standards and templates to describe physical samples and specimens. 
 - [Sample metadata sources](/terms/sampleMetadata_sources.md): List of sources for standard or template in translation table, with scope and available citation. 
 - [Object type vocabulary](/terms/objectType.md): Description of terms for ESS-DIVE IGSN sample object types. 
   * [Object type comparison](/terms/objectType_translation_table.csv): Comparison of object type terms.
