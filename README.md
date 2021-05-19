@@ -4,6 +4,9 @@ ESS-DIVE recommends registering samples for [Global Sample Numbers (IGSNs)](http
 
 ESS-DIVE has worked with our community scientists to test use of IGSNs and associated metadata in interdisciplinary Environmental Systems Science (ESS). Here we outline modified IGSN metadata guidelines to account for needs of a variety of related geological and biological samples. While generally following the IGSN core descriptive metadata schema, we provide recommendations for extending sample type terms, and connecting to related templates geared towards biodiversity (Darwin Core) and genomic (Minimum Information about any Sequence, MIxS) samples and specimens. The resulting template and recommendations are an extension of IGSN core metadata - IGSN for Environmental Systems Science (IGSN-ESS). 
 
+## Updates in v1.0.0  
+- This is the first release of the Sample ID and Metadata Reporting Format
+
 ## Getting started
 
 [ESS-DIVE's IGSN metadata reference guide](guide.md): <br>IGSN sample metadata guide, modified (from the SESAR IGSN guide - see link and citation below) for interdiscipinary Environmental System Science (ESS) samples. 
@@ -11,9 +14,6 @@ ESS-DIVE has worked with our community scientists to test use of IGSNs and assoc
 Other documents to get started:
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
-
-## Updates in v1.0.0  
-- This is the first release of the Sample ID and Metadata Reporting Format
 
 ## File formatting requirements
 
