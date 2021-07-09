@@ -1,5 +1,14 @@
 # How to Assign Sample Identifiers and Register Samples for IGSNs
 
+- [File Organization and Assigning Unique Identifiers](#file-organization-and-assigning-unique-identifiers)     
+- [Sample Hierarchies](#sample-hierarchies)
+- [Standardize Sample Metadata](#standardize-sample-metadata)
+- [When do you need IGSNs?](#when-do-you-need-igsns) 
+- [Register Samples for IGSNs through SESAR](#register-samples-for-igsns-through-sesar) 
+- [Publish Sample Datasets on ESS-DIVE](#publish-sample-datasets-on-essdive) 
+- [Provide Feedback](#provide-feedback) 
+
+
 ## File Organization and Assigning Unique Identifiers
 
 The first step in planning your sampling campaign is to decide how to organize information about your samples, which includes considering file organization and linking or tracking information using unique identifiers. A common way to organize sample data, is to have separate files for locations (project sites), primary samples, and potentially subsamples; each location, sample, and subsample then get a unique identifier (e.g. Location ID, Sample Name). Your locally-unique sample identifiers are called “Sample Name'' in the ESS-DIVE sample ID and metadata reporting format, based on SESAR IGSN. The Sample Name is usually a meaningful code that enables you to organize and track samples within your project (e.g. RockCr001_2021-05-25). 
@@ -16,7 +25,7 @@ When sending a sample to multiple labs for a variety of analyses that need to be
 
 Complete the [sample template](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/sampleTemplate.xls) for ESS-DIVE to provide information about samples that will help make them more discoverable and usable. General fields to describe sample types and locations are required where relevant. Guidance on specific fields were originally developed by SESAR, and modified in some cases by ESS-DIVE. See our [sample metadata guide](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/guide.md) for descriptions and instructions for each metadata field.
 
-## When do you need IGSNs?
+## When do you need IGSNs
 
 International Geo/General Sample Numbers (IGSNs) are globally unique and persistent identifiers (PID). General information about International Geo/General Sample Numbers (IGSNs) can be found on the [System for Earth Sample Registration (SESAR) website](https://www.geosamples.org/igsnabout).
 
@@ -40,7 +49,7 @@ Here are instructions on how to register your ESS samples for IGSNs through SESA
 5. Batch upload completed descriptive metadata for registered samples after field collection using the customized spreadsheet template.
 6. Manage and update sample metadata as needed. It is essential that the IGSNs always be associated with all digital records of the sample. However, the SESAR IGSN catalog is focused on fields related to the “birth” or collection of the sample, so data related to analyses would be managed separately, and not included in the SESAR catalog. 
 
-## Publish Sample Datasets on ESS-DIVE
+## Publish Sample Datasets on ESSDIVE
 
 7. When the relevant sample analyses are completed for a data package, submit your sample metadata and data to ESS-DIVE. ESS-DIVE will be developing tools to enable advanced search for samples using IGSNs, and linking samples to other related samples, datasets and publications.
 8. Update your sample metadata when datasets are published by adding links to related datasets and publications, as a “Related URL” along with a “URL Description”.
