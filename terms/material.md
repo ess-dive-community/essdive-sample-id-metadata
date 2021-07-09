@@ -1,6 +1,6 @@
 # ESS-DIVE Proposed Material Vocabulary
 
-We have modified the original SESAR IGSN list of [materials](https://app.geosamples.org/reference/materials.php) for Environmental Systems Science (ESS) samples, using existing ontology terms from Environment Ontology (ENVO) or Plant Ontology (PO) - see definition link to ontology term details (IRI for term). Currently, **you must use SESAR terms** to register samples for IGSNs. 
+We have modified the original SESAR IGSN list of [materials](https://app.geosamples.org/reference/materials.php) for Environmental Systems Science (ESS) samples, using existing ontology terms from Environment Ontology (ENVO) or Plant Ontology (PO) - see definition link to ontology term details (IRI for term). Currently, **you must use SESAR terms** to register samples for IGSNs, and we recommend entering the more specific ESS-DIVE proposed material under "Field name (informal classification".  
 
 Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
 
