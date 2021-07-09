@@ -17,7 +17,7 @@ Consistently using unique identifiers for locations, sample collections, samplin
 
 ## Sample Hierarchies
 
-You may have complex sample hierarchies, and this should be captured in the sample metadata template by providing the Parent IGSN for each subsample (child sample). An example [sample “journey map”](http://bit.ly/SampleJourneyMap) (documenting sample transport, analyses, and relationships) or [sample hierarchy](https://bit.ly/SampleHierarchy) may help you map out your general sample relationships and decide on the allocation of IDs.
+You may have complex sample hierarchies, and this can be captured in the sample metadata template by providing the Parent IGSN for each subsample (child sample). An example [sample “journey map”](http://bit.ly/SampleJourneyMap) (documenting sample transport, analyses, and relationships) or [sample hierarchy](https://bit.ly/SampleHierarchy) may help you map out your general sample relationships and decide on the allocation of IDs.
 
 When sending a sample to multiple labs for a variety of analyses that need to be later compiled, we recommend using the same identifier for each container, or using extensions from a primary ID to simplify sample reporting and tracking. You can assign short 1-2 character extensions for subsamples by specifying your own IGSNs and registering those subsamples along with relevant metadata.
 
