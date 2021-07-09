@@ -15,7 +15,7 @@ sediment                                       |Sediment               |[Sedimen
 snow                                           |NA                     |[Snow is an environmental material which is primarily composed of flakes of crystalline water ice.](http://purl.obolibrary.org/obo/ENVO_01000406) 
 ice                                            |Ice                    |[An ice is an environmental material which is either frozen or which is maintained in a solid state by gravitational forces or pressure.](http://purl.obolibrary.org/obo/ENVO_01001125)
 permafrost                                     |NA                     |[Soil or rock and included ice or organic material at or below the freezing point of water (0 degrees Celsius or 32 degrees Fahrenheit) for two or more years.](http://purl.obolibrary.org/obo/ENVO_00000134) 
-liquid environmental material: liquid water.   |Liquid>aqueous         |[An environmental material primarily composed of dihydrogen oxide in its liquid form.](http://purl.obolibrary.org/obo/ENVO_00002006)
+liquid water   |Liquid>aqueous         |[An environmental material primarily composed of dihydrogen oxide in its liquid form.](http://purl.obolibrary.org/obo/ENVO_00002006)
 surface water|NA          |[Water that is found on the surface of an astronomical object.](http://purl.obolibrary.org/obo/ENVO_00002042) 
 groundwater|NA|[Underground water which is located in pore spaces found in rock or unconsolidated deposits such as soil, clay, or gravel.](http://purl.obolibrary.org/obo/ENVO_01001004)
 organic material                               |NA                     |[Environmental material derived from living organisms and composed primarily of one or more biomacromolecules.](http://purl.obolibrary.org/obo/ENVO_01000155) 
