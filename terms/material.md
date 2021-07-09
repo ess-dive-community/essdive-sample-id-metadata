@@ -4,7 +4,7 @@ We have modified the original SESAR IGSN list of [materials](https://app.geosamp
 
 Please provide feedback on any additional terms needed, modifications to definitions needed, or terms that should be removed.  
 
-**ESS-DIVE Proposed Material**                 |**IGSN SESAR Material**|**Definition (with link to ENVO or PO)**
+**ESS-DIVE Proposed Material - Enter as Field Name (Informal Classification) where needed**                 |**IGSN SESAR Material**|**Definition (with link to ENVO or PO)**
 :----------------------------------------------|:----------------------|:-----------------------------------------
 gaseous environmental material                 |Gas                    |[A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely.](http://purl.obolibrary.org/obo/ENVO_01000797)
 particulate matter                             |Particulate            |[Particulate material is an environmental material which is composed of microscopic portions of solid or liquid material suspended in another environmental material.](http://purl.obolibrary.org/obo/ENVO_01000060) 
