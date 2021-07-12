@@ -157,7 +157,7 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](terms/material.md) from Environment<br> Ontology (ENVO)|
-|**Additional Instructions**|Use a semi-colon to delimit multiple materials where needed. ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
+|**Additional Instructions**|Use a semi-colon to delimit multiple materials where needed. Please provide feedback on any other terms needed.|
 |**Examples**             |Soil; Sediment; Gas; Liquid>aqueous |
 
 
