@@ -158,7 +158,7 @@ _Not a SESAR Field_
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](terms/material.md) from Environment<br> Ontology (ENVO)|
 |**Additional Instructions**|Use a semi-colon to delimit multiple materials where needed. ESS-DIVE is requesting additional terms for organisms, organic material, and<br> water samples. Please provide feedback on any other terms needed.|
-|**Examples**             |soil; sediment; surface water [ENVO:00002042](http://purl.obolibrary.org/obo/ENVO_00002042); groundwater [ENVO:01001004](http://purl.obolibrary.org/obo/ENVO_01001004) |
+|**Examples**             |Soil; Sediment; Gas; Liquid>aqueous |
 
 
 ### Field name informal classification 
@@ -166,8 +166,8 @@ _Not a SESAR Field_
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Informal classification of sample                    |
 |**Format**               |free text                                            |
-|**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields.  We will remove this field when object-type and<br> material controlled terms are revised and expanded to accomodate ESS sample<br> types.|
-|**Examples**             |leaf, root                                           |
+|**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields. |
+|**Examples**             |leaf, root, surface water, groundwater               |
 
 ### Sample Description 
 |Proposed ESS-DIVE Element|<div align="right">sampleDescription <img width=200/> <code>Recommended</code> </div>|
