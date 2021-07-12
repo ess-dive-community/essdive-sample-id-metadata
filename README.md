@@ -38,7 +38,7 @@ Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014).
 ---
 ## About the sample ID and metadata reporting format
 
-The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR IGSN guide and template, with modifications to address ESS sample needs and practicalities. To develop recommendations for ESS, we conducted research on related sample standards and templates in addition to work with project scientists to test use of IGSN and standard metadata. Stay tuned for a link to our related paper describing the recommended sample ID and metadata reporting format. 
+The ESS-DIVE sample ID and metadata reporting format primarily follows the SESAR IGSN guide and template, with modifications to address ESS sample needs and practicalities. To develop recommendations for ESS, we conducted research on related sample standards and templates in addition to work with project scientists to test use of IGSN and standard metadata. See our related paper describing the recommended sample ID and metadata reporting format: http://doi.org/10.5334/dsj-2021-011. 
 
 Below we outline supporting documents used to compare related metadata and vocabulary terms.  
 
