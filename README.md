@@ -1,4 +1,4 @@
-# ESS-DIVE Sample ID and Metadata Reporting Format (IGSN-ESS) v1.0.0
+# ESS-DIVE Sample ID and Metadata Reporting Format (IGSN-ESS) v1.1.0
 
 ESS-DIVE recommends registering samples for [Global Sample Numbers (IGSNs)](https://www.igsn.org/) through the [System for Earth Sample Registration (SESAR)](https://www.geosamples.org/). IGSNs are associated with standardized metadata to characterize a variety of different samples and their collection details. These sample identifiers facilitate sample discovery, tracking, and reuse; they are especially useful when sample data is shared with collaborators, sent to different labs or user facilities for analyses, or distributed in different data files, datasets, and/or publications. 
 
@@ -13,7 +13,7 @@ Other documents to get started:
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
 
 ## Updates in v1.0.0  
-- This is the first release of the Sample ID and Metadata Reporting Format  
+- This is the second release of the Sample ID and Metadata Reporting Format  
 
 ## File formatting requirements
 
