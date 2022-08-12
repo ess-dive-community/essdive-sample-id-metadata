@@ -12,7 +12,7 @@ Other documents to get started:
 - [Instructions document](instructions.md): Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE. 
 - [Sample metadata template](sampleTemplate.xls): Download spreadsheet template with standard fields to register samples for IGSNs. 
 
-## Updates in v1.0.0  
+## Updates in v1.1.0  
 - This is the second release of the Sample ID and Metadata Reporting Format  
 
 ## File formatting requirements
@@ -29,7 +29,7 @@ ESS-DIVE has higher-level requirements and recommendations for documenting indiv
 
 Want to make a change to the reporting format? [Submit a new issue](https://github.com/ess-dive-community/essdive-sample-id-metadata/issues/new/choose) and use one of several templates that we provide to: suggest a new term, modify a term, or propose changes to documentation within this repository.
 
-Have a question? Contact us at ess-dive-support@lbl.gov. 
+Have a question? Contact us at ess-dive-support [at] lbl.gov. 
 
 The issue templates we use are modeled from that provided by Darwin Core: 
 
