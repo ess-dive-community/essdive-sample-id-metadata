@@ -75,16 +75,18 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Header Rows
 
 ### Object Type
-|Metadata_Element|<div align="right">Object Type <img width=200/> <code>Required</code> </div>| 
+|Metadata Element|<div align="center">Object Type<div>| 
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required |
 |**Definition**           |Broad characterization of the nature of a sample or specimen.|
 |**Format**               |[SESAR Controlled List](https://www.geosamples.org/help/vocabularies#object). See [object type list](terms/objectType.md) for revised terms proposed for ESS-DIVE|
 |**Additional Instructions**|Provide feedback on additional terms or revisions needed.
 |**Examples**             |Core; Individual Sample; Organism|
 
 ### User Code 
-|Metadata_Element|<div align="right">userCode <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">User Code</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required |
 |**Definition**           |Globally unique IGSN code that will be used as a prefix <br>for IGSNs in the submitted batch template.|
 |**Format**               |Five-letter code                                     |
 |**Additional Instructions**|User codes should be unique to an individual or large project managed by a team;<br> avoid creating multiple user codes. If assigning IGSNs in the IGSN column, <br>the user code must match the user code in the IGSNs. For example, if the user <br>specifies IEMEG is the user code, any user-specified IGSNs must begin with IEMEG.<br> If you do not specify the user code to be used, a default user code belonging<br> to the registrant will be used.|
@@ -94,32 +96,36 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample IDs and Related Identifiers
 
 ### Sample Name
-|Metadata_Element|<div align="right">Sample Name <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Sample Name</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required |
 |**Definition**           |Collector's project-specific sample name, which must be unique for each sample that<br> you are submitting.|
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|You can develop a sample ID that has meaning to you and may help in your internal, <br>project sample management.|
 |**Examples**             |001-ER18-FO                                          |
 
 ### Other names 
-|Metadata_Element|<div align="right">Other name(s) <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Other name(s)</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |Other sample name(s) that have been used in the past.<img width=220/>|
 |**Format**               |free text                                            |
 |**Additional Instructions**|Use a semi-colon to delimit multiple names where needed.|
 |**Examples**             |001ER18FO; 001ER18-FO                                |
 
 ### IGSN
-|Metadata_Element|<div align="right">IGSN <img width=200/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">IGSN</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended |
 |**Definition**           |Globally unique and persistent identifier for the sample. Leave blank if you want <br>SESAR to assign the IGSN, which is recommended.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) |
 |**Additional Instructions**|For split samples/subsamples, you can assign your own 1-2 character extensions from <br> the Parent IGSN, and submit your own IGSNs for registering these child samples.<br>  This is not required, but is an option if desired. For assigning your own<br> IGSNS, you must use upper-case alpha-numeric characters.|
 |**Examples**             |IEWER7214, IEMEG0215, 10.58052/IEAMN007P                                 |
 
 ### Parent IGSN 
-|Metadata_Element|<div align="right">parentIGSN <img width=130/> if relevant,<code>Required</code> </div>|
+|Metadata Element|<div align="center">Parent IGSN</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required |
 |**Definition**           |The larger sample from which a child sample was derived. For example, a core section<br> may be the parent of a series of subsamples or split samples. Parent<br> and child samples are linked in the SESAR catalog. Sibling samples are inferred<br> from parent-child relationships and are linked on the landing page for a<br> sample.|
 |**Format**               |semi-opaque, alphanumeric characters (9 recommended) | 
 |**Additional Instructions**|Leave blank if a parent IGSN does not exist.|
@@ -127,8 +133,9 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 ### Collection ID 
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Collection ID <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Collection ID</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |A unique identifier for the set of information associated with a collection of<br> samples; collections may be organized around a particular project, data set,<br> field season, region, site, etc. |
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need<br> to be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. A collection identifier can be<br> used to link a set of samples together, and/or to enable efficient entry of<br> metadata that is the same across all samples in a "sample collection."|
@@ -136,8 +143,9 @@ _Not a SESAR Field_
 
 ### Event ID 
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Event ID <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Event ID</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |A unique identifier for the set of information associated with an Event <br>(something that occurs at a place and time).|
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need <br> to be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. An event identifier can be used to<br> link a set of samples collected on a specific date,  and/or to enable efficient<br> entry of metadata that is the same across these samples.|
@@ -145,8 +153,9 @@ _Not a SESAR Field_
 
 ### Location ID
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Location ID <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Location ID</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |A unique identifier for the set of location information. May be a global<br> unique identifier or an identifier specific to the data set.|
 |**Format**               |free text, unique                                    |
 |**Additional Instructions**|Must be unique within the data package (project-assigned, and does not need to<br> be globally unique). See link to diagram that demonstrates linking related<br> collection, site, event, and sample IDs. A site identifier can be used to link<br> a set of samples collected from a specific site,  and/or to enable<br> efficient entry of metadata that is the same across these samples. |
@@ -157,8 +166,9 @@ _Not a SESAR Field_
 ## Sample Description
 
 ### Material 
-|Metadata_Element|<div align="right">Material <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Material</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required |
 |**Definition**           |Material that the sample consists of.                |
 |**Format**               |[SESAR controlled list.](https://app.geosamples.org/reference/materials.php)See ESS-DIVE's proposed [material terms](terms/material.md) from Environment<br> Ontology (ENVO)|
 |**Additional Instructions**|Use a semi-colon to delimit multiple materials where needed. Please provide feedback<br> on any other terms needed.|
@@ -166,40 +176,45 @@ _Not a SESAR Field_
 
 
 ### Field name informal classification 
-|Metadata_Element|<div align="right">Field name (informal classification) <img width=105/> <code>Optional</code> </div>
+|Metadata Element|<div align="center">Field name (informal classification)</div>
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |Informal classification of sample                    |
 |**Format**               |free text                                            |
 |**Additional Instructions**|Here you can add additional material classifications that are not in the current SESAR<br> IGSN controlled fields. |
 |**Examples**             |leaf, root, surface water, groundwater               |
 
 ### Sample Description 
-|Metadata_Element|<div align="right">Sample Description <img width=150/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Sample Description</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended |
 |**Definition**           |Description of sample features, such as its components, texture, color, shape,<br> treatments, plot ID from which the sample was taken, etc.|
 |**Format**               |free-text                                            |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Example 1) Day 223 core section from unheated control plot 1C of a deep soil warming<br> experiment; Example 2) Filter used for filtered surface water samples|
 
 ### Purpose                           
-|Metadata_Element|<div align="right">Purpose <img width=200/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Purpose</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended |
 |**Definition**           |The scientific purpose for collecting the sample.    |
 |**Format**               |free text                                            |
 |**Additional Instructions**|Purpose may often be the same across a series/collection of samples;<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g.<br> "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).|
 |**Examples**            |Characterize the biogeochemistry, geochemistry and microbiology of soils<br> associated with trees and shrubs.                     |
 
 ### Size
-|Metadata_Element|<div align="right">Size <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Size</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional |
 |**Definition**           |Size of the registered object, such as the surface area, length of a core, weight,<br> or volume|
 |**Format**               |Number                                               |
 |**Additional Instructions**| Must be associated with Size unit. 
 |**Examples**             |4; 6.8                                               |
 
 ### Size unit
-|Metadata_Element|<div align="right">Size unit <img width=100/> only if Size provided,<code>Required</code> </div>|
+|Metadata Element|<div align="center">Size unit</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If Size provided, <code>Required |
 |**Definition**           |Unit for the numerical value provided for ‘size’.    |
 |**Format**               |[Controlled List](terms/units.md)                    |
 |**Additional Instructions**|Use any additional unit terms from [Units Ontology](http://www.ontobee.org/ontology/UO), and provide feedback.<img width=50/>|
@@ -207,8 +222,9 @@ _Not a SESAR Field_
 
 ### Filter Size
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Filter Size <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
+|Metadata Element|<div align="center">Filter Size</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | only if object type is "filtrate" or "material captured in filter", <code>Required |
 |**Definition**           |Filtering pore size used in sample preparation (filter size value range). Filter size<br> value range.                                 |
 |**Format**               |Number range (float-float)                           |
 |**Additional Instructions**|                                                   |
@@ -216,8 +232,9 @@ _Not a SESAR Field_
 
 ### Filter Size Unit
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Filter Size unit <img width=100/> only if object type is "fitrate" or <br>"material captured in filter",<code>Required</code> </div>|
+|Metadata Element|<div align="center">Filter Size unit</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | only if object type is "filtrate" or "material captured in filter", <code>Required |
 |**Definition**           |Filtering pore size unit.                            |
 |**Format**               |unit (float-float unit)                              |
 |**Additional Instructions**|                                                   |
@@ -225,59 +242,66 @@ _Not a SESAR Field_
 
 ### Scientific Name
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">scientificName <img width=100/> only if object type is Organism,<br><code>Required</code> </div>|
+|Metadata Element|<div align="center">scientificName</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | only if object type is "Organism", <code>Required |
 |**Definition**           |The full scientific name, with authorship and date information if known. When<br> forming part of an Identification, this should be the name in lowest level taxonomic<br> rank that can be determined.|
 |**Format**               |                                                     |
 |**Additional Instructions**|                                                   |
 |**Examples**             |Vochysia ferruginea; Miconia borealis; Terminalia amazonia|
 
 ### Comment
-|Metadata_Element|<div align="right">Comment <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Comment</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Comments or notes about the sample. <img width=250/> |
 |**Format**               |free text                                            |
-|**Additional Instructions**|You can include weather descriptions here, if relevant.|
+|**Additional Instructions** |You can include weather descriptions here, if relevant.|
 |**Examples**             |                                                     |
 ---
 
 ## Sample Collection Details
 
 ### Collector Chief Scientist
-|Metadata_Element|<div align="right">Collector/Chief Scientist <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Collector/Chief Scientist</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required|
 |**Definition**           |Name of the person(s) who collected the sample.      |
 |**Format**               |                                                     |
 |**Additional Instructions**|You can enter multiple collectors/sampling team for large sampling efforts, separated<br> with a semi-colon. If the collector(s) of the sample(s) is/are not known,<br> enter name of the person responsible for the sample.|
 |**Examples**             |John Smith; Jane Johnson|
 
 ### Collection Date
-|Metadata_Element|<div align="right">Collection date <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Collection date</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required|
 |**Definition**           |Date when the sample was collected.                  |
 |**Format**               |YYYY-MM-DD                                           |
 |**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards can be<br> provided as a separate variable (column) in addition to UTC format.|
 |**Examples**             |2019-08-14                                           |
 
 ### Collection Time
-|Metadata_Element|<div align="right">Collection time <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Collection time</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Time when the sample was collected.                  |
 |**Format**               |HH:MM:SSZ                                            |
 |**Additional Instructions**|All dates and times must be reported in Coordinated Universal Time (UTC) and follow<br> the ISO 8601 standard (RFC 3339). Temporal data using different standards can be<br> provided as a separate variable (column) in addition to UTC format.|
 |**Examples**             |12:05:03Z                                            |
 
 ### Collection Method
-|Metadata_Element|<div align="right">Collection method <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Collection method</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Method by which a sample was collected.                  |
 |**Format**               |[SESAR controlled list.](http://www.geosamples.org/help/vocabularies#collection)                                            |
 |**Additional Instructions**|Suggested to use SESAR's controllect list, if none applicable free text.|
 |**Examples**             |Dredging; Manual                                            |
 
 ### Collection Method Description
-|Metadata_Element|<div align="right">Collection method description <img width=100/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Collection method description</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required|
 |**Definition**           |Description of the collection method for the sample. Include any important terms <br>and details for potential users to understand how your sample was collected.|
 |**Format**               |                                                     |
 |**Additional Instructions**|Collection methods may often be the same across a series/collection of samples;<br> there are two options for providing collection method details at a higher level.<br> Option 1:  Create a separate file with metadata to describe a sample<br> collection, which contains a "collectionID", and any associated metadata fields<br> (e.g. "collectionMethodDescription", "Purpose", "Chief Scientist", etc.).<br>  Option 2: Create a methods file, with a series of methods descriptions<br> that are each associated with a "methodID" and an associated "methodDescription." |
@@ -285,16 +309,18 @@ _Not a SESAR Field_
 
 ### Sample Processing
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Sample processing <img width=100/> if relevant, <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Sample processing</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | if relevant, <code>Recommended|
 |**Definition**           |Any processing applied to the sample during or after retrieving the sample from the<br> environment. Can provide a list of preparations and preservation<br> methods for the sample.|
 |**Format**               |                                                     |
 |**Additional Instructions**|Sample processing may often be the same across a series/collection of samples.<br> To avoid entering the same information across numerous samples, you can create<br> a separate file with metadata to describe a sample collection, which contains<br> a "collectionID", and any associated metadata fields (e.g.<br> "sampleProcessing", "collectionMethodDescription", "Purpose", "Chief Scientist",<br> etc.). Separate multiple sample processing methods<br> with a semi-colon.|
 |**Examples**             |filter water; store samples in ethanol|
 
 ### Field Program Cruise
-|Metadata_Element|<div align="right">Field program/cruise <img width=200/> <code>Required</code> </div>|
+|Metadata Element|<div align="center">Field program/cruise </div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required|
 |**Definition**           |Enter the name of the DOE project to associate with this/these sample(s).|
 |**Format**               |free text                                            |
 |**Additional Instructions**|Required at dataset level, but want to associate with samples for data search<br> and integration. Project details may often be the same across a series/collection<br> of samples; To avoid entering the same information across numerous samples,<br> you can create a separate file with metadata to describe a project or<br> sample collection, which contains a "collectionID" or "Field Program/Cruise",<br> and any associated metadata fields (e.g. "Collection Method Description",<br> "Purpose", "Chief Scientist"...|
@@ -305,88 +331,99 @@ _Not a SESAR Field_
 ## Location  
 
 ### Latitude
-|Metadata_Element|<div align="right">Latitude <img width=125/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Latitude</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | if relevant, <code>Required|
 |**Definition**           |Latitude of the location where the sample was collected, entered in decimal<br> degrees. Negative values for South latitudes.|
 |**Format**               |Decimal degrees, coordinate system: WGS 84           |
 |**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
 |**Examples**             |5.89634                                              |
 
 ### Longitude
-|Metadata_Element|<div align="right">Longitude<img width=125/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Longitude</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | if relevant, <code>Required|
 |**Definition**           |Longitude of the location where the sample was collected. Negative values <br> for ‘West’ longitudes.|
 |**Format**               |Decimal degrees, coordinate system: WGS 84           |
 |**Additional Instructions**|Please supply no more than 6 decimal places (meter scale resolution) in the actual<br> number (not just display format.) No letters are allowed.|
 |**Examples**             |-103.785                                             |
 
 ### Navigation Type
-|Metadata_Element|<div align="right">Navigation type<img width=150/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Navigation type</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended|
 |**Definition**           |Type of geolocation instrument used to obtain geographic coordinates. <img width=20/>|
 |**Format**               |[Controlled list](http://www.marine-geo.org/tools/search/vocab.php?use_is_displayed=T&vocab=vocab_nav_type).|
 |**Additional Instructions**|Provide feedback on additional terms needed.|
 |**Examples**             |GPS; RTK GPS|
 
 ### Location Description 
-|Metadata_Element|<div align="right">Location description<img width=150/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Location description</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended|
 |**Definition**           |Free text description of the location.|
 |**Format**               |
 |**Additional Instructions**|You can also include details here about the location type, e.g. whether it is an<br> absolute or reference location, plot ID and description.|
 |**Examples**             |300 year old low-land tropical rainforest in Parque Natural San Lorenzo, Panama|
 
 ### Country
-|Metadata_Element|<div align="right">Country <img width=200/>  <code>Required</code> </div>|
+|Metadata Element|<div align="center">Country</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Required|
 |**Definition**           |Country where the sample was collected. <img width=200/>|
 |**Format**               |[SESAR controlled list](https://www.geosamples.org/help/vocabularies/country). <img width=150/>        |
 |**Additional Instructions**|Use SESAR list, but may change controlled list to [GAZ ontology](http://purl.obolibrary.org/obo/gaz).                             |
 |**Examples**             |United States                                        |
 
 ### Elevation start
-|Metadata_Element|<div align="right">Elevation start <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Elevation start</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Elevation at which a sample was collected. Minimum elevation value, if elevation<br> taken over a range.|
 |**Format**               |Number                                               |
 |**Additional Instructions**|Provide elevation in meters where possible.|
 |**Examples**             |678.5|
 
 ### Elevation end
-|Metadata_Element|<div align="right">Elevation end <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Elevation end</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Maximum elevation at which a sample was collected, if elevation was taken over a<br> range. |
 |**Format**               |Number                                               |
 |**Additional Instructions**|Leave blank if elevation is a single value and not range. Provide elevation in<br> meters where possible.|
 |**Examples**             |689.2                                                |
 
 ### Elevation unit
-|Metadata_Element|<div align="right">Elevation unit <img width=100/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Elevation unit</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Definition**           |Unit that elevation start and/or end are provided in.   
 |**Format**               |Recommend meters. <img width=200/>                   |
 |**Additional Instructions**|This will be removed when elevation field is changed to specify meters. |
 |**Examples**             |meters|
 
 ### Depth in Core min
-|Metadata_Element|<div align="right">Depth in Core (min) <img width=100/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Depth in Core (min)</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Definition**           |Depth, or minimum depth (if taken over a range) at which a sample was collected, <br>below ground or under water.                  |
 |**Format**               |Number                                               |
 |**Additional Instructions**|Recommend using meters.                            |
 |**Examples**             |0.001                                                |
 
 ### Depth in Core max
-|Metadata_Element|<div align="right">Depth in Core (max) <img width=100/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Depth in Core (max)</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Format**               |Number                                               |
 |**Definition**           |Maximum depth at which a sample was collected, below ground or under water. <img width=20/> |
 |**Additional Instructions**|Recommend using meters.                            |
 |**Examples**             |0.003|
 
 ### Depth scale
-|Metadata_Element|<div align="right">Depth scale <img width=200/> if relevant, <code>Required</code> </div>|
+|Metadata Element|<div align="center">Depth scale</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Format**               |Recommend meters. <img width=150/>                   |
 |**Definition**           |Unit in which the depth is provided, should be meters.|
 |**Additional Instructions**|This field will be deleted when we change the depth field to be required in meters.|
@@ -394,8 +431,9 @@ _Not a SESAR Field_
 
 ### Minimum Distance above Surface in Meters
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Minimum distance above surface in meters <img width=50/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Minimum distance above surface in meters</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Definition**           |Minimum height above the ground surface, in meters.  If no range of values collected,<br> provide height measurement here.|
 |**Format**               |Number                                               |
 |**Additional Instructions**|                                                   |
@@ -403,8 +441,9 @@ _Not a SESAR Field_
 
 ### Maximum Distance above Surface in Meters
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Maximum distance above surface in meters <img width=50/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Maximum distance above surface in meters</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | If relevant, <code>Required|
 |**Definition**           |Maximum height above the ground surface, in meters.<img width=200/>|
 |**Format**               |Number                                               |
 |**Additional Instructions**|                                                   |
@@ -415,8 +454,9 @@ _Not a SESAR Field_
 ## Environmental Context
 
 ### Primary physiographic feature
-|Metadata_Elementt|<div align="right">Primary physiographic feature <img width=100/> <code>Recommended</code> </div>|
+|Metadata Elementt|<div align="center">Primary physiographic feature</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended|
 |**Definition**           |Entity or entities which are in your sample or specimen’s local vicinity and<br> which you believe have significant causal influences on your sample or<br> specimen. |
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and<br> ENVO identifier - see examples below.|
 |**Additional Instructions**|Choose environmental context that is a smaller spatial grain than your entry <br> for biome. Delimit multiple values using semi-colon. If needed, request new<br> terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
@@ -424,8 +464,9 @@ _Not a SESAR Field_
 
 ### Biome
 _Not a SESAR Field_
-|Metadata_Element|<div align="right">Biome <img width=200/> <code>Recommended</code> </div>|
+|Metadata Element|<div align="center">Biome</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Recommended|
 |**Definition**           |Major environmental system your sample or specimen came from. The systems<br> identified should have a coarse spatial grain, to provide the general environmental<br> context of where the sampling was done (e.g. were you in the desert or a<br> rainforest?).|
 |**Format**               |[Terms from Environment Ontology (ENVO)](https://www.ebi.ac.uk/ols/ontologies/envo). Provide the appropriate term and ENVO<br> identifier - see examples below.|
 |**Additional Instructions**|We recommend using subclasses of [ENVO’s biome class](http://purl.obolibrary.org/obo/ENVO_00000428). Use a semi-colon to delimit multiple biomes where needed. If needed, request new <br>terms on the ENVO tracker, [identified here](http://www.obofoundry.org/ontology/envo.html).|
@@ -436,48 +477,54 @@ _Not a SESAR Field_
 ## Sample Access
 
 ### Release Date  
-|Metadata_Element|<div align="right">Release Date <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Release Date</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Date when sample metadata should be publicly accessible and searchable. If null<br>, defaults to date of registration in SESAR (recommended). |
 |**Format**               |YYYY-MM-DD                                           |
 |**Additional Instructions**|SESAR recommends that sample metadata become public within 2 years of sample <br>registration.|
 |**Examples**             |2018-03-15                                           |                    
 
 ### Current Archive 
-|Metadata_Element|<div align="right">Current archive <img width=200/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Current archive</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Name of institution, museum, or repository where the sample is currently stored.|
 |**Format**               |                                                     |
 |**Additional Instructions**|Only applies to physical samples that are archived in a collection for some period<br> of time.|
 |**Examples**             |Geosciences and Environmental Change Science Center, USGS Federal Center, Lakewood,<br> CO|
 
 ### Current Archive Contact
-|Metadata_Element|<div align="right">Current archive contact <img width=150/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Current archive contact</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Address and/or email of the person who should be contacted for information about<br> or access to the sample.|
 |**Format**               |free text                                            |
 |**Additional Instructions**|Email is not mandatory, but helps with communication about samples.|
 |**Examples**             |scientist@lbl.gov                                    |
 
 ### Related URL
-|Metadata_Element|<div align="right">Related URL <img width=150/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Related URL</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Related URL associated with the samples.|
 |**Format**               |Must be a valid URL (e.g., http://www.geosamples.org).|
 |**Additional Instructions**|Email is not mandatory, but helps with communication about samples.|
 |**Examples**             |https://data.ess-dive.lbl.gov/datasets/doi:10.15485/1830417|
 
 ### Related URL Type
-|Metadata_Element|<div align="right">Related URL Type <img width=150/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Related URL Type</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Related URL type. Either DOI or Regular URL.|
 |**Format**               |Must be either 'DOI' or 'Regular URL'.|
 |**Additional Instructions**|         |
 |**Examples**             |DOI|
 
 ### Related URL Description
-|Metadata_Element|<div align="right">Related URL Description <img width=150/> <code>Optional</code> </div>|
+|Metadata Element|<div align="center">Related URL Description</div>|
 |:------------------------|:----------------------------------------------------|
+|**Requirement Level** | <code>Optional|
 |**Definition**           |Free text description of the related URL.|
 |**Format**               |Free text|
 |**Additional Instructions**|      |
