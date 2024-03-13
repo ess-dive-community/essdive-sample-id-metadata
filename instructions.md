@@ -51,8 +51,9 @@ Here are instructions on how to register your ESS samples for IGSNs through SESA
 
 ## Publish Sample Datasets on ESSDIVE
 
-7. When the relevant sample analyses are completed for a data package, submit your sample metadata and data to ESS-DIVE. ESS-DIVE will be developing tools to enable advanced search for samples using IGSNs, and linking samples to other related samples, datasets and publications.
-8. Update your sample metadata when datasets are published by adding links to related datasets and publications, as a “Related URL” along with a “URL Description”.
+7. When the relevant sample analyses are completed for a data package, submit your sample metadata and data to ESS-DIVE. Upload your sample metadata file as a CSV and name the file "samples.csv" or you can include a prefix in the form of "*_samples.csv". When submitting your dataset, include the keyword **ESS-DIVE Sample ID and Metadata Reporting Format** in the package-level metadata.
+9. ESS-DIVE will be developing tools to enable advanced search for samples using IGSNs, and linking samples to other related samples, datasets and publications.
+10. Update your sample metadata when datasets are published by adding links to related datasets and publications, as a “Related URL” along with a “URL Description”.
 
 ## Provide Feedback
 
