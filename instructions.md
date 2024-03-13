@@ -11,7 +11,7 @@
 
 ## File Organization and Assigning Unique Identifiers
 
-The first step in planning your sampling campaign is to decide how to organize information about your samples, which includes considering file organization and linking or tracking information using unique identifiers. A common way to organize sample data, is to have separate files for locations (project sites), primary samples, and potentially subsamples; each location, sample, and subsample then get a unique identifier (e.g. Location ID, Sample Name). Your locally-unique sample identifiers are called “Sample Name'' in the ESS-DIVE sample ID and metadata reporting format, based on SESAR IGSN. The Sample Name is usually a meaningful code that enables you to organize and track samples within your project (e.g. RockCr001_2021-05-25). 
+The first step in planning your sampling campaign is to decide how to organize information about your samples, which includes considering file organization and linking or tracking information using unique identifiers. A common way to organize sample data, is to have separate files for locations (project sites), primary samples, and potentially subsamples; each location, sample, and subsample then get a unique identifier (e.g. Location ID, Sample Name). Your locally-unique sample identifiers are called "Sample Name" in the ESS-DIVE sample ID and metadata reporting format, based on SESAR IGSN. The Sample Name is usually a meaningful code that enables you to organize and track samples within your project (e.g. RockCr001_2021-05-25). 
 
 Consistently using unique identifiers for locations, sample collections, sampling events, samples, and subsamples will enable you to efficiently link related information across files (e.g. not input the same latitude and longitude across your sample set). 
 
@@ -29,7 +29,7 @@ Complete the [sample template](https://github.com/ess-dive-community/essdive-sam
 
 International Geo/General Sample Numbers (IGSNs) are globally unique and persistent identifiers (PID). General information about International Geo/General Sample Numbers (IGSNs) can be found on the [System for Earth Sample Registration (SESAR) website](https://www.geosamples.org/igsnabout).
 
-Each IGSN is associated with a persistent landing page (e.g. [IEWFS0001](https://app.geosamples.org/sample/igsn/IEWFS0001)) that contains both human and machine-readable, sample-specific metadata that characterizes the sample type and how, when, why, and where the sample was collected. This landing page can be used to discover related samples and data, and to link and exchange information about the sample.  
+Each IGSN is associated with a persistent landing page (e.g. [IEWFS0001](https://app.geosamples.org/sample/igsn/IEWFS0001), [10.58052/IEWFS00IX](https://app.geosamples.org/sample/igsn/10.58052/IEWFS00IX)) that contains both human and machine-readable, sample-specific metadata that characterizes the sample type and how, when, why, and where the sample was collected. This landing page can be used to discover related samples and data, and to link and exchange information about the sample.  
 
 IGSNs will likely be most useful for projects where samples will be:
 * Used within multiple datasets and journal publications
